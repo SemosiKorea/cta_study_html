@@ -34,13 +34,23 @@
         <a data-url="https://claude.ai/" target="_blank" rel="noopener noreferrer">Claude</a>
         <a data-url="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a>
       </nav>
-      <p class="ai-instruction">복사하면 AI를 새 탭에서 열 수 있습니다. 붙여넣고 전송한 내용은 해당 AI의 대화에 남을 수 있습니다.</p>
+      <p class="ai-instruction" id="ai-launch-help">질문을 복사한 뒤 원하는 AI를 열어 붙여넣으세요. 붙여넣고 전송한 내용은 해당 AI의 대화에 남을 수 있습니다.</p>
     </div>`;
   document.body.append(dialog);
 
   const get = id => dialog.querySelector('#ai-' + id);
   const prompt = get('prompt'), include = get('include'), ox = get('ox'), reason = get('reason');
   const copy = get('copy'), manual = get('manual'), status = get('status');
+  if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent)) {
+    const web = dialog.querySelector('.ai-providers a');
+    const app = web.cloneNode(false);
+    app.removeAttribute('target');
+    app.dataset.url = 'intent://chatgpt.com/#native#Intent;scheme=https;package=com.openai.chatgpt;end';
+    app.textContent = 'ChatGPT 앱';
+    web.before(app);
+    web.textContent = 'ChatGPT 웹';
+    get('launch-help').prepend('앱이 열렸다가 웹으로 돌아오면 홈 화면에서 ChatGPT 앱을 직접 열어 붙여넣으세요. ');
+  }
   const links = dialog.querySelectorAll('.ai-providers a');
   let active;
   let revision = 0;
