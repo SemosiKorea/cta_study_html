@@ -38,9 +38,12 @@
 #ai-prompt { resize: vertical; }
 #exam-ai .ai-step { display: block; margin: .9rem 0 .2rem; font-size: 1.05rem; font-weight: 700; }
 #exam-ai .ai-instruction, #ai-status { margin: .25rem 0 .45rem; font-size: .9rem; color: var(--sub); }
-#exam-ai .ai-actions, #exam-ai .ai-providers { display: flex; flex-wrap: wrap; gap: .5rem; margin: .45rem 0; }
+#exam-ai .ai-actions, #exam-ai .ai-route-list { display: flex; flex-wrap: wrap; gap: .5rem; margin: .45rem 0; }
 #exam-ai #ai-copy { color: var(--sheet); background: var(--link); border-color: var(--link); }
 #exam-ai .ai-providers a { flex: 1; }
+#exam-ai .ai-route-heading { margin: .8rem 0 .2rem; font-size: .95rem; }
+#exam-ai #ai-saved-links a { flex: 1 1 12rem; min-width: 0; overflow-wrap: anywhere; text-align: center; }
+#ai-manage-routes { display: inline-flex; align-items: center; min-height: 44px; color: var(--link); font-size: .9rem; }
 #exam-ai .ai-providers a[aria-disabled=true], #exam-ai button:disabled { color: var(--sub); background: var(--sheet); border-color: var(--edge); cursor: default; }
 @media print { .ai-trigger, #exam-ai { display: none; } }
 #exam-ai .ai-reading-label { display: block; font-weight: 650; margin: .6rem 0 .2rem; }

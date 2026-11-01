@@ -1,6 +1,47 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>세법 공부 | 세법 공부</title><link rel="stylesheet" href="assets/study.css"><script defer src="assets/units.js"></script><script defer src="assets/study.js"></script>
+<link rel="stylesheet" href="assets/route-settings.css">
+<script defer src="assets/ai-routes.js"></script>
+<script defer src="assets/route-settings.js"></script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="세법 공부">
 <link rel="icon" sizes="32x32" type="image/png" href="assets/icons/favicon-32.png">
-</head><body class="study"><main><nav class="top" aria-label="상위 목차"><span>세무사 1차 · 세법학개론</span><a href="#history">내 읽기 이력 ↓</a></nav><header class="hero"><div class="kicker">2027 세무사 1차　／　세법학개론</div><h1>세법 공부</h1><p>읽을 세법을 고르세요. 교재 순서로 판단 기준을 익히고 해당 기출의 조건을 바꿔 보며 점검할 수 있습니다.</p></header><h2>과목별 회독</h2><div class="tiles"><a class="tile" href="법인세_전범위_압축회독/index.html"><span class="serial">과목 01</span><strong>법인세</strong><p class="sub">5편 52장 · 기출 40문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="income/index.html"><span class="serial">과목 02</span><strong>소득세</strong><p class="sub">10편 43장　·　4개년 기출 31문항 + 국세기본법 복합 1문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="capital/index.html"><span class="serial">과목 03</span><strong>양도소득세</strong><p class="sub">10편 48장　·　4개년 기출 9문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="vat/index.html"><span class="serial">과목 04</span><strong>부가가치세</strong><p class="sub">13장 79절　·　4개년 기출 32문항</p><span class="action">목차 열기 →</span></a></div><h2 id="history">이 기기의 읽기 이력</h2><div class="panel"><p>각 단원에서 <b>읽기 완료 표시</b>를 누르면 이 브라우저에 단원과 완료 날짜가 남습니다. 완료한 단원을 다시 열어 표시를 취소할 수 있습니다.</p><p class="sub">기기를 바꾸거나 브라우저의 사이트 데이터를 지우면 이 목록은 이어지지 않습니다. 정오답과 다음 복습일은 기존 회독웹앱에서 확인하세요.</p><strong id="read-count" aria-live="polite"></strong><ul class="part-list" id="read-history"></ul><noscript>읽기 이력을 보려면 자바스크립트를 켜세요.</noscript></div><footer>2027 세무사 1차 대비　·　판단 기준 2026.11.1.</footer></main><dialog id="source-preview" aria-label="원문 페이지 미리보기"><div class="preview-tools"><strong></strong><a target="_blank" rel="noopener">전체 PDF 열기 ↗</a><button type="button" class="read-button">닫기</button></div><img alt=""></dialog></body></html>
+</head><body class="study"><main><nav class="top" aria-label="상위 목차"><span>세무사 1차 · 세법학개론</span><div class="home-shortcuts"><a href="#ai-routes">과목별 AI 경로</a><a href="#history">내 읽기 이력 ↓</a></div></nav><header class="hero"><div class="kicker">2027 세무사 1차　／　세법학개론</div><h1>세법 공부</h1><p>읽을 세법을 고르세요. 교재 순서로 판단 기준을 익히고 해당 기출의 조건을 바꿔 보며 점검할 수 있습니다.</p></header><h2>과목별 회독</h2><div class="tiles"><a class="tile" href="법인세_전범위_압축회독/index.html"><span class="serial">과목 01</span><strong>법인세</strong><p class="sub">5편 52장 · 기출 40문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="income/index.html"><span class="serial">과목 02</span><strong>소득세</strong><p class="sub">10편 43장　·　4개년 기출 31문항 + 국세기본법 복합 1문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="capital/index.html"><span class="serial">과목 03</span><strong>양도소득세</strong><p class="sub">10편 48장　·　4개년 기출 9문항</p><span class="action">목차 열기 →</span></a><a class="tile" href="vat/index.html"><span class="serial">과목 04</span><strong>부가가치세</strong><p class="sub">13장 79절　·　4개년 기출 32문항</p><span class="action">목차 열기 →</span></a></div>
+<section id="ai-routes" aria-labelledby="route-heading">
+  <h2 id="route-heading">과목별 AI 경로</h2>
+  <div class="panel">
+    <p>공부할 때 열고 싶은 AI 프로젝트, 대화 또는 Gem 주소를 추가하세요. 그 과목의 본문·기출에서 질문을 복사하면 기본 경로와 내 경로 중 하나를 고를 수 있습니다.</p>
+    <p class="sub">주소는 지금 사용하는 브라우저에만 저장됩니다.</p>
+    <noscript>AI 경로를 추가하려면 자바스크립트를 켜세요.</noscript>
+    <div id="route-controls" hidden>
+      <label for="route-subject">과목</label>
+      <select id="route-subject"></select>
+      <form id="route-form" autocomplete="off">
+        <div class="route-fields">
+          <div>
+            <label for="route-provider">AI 서비스</label>
+            <select id="route-provider"></select>
+          </div>
+          <div>
+            <label for="route-label">경로 이름 <small>(선택)</small></label>
+            <input id="route-label" type="text" placeholder="기출 풀이 프로젝트" maxlength="60">
+          </div>
+          <div class="route-url-field">
+            <label for="route-url">열고 싶은 주소 또는 경로</label>
+            <input id="route-url" type="text" inputmode="url" spellcheck="false" autocapitalize="none" placeholder="https://" required aria-describedby="route-url-help">
+            <small id="route-url-help">AI 서비스의 주소를 붙여넣으세요. /로 시작하는 경로만 입력해도 됩니다.</small>
+          </div>
+        </div>
+        <div class="route-actions">
+          <button type="submit" class="read-button" id="route-save">경로 추가</button>
+          <button type="button" class="read-button" id="route-cancel" hidden>수정 취소</button>
+        </div>
+      </form>
+      <p class="sub" id="route-status" role="status"></p>
+      <h3 id="route-list-heading">등록한 경로</h3>
+      <p class="sub" id="route-empty" hidden></p>
+      <ul id="route-list" class="part-list" aria-labelledby="route-list-heading"></ul>
+    </div>
+  </div>
+</section>
+<h2 id="history">이 기기의 읽기 이력</h2><div class="panel"><p>각 단원에서 <b>읽기 완료 표시</b>를 누르면 이 브라우저에 단원과 완료 날짜가 남습니다. 완료한 단원을 다시 열어 표시를 취소할 수 있습니다.</p><p class="sub">기기를 바꾸거나 브라우저의 사이트 데이터를 지우면 이 목록은 이어지지 않습니다. 정오답과 다음 복습일은 기존 회독웹앱에서 확인하세요.</p><strong id="read-count" aria-live="polite"></strong><ul class="part-list" id="read-history"></ul><noscript>읽기 이력을 보려면 자바스크립트를 켜세요.</noscript></div><footer>2027 세무사 1차 대비　·　판단 기준 2026.11.1.</footer></main><dialog id="source-preview" aria-label="원문 페이지 미리보기"><div class="preview-tools"><strong></strong><a target="_blank" rel="noopener">전체 PDF 열기 ↗</a><button type="button" class="read-button">닫기</button></div><img alt=""></dialog></body></html>

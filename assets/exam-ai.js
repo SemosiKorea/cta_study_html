@@ -23,11 +23,19 @@
         <p id="ai-status" role="status"></p>
         <h3 class="ai-step">2. AI 열고 붙여넣기</h3>
         <nav class="ai-providers" aria-label="학습할 AI 선택">
-          <a data-url="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
-          <a data-url="https://claude.ai/" target="_blank" rel="noopener noreferrer">Claude</a>
-          <a data-url="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a>
+          <h4 class="ai-route-heading" id="ai-default-heading" hidden>기본 경로</h4>
+          <div class="ai-route-list" id="ai-default-links">
+            <a data-url="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a>
+            <a data-url="https://claude.ai/" target="_blank" rel="noopener noreferrer">Claude</a>
+            <a data-url="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a>
+          </div>
+          <div id="ai-saved-group" hidden>
+            <h4 class="ai-route-heading" id="ai-saved-heading"></h4>
+            <div class="ai-route-list" id="ai-saved-links"></div>
+          </div>
         </nav>
         <p class="ai-instruction" id="ai-launch-help">질문을 복사한 뒤 원하는 AI를 열어 붙여넣으세요. 붙여넣고 전송한 내용은 해당 AI의 대화에 남을 수 있습니다.</p>
+        <a id="ai-manage-routes" target="_blank" rel="noopener noreferrer" hidden></a>
       </div>`;
     document.body.append(dialog);
 
@@ -37,25 +45,63 @@
     // Galaxy browsers in desktop mode may identify as touch-capable Linux.
     const androidDesktop = /Linux/i.test(navigator.userAgent) &&
       !/CrOS/i.test(navigator.userAgent) && navigator.maxTouchPoints > 0;
-    if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent) || androidDesktop) {
-      const app = dialog.querySelector('.ai-providers a');
-      app.removeAttribute('target');
-      // Use the same direct, package-scoped tap as the review app, aimed at ChatGPT home.
-      app.dataset.url = app.dataset.url.replace(/^https:/, 'intent:') + '#Intent;scheme=https;package=com.openai.chatgpt;end';
+    const android = navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent) || androidDesktop;
+    function setDestination(link, provider, url) {
+      // A URL fragment would collide with Android's #Intent delimiter.
+      if (android && provider === 'chatgpt' && url.startsWith('https://chatgpt.com/') && !url.includes('#')) {
+        link.dataset.url = url.replace(/^https:/, 'intent:') + '#Intent;scheme=https;package=com.openai.chatgpt;end';
+        link.removeAttribute('target');
+      } else {
+        link.dataset.url = url;
+        link.target = '_blank';
+      }
+    }
+    if (android) {
+      const app = get('default-links').firstElementChild;
+      setDestination(app, 'chatgpt', app.dataset.url);
       app.textContent = 'ChatGPT 앱';
       get('launch-help').prepend('ChatGPT 앱이 열리지 않거나 웹으로 돌아오면 홈 화면에서 앱을 직접 열어 복사한 질문을 붙여넣으세요. ');
     }
-    const links = dialog.querySelectorAll('.ai-providers a');
+    const routes = window.CTAStudyRoutes;
+    const subject = routes?.currentSubject();
+    if (subject) {
+      const manage = get('manage-routes');
+      manage.href = routes.homeURL(subject);
+      manage.textContent = '메인에서 ' + subject + ' 경로 관리 ↗';
+      manage.hidden = false;
+    }
+    let linksEnabled = false;
     let trigger;
     let revision = 0;
 
     function setLinks(enabled) {
-      for (const link of links) {
+      linksEnabled = enabled;
+      for (const link of dialog.querySelectorAll('.ai-providers a')) {
         if (enabled) link.href = link.dataset.url;
         else link.removeAttribute('href');
         link.setAttribute('aria-disabled', String(!enabled));
       }
     }
+    function refreshRoutes() {
+      let saved = [];
+      if (subject) {
+        try { saved = routes.list(subject); } catch { /* Default paths work without local storage. */ }
+      }
+      const links = saved.map(route => {
+        const link = document.createElement('a');
+        link.rel = 'noopener noreferrer';
+        link.textContent = routes.providers[route.provider] + ' · ' + route.label;
+        setDestination(link, route.provider, route.url);
+        return link;
+      });
+      get('saved-links').replaceChildren(...links);
+      get('default-heading').hidden = get('saved-group').hidden = !links.length;
+      get('saved-heading').textContent = subject + ' · 내 지정 경로';
+      setLinks(linksEnabled);
+    }
+    window.addEventListener('storage', event => {
+      if (dialog.open && routes && (!event.key || routes.isStorageKey(event.key))) refreshRoutes();
+    });
     function requireCopy() {
       revision++;
       copy.disabled = !prompt.value.trim();
@@ -95,6 +141,7 @@
 
     function show(button) {
       trigger = button;
+      refreshRoutes();
       dialog.showModal();
       dialog.scrollTop = 0;
       get('mode').focus({preventScroll: true});
