@@ -17,7 +17,7 @@
 <body class="study"><main>
   <nav class="top"><a href="index.html">← 세법 공부</a></nav>
   <header class="hero"><div class="kicker">갤럭시 · 실기기 확인</div><h1>어떤 링크에서 앱이 계속 열려 있나요?</h1>
-    <p>이 페이지를 Chrome 또는 삼성 인터넷에서 여세요. 같은 브라우저에서 A와 B를 하나씩 누르고, 화면 전환이 끝나면 어디에 머무는지 확인하세요. 각 시험 뒤에는 이 페이지로 돌아오세요.</p>
+    <p>이 페이지를 Chrome 또는 삼성 인터넷에서 여세요. 같은 브라우저에서 버튼을 하나씩 누른 뒤 화면 전환이 끝나면 어디에 머무는지 확인하세요. <a href="#domains">도메인만 바꿔 보기(D~F)</a></p>
   </header>
   <section class="panel"><h2>A. 일반 홈</h2><p>현재 세법 사이트의 ‘ChatGPT 앱’ 버튼과 같은 주소입니다.</p>
     <a class="check-link" href="intent://chatgpt.com/#Intent;scheme=https;package=com.openai.chatgpt;end">A · 일반 홈으로 앱 열기</a>
@@ -32,7 +32,14 @@
     <p id="project-status" role="status"></p>
     <a class="check-link" id="project-open" hidden>C · 지정한 프로젝트로 앱 열기</a>
   </section>
-  <p>결과는 ‘앱에 머묾’, ‘앱이 잠깐 열렸다가 웹으로 이동’, ‘바로 웹으로 이동’, ‘아무 반응 없음’ 중에서 기록하세요. 앱에 머물렀다면 일반 새 대화인지 프로젝트 화면인지도 확인해 주세요.</p>
+  <section class="panel" id="domains">
+    <h2>D~F. 도메인만 바꾸기</h2>
+    <p>A와 같은 일반 홈 경로와 같은 ChatGPT 앱을 지정합니다. D부터 눌러 보세요. 앱의 일반 새 대화 화면에 머무르면 나머지는 시험할 필요가 없습니다.</p>
+    <p><a class="check-link" href="intent://app.chatgpt.com/#Intent;scheme=https;package=com.openai.chatgpt;end">D · app.chatgpt.com</a></p>
+    <p><a class="check-link" href="intent://chat.openai.com/#Intent;scheme=https;package=com.openai.chatgpt;end">E · chat.openai.com</a></p>
+    <p><a class="check-link" href="intent://chat.com/#Intent;scheme=https;package=com.openai.chatgpt;end">F · chat.com</a></p>
+  </section>
+  <p>결과는 버튼 문자와 마지막 화면으로 기록하세요. 예를 들어 ‘D · 앱의 일반 새 대화’, ‘E · 앱이 잠깐 열렸다가 웹으로 이동’, ‘F · 다운로드 화면’처럼 적으면 됩니다. 접근 인증 화면이 뜨면 그 시점에서 시험을 끝내세요.</p>
 </main><script>
 (() => {
   const input = document.getElementById('project-url');
