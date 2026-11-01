@@ -1,0 +1,48 @@
+/* Controls and reference tables used by the corporate tax supplements. */
+.mode-input, .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+#mode-recall:checked ~ main .read-pane,
+#mode-read:checked ~ main .practice-pane { display: none; }
+.mode-bar, .exam-index { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.mode-bar { margin: .8rem 0; }
+.mode-bar label, .mode-bar button {
+  display: inline-block;
+  background: var(--sheet);
+  color: var(--link);
+  border: 1px solid var(--edge);
+  border-radius: 7px;
+  padding: 6px 11px;
+  font: 650 .88rem/1.65 system-ui;
+  cursor: pointer;
+}
+.mode-bar .read-button { margin: 0; }
+#mode-recall:checked ~ main label[for="mode-recall"],
+#mode-read:checked ~ main label[for="mode-read"] { background: var(--tile); border-color: var(--link); }
+#mode-recall:focus-visible ~ main label[for="mode-recall"],
+#mode-read:focus-visible ~ main label[for="mode-read"] { outline: 3px solid var(--focus); outline-offset: 2px; }
+.corp-supplement .q-meta, .corp-supplement .small, .corp-supplement .src,
+.corp-supplement .q-count { font-size: .875rem; color: var(--sub); }
+.corp-supplement .q-meta a, .corp-supplement .pill-jump { padding: .2em .3em; }
+.corp-supplement .reveal dt, .corp-supplement .if, .corp-supplement .step b { font-weight: 700; }
+.corp-supplement .reveal dl, .corp-supplement .reveal dd { margin: 0 0 .5rem; }
+.corp-supplement .branch, .corp-supplement .step, .corp-supplement .callout { margin: .65rem 0; }
+.corp-supplement .step b, .corp-supplement .step span, .corp-supplement .recall-refs { display: block; }
+.corp-supplement .recall-refs a { display: inline-block; margin-right: .6em; font-size: .85rem; }
+.corp-supplement blockquote { border-left: 3px solid var(--edge); padding-left: .75rem; margin: .4rem 0; }
+.corp-supplement .scroll { max-width: 100%; overflow-x: auto; }
+.corp-supplement table { min-width: 32rem; width: 100%; border-collapse: collapse; }
+.corp-supplement caption { color: var(--sub); text-align: left; margin-bottom: .5rem; }
+.corp-supplement th, .corp-supplement td { text-align: left; vertical-align: top; padding: .55rem; border: 1px solid var(--edge); }
+.corp-supplement th { background: var(--tile); }
+.corp-supplement .checklist { padding-left: 1.5rem; }
+.corp-supplement [id]:target { scroll-margin-top: .75rem; }
+@media print {
+  .corp-supplement .mode-bar, .corp-supplement .tools, .corp-supplement .anchors,
+  .corp-supplement .exam-index, .corp-supplement .recall-refs, .corp-supplement .jump-ref { display: none; }
+}
