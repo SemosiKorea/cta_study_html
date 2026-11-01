@@ -17,7 +17,7 @@
 <body class="study"><main>
   <nav class="top"><a href="index.html">← 세법 공부</a></nav>
   <header class="hero"><div class="kicker">갤럭시 · 실기기 확인</div><h1>어떤 링크에서 앱이 계속 열려 있나요?</h1>
-    <p>이 페이지를 Chrome 또는 삼성 인터넷에서 여세요. 같은 브라우저에서 버튼을 하나씩 누른 뒤 화면 전환이 끝나면 어디에 머무는지 확인하세요. <a href="#domains">도메인만 바꿔 보기(D~F)</a></p>
+    <p>이 페이지를 Chrome 또는 삼성 인터넷에서 여세요. 같은 브라우저에서 버튼을 누른 뒤 화면 전환이 끝나면 어디에 머무는지 확인하세요. <a href="#project-path">프로젝트 경로 비교(C·G)</a> · <a href="#domains">도메인 비교(D~F)</a></p>
   </header>
   <section class="panel"><h2>A. 일반 홈</h2><p>현재 세법 사이트의 ‘ChatGPT 앱’ 버튼과 같은 주소입니다.</p>
     <a class="check-link" href="intent://chatgpt.com/#Intent;scheme=https;package=com.openai.chatgpt;end">A · 일반 홈으로 앱 열기</a>
@@ -25,12 +25,14 @@
   <section class="panel"><h2>B. /project</h2><p>A와 같은 방식으로 앱을 요청하고 주소의 경로만 <code>/project</code>로 바꿉니다.</p>
     <a class="check-link" href="intent://chatgpt.com/project#Intent;scheme=https;package=com.openai.chatgpt;end">B · /project로 앱 열기</a>
   </section>
-  <section class="panel"><h2>C. 실제 프로젝트 <small>(선택)</small></h2>
-    <p>회독웹앱과 같은 조건도 확인하려면 본인이 접근할 수 있는 ChatGPT 프로젝트 주소를 붙여넣으세요. 주소는 이 탭에서만 사용합니다.</p>
+  <section class="panel" id="project-path"><h2>C·G. 실제 프로젝트 경로 비교</h2>
+    <p>앱에서 열렸던 프로젝트 주소 전체를 붙여넣으세요. 주소는 이 탭에서 링크를 만드는 데만 사용합니다.</p>
     <label for="project-url">프로젝트 주소</label>
     <input id="project-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://chatgpt.com/g/…/project" aria-describedby="project-status">
     <p id="project-status" role="status"></p>
-    <a class="check-link" id="project-open" hidden>C · 지정한 프로젝트로 앱 열기</a>
+    <p><a class="check-link" id="project-open" hidden>C · 지정한 프로젝트로 앱 열기</a></p>
+    <p><a class="check-link" id="project-base" hidden>G · 끝의 /project만 빼고 앱 열기</a></p>
+    <p>C로 앱이 열렸다면 G만 눌러 보세요. 화면 전환이 끝난 뒤 프로젝트 이름이 없는 일반 새 대화에 머무르면 성공입니다. 프로젝트 화면, 웹, Google Play 중 하나가 열리면 그 화면을 결과로 보세요.</p>
   </section>
   <section class="panel" id="domains">
     <h2>D~F. 도메인만 바꾸기</h2>
@@ -44,13 +46,21 @@
 (() => {
   const input = document.getElementById('project-url');
   const link = document.getElementById('project-open');
+  const baseLink = document.getElementById('project-base');
   const status = document.getElementById('project-status');
   function update() {
     const raw = input.value.trim();
-    const match = /^https:\/\/chatgpt\.com(\/g\/[a-zA-Z0-9_%\-]+\/project)\/?(?:[?#].*)?$/.exec(raw);
-    link.hidden = !match;
-    if (match) link.href = 'intent://chatgpt.com' + match[1] + '#Intent;scheme=https;package=com.openai.chatgpt;end';
-    else link.removeAttribute('href');
+    const match = /^https:\/\/chatgpt\.com(\/g\/[a-zA-Z0-9_%\-]+)\/project\/?(?:[?#].*)?$/.exec(raw);
+    link.hidden = baseLink.hidden = !match;
+    if (match) {
+      const base = 'intent://chatgpt.com' + match[1];
+      const intent = '#Intent;scheme=https;package=com.openai.chatgpt;end';
+      link.href = base + '/project' + intent;
+      baseLink.href = base + intent;
+    } else {
+      link.removeAttribute('href');
+      baseLink.removeAttribute('href');
+    }
     status.textContent = match ? '이 주소로 앱을 요청할 준비가 됐습니다.' : raw ? 'chatgpt.com/g/…/project 형식의 프로젝트 주소를 입력하세요.' : '';
   }
   input.addEventListener('input', update);
