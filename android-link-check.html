@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>갤럭시 ChatGPT 연결 확인 | 세법 공부</title>
+  <link rel="stylesheet" href="assets/study.css">
+  <style>
+    .check-link {display:inline-block;min-height:44px;padding:.55rem .9rem;color:var(--link);background:var(--tile);border:1px solid var(--edge);border-radius:.45rem;font-weight:650}
+    .study .panel {margin:1rem 0}
+    .study .panel h2 {margin:.15rem 0}
+    #project-url {display:block;width:100%;max-width:40rem;margin:.4rem 0;padding:.55rem;font:inherit;color:var(--text);background:var(--sheet);border:1px solid var(--sub);border-radius:.4rem}
+    [hidden] {display:none!important}
+  </style>
+</head>
+<body class="study"><main>
+  <nav class="top"><a href="index.html">← 세법 공부</a></nav>
+  <header class="hero"><div class="kicker">갤럭시 · 실기기 확인</div><h1>어떤 링크에서 앱이 계속 열려 있나요?</h1>
+    <p>이 페이지를 Chrome 또는 삼성 인터넷에서 여세요. 같은 브라우저에서 A와 B를 하나씩 누르고, 화면 전환이 끝나면 어디에 머무는지 확인하세요. 각 시험 뒤에는 이 페이지로 돌아오세요.</p>
+  </header>
+  <section class="panel"><h2>A. 일반 홈</h2><p>현재 세법 사이트의 ‘ChatGPT 앱’ 버튼과 같은 주소입니다.</p>
+    <a class="check-link" href="intent://chatgpt.com/#Intent;scheme=https;package=com.openai.chatgpt;end">A · 일반 홈으로 앱 열기</a>
+  </section>
+  <section class="panel"><h2>B. /project</h2><p>A와 같은 방식으로 앱을 요청하고 주소의 경로만 <code>/project</code>로 바꿉니다.</p>
+    <a class="check-link" href="intent://chatgpt.com/project#Intent;scheme=https;package=com.openai.chatgpt;end">B · /project로 앱 열기</a>
+  </section>
+  <section class="panel"><h2>C. 실제 프로젝트 <small>(선택)</small></h2>
+    <p>회독웹앱과 같은 조건도 확인하려면 본인이 접근할 수 있는 ChatGPT 프로젝트 주소를 붙여넣으세요. 주소는 이 탭에서만 사용합니다.</p>
+    <label for="project-url">프로젝트 주소</label>
+    <input id="project-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://chatgpt.com/g/…/project" aria-describedby="project-status">
+    <p id="project-status" role="status"></p>
+    <a class="check-link" id="project-open" hidden>C · 지정한 프로젝트로 앱 열기</a>
+  </section>
+  <p>결과는 ‘앱에 머묾’, ‘앱이 잠깐 열렸다가 웹으로 이동’, ‘바로 웹으로 이동’, ‘아무 반응 없음’ 중에서 기록하세요. 앱에 머물렀다면 일반 새 대화인지 프로젝트 화면인지도 확인해 주세요.</p>
+</main><script>
+(() => {
+  const input = document.getElementById('project-url');
+  const link = document.getElementById('project-open');
+  const status = document.getElementById('project-status');
+  function update() {
+    const raw = input.value.trim();
+    const match = /^https:\/\/chatgpt\.com(\/g\/[a-zA-Z0-9_%\-]+\/project)\/?(?:[?#].*)?$/.exec(raw);
+    link.hidden = !match;
+    if (match) link.href = 'intent://chatgpt.com' + match[1] + '#Intent;scheme=https;package=com.openai.chatgpt;end';
+    else link.removeAttribute('href');
+    status.textContent = match ? '이 주소로 앱을 요청할 준비가 됐습니다.' : raw ? 'chatgpt.com/g/…/project 형식의 프로젝트 주소를 입력하세요.' : '';
+  }
+  input.addEventListener('input', update);
+  window.addEventListener('pagehide', () => { input.value = ''; update(); });
+})();
+</script></body></html>
