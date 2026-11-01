@@ -1,15 +1,5 @@
 (() => {
-  const quiz = document.querySelector('#quiz')
   const dialog = document.querySelector('#source-preview')
-  document.querySelector('[data-quiz-tools]').hidden = false
-
-  function filterPractice() {
-    document.querySelectorAll('[data-reading]').forEach(el => { el.hidden = quiz.checked })
-    document.querySelectorAll('main details[open]').forEach(el => { el.open = false })
-    document.querySelectorAll('[data-quiz-card]').forEach(el => { el.open = quiz.checked })
-  }
-  quiz.addEventListener('change', filterPractice)
-  if (quiz.checked) filterPractice()
 
   // Old bookmarks point to the question or PDF panel inside its former chapter.
   function followBookmark() {

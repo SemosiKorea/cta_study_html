@@ -48,6 +48,36 @@
   window.addEventListener('pageshow',refresh);
   window.addEventListener('storage', e => { if (!e.key || e.key.startsWith(prefix)) refresh(); });
   refresh();
+  const quiz = document.querySelector('#quiz');
+  if (quiz) {
+    const control = document.querySelector('[data-quiz-tools]');
+    const onPage = new URL(location.href);
+    const neighbors = [...document.querySelectorAll('main > nav.tools a')]
+      .filter(a => /^part\d+\.html$/.test(a.getAttribute('href')));
+    function showPractice(active) {
+      document.querySelectorAll('[data-reading]').forEach(el => { el.hidden = active; });
+      document.querySelectorAll('[data-quiz-only]').forEach(el => { el.hidden = !active; });
+      document.querySelectorAll('main details[open]').forEach(el => { el.open = false; });
+      document.querySelectorAll('[data-quiz-card]').forEach(el => { el.open = active; });
+      for (const link of neighbors) {
+        const dest = new URL(link.href);
+        if (active) dest.searchParams.set('mode', 'quiz');
+        else dest.searchParams.delete('mode');
+        link.href = dest.href;
+      }
+    }
+    control.hidden = false;
+    quiz.checked = onPage.searchParams.get('mode') === 'quiz' || quiz.checked;
+    if (quiz.checked) showPractice(true);
+    quiz.addEventListener('change', () => {
+      showPractice(quiz.checked);
+      if (location.protocol === 'file:') return;
+      const url = new URL(location.href);
+      if (quiz.checked) url.searchParams.set('mode', 'quiz');
+      else url.searchParams.delete('mode');
+      history.replaceState(history.state, '', url);
+    });
+  }
   const dialog = document.querySelector('#source-preview');
   if (!dialog || !dialog.showModal) return;
   const img=dialog.querySelector('img'), title=dialog.querySelector('strong'), full=dialog.querySelector('a');

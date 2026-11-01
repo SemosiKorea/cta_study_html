@@ -27,3 +27,7 @@
 @media print{.study .top,.study dialog,.read-button,.legacy-bar{display:none}.study{background:white;color:black}.study .hero,.study .panel,.study .unit,.study .problem{background:white}.study main{max-width:none}}
 .study .panel.part-list li{padding-inline:clamp(12px,3vw,22px)}
 @media screen and (min-width:680px){.study .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.study [data-quiz-tools] label{display:inline-flex;align-items:center;gap:.55rem;min-height:44px;padding:6px 12px;color:var(--link);background:var(--tile);border:1px solid var(--edge);border-radius:7px;cursor:pointer;font-weight:650}
+.study [data-quiz-tools] input{width:1.1rem;height:1.1rem;margin:0;accent-color:var(--link)}
+.study [data-reading][hidden],.study [data-quiz-only][hidden],.study [data-quiz-tools][hidden]{display:none}
