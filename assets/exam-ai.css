@@ -1,0 +1,45 @@
+.ai-trigger, #exam-ai button, #exam-ai .ai-providers a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: .35rem .8rem;
+  color: var(--link);
+  background: var(--tile);
+  border: 1px solid var(--edge);
+  border-radius: .5rem;
+  font: 650 .9rem/1.4 system-ui, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ai-trigger { margin: .3rem 0; }
+.ai-trigger:hover, #exam-ai button:hover, #exam-ai .ai-providers a[href]:hover { border-color: var(--link); }
+#exam-ai { width: min(95vw, 42rem); overscroll-behavior: contain; }
+#exam-ai [hidden] { display: none; }
+#exam-ai .ai-top {
+  display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  position: sticky; top: 0; z-index: 1;
+  padding: .7rem 1.1rem;
+  background: var(--sheet); border-bottom: 1px solid var(--edge);
+}
+#exam-ai h2 { margin: 0; font-size: 1.3rem; }
+#exam-ai .ai-body { padding: .6rem clamp(.85rem, 3vw, 1.35rem) 1.15rem; }
+#exam-ai .ai-consent { display: flex; gap: .55rem; align-items: center; min-height: 44px; cursor: pointer; }
+#ai-include { width: 1.15rem; height: 1.15rem; accent-color: var(--link); }
+#ai-personal { padding: .7rem .9rem; background: var(--tile); border-radius: .5rem; }
+#ai-personal p { margin: 0 0 .4rem; }
+#exam-ai textarea, #exam-ai select, #ai-reason {
+  display: block; width: 100%; min-height: 44px; padding: .5rem .65rem;
+  font: inherit; font-size: max(16px, 1rem); line-height: 1.5;
+  color: var(--text); background: var(--sheet);
+  border: 1px solid var(--sub); border-radius: .45rem;
+}
+#ai-ox { margin-bottom: .5rem; }
+#ai-prompt { resize: vertical; }
+#exam-ai .ai-step { display: block; margin: .9rem 0 .2rem; font-size: 1.05rem; font-weight: 700; }
+#exam-ai .ai-instruction, #ai-status { margin: .25rem 0 .45rem; font-size: .9rem; color: var(--sub); }
+#exam-ai .ai-actions, #exam-ai .ai-providers { display: flex; flex-wrap: wrap; gap: .5rem; margin: .45rem 0; }
+#exam-ai #ai-copy { color: var(--sheet); background: var(--link); border-color: var(--link); }
+#exam-ai .ai-providers a { flex: 1; }
+#exam-ai .ai-providers a[aria-disabled=true], #exam-ai button:disabled { color: var(--sub); background: var(--sheet); border-color: var(--edge); cursor: default; }
+@media print { .ai-trigger, #exam-ai { display: none; } }
