@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title">
+  <title id="title">세법 공부 · 책갈피를 꽂은 세법 책</title>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#20594a"/>
+      <stop offset="1" stop-color="#0e362d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#background)"/>
+  <g id="book" transform="rotate(-7 256 256)">
+    <!-- Back board, page block, and ribbon project beneath the front cover. -->
+    <path fill="#092b24" d="M128 101h256a16 16 0 0 1 16 16v287a17 17 0 0 1-17 17H139c-25 0-43-15-43-37V133a32 32 0 0 1 32-32Z"/>
+    <path fill="#94bcaa" d="M133 346h255v51H137c-18 0-32-10-32-25 0-16 10-26 28-26Z"/>
+    <path fill="#e4ddc4" d="M137 357h251v32H136c-14 0-21-6-21-16s8-16 22-16Z"/>
+    <path stroke="#b5b198" stroke-width="4" d="M142 377h234"/>
+    <path fill="#e69952" d="M300 358h37v69l-18.5-12-18.5 12Z"/>
+    <path fill="#f5eed9" d="M128 79h247a17 17 0 0 1 17 17v254a12 12 0 0 1-12 12H135c-17 0-28 6-37 18V109c0-17 12-30 30-30Z"/>
+    <path fill="#a9cdb9" d="M128 79h14v283h-7c-17 0-28 6-37 18V109c0-17 12-30 30-30Z"/>
+    <path stroke="#719e8c" stroke-width="3" d="M142 80v281"/>
+    <!-- Hand-lettered title works without any installed Korean fonts. -->
+    <g fill="none" stroke="#174c3e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M193 188c0 26-8 48-23 65m22-44c4 17 11 30 22 42m4-38h16m0-34v84m20-86v91"/>
+      <path d="M278 174v45h36v-45m-36 22h36m13-4h27m0-23v53"/>
+      <path d="M285 239v33h69v-33m-69 15h69"/>
+    </g>
+    <path stroke="#c09a5d" stroke-width="5" stroke-linecap="round" d="M172 143h43"/>
+  </g>
+</svg>
