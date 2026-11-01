@@ -42,14 +42,11 @@
   const prompt = get('prompt'), include = get('include'), ox = get('ox'), reason = get('reason');
   const copy = get('copy'), manual = get('manual'), status = get('status');
   if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent)) {
-    const web = dialog.querySelector('.ai-providers a');
-    const app = web.cloneNode(false);
+    const app = dialog.querySelector('.ai-providers a');
     app.removeAttribute('target');
     app.dataset.url = 'intent://chatgpt.com/#native#Intent;scheme=https;package=com.openai.chatgpt;end';
     app.textContent = 'ChatGPT 앱';
-    web.before(app);
-    web.textContent = 'ChatGPT 웹';
-    get('launch-help').prepend('앱이 열렸다가 웹으로 돌아오면 홈 화면에서 ChatGPT 앱을 직접 열어 붙여넣으세요. ');
+    get('launch-help').prepend('ChatGPT 앱이 열리지 않거나 웹으로 돌아오면 홈 화면에서 앱을 직접 열어 복사한 질문을 붙여넣으세요. ');
   }
   const links = dialog.querySelectorAll('.ai-providers a');
   let active;
