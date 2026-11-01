@@ -41,10 +41,14 @@
   const get = id => dialog.querySelector('#ai-' + id);
   const prompt = get('prompt'), include = get('include'), ox = get('ox'), reason = get('reason');
   const copy = get('copy'), manual = get('manual'), status = get('status');
-  if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent)) {
+  // Galaxy browsers in desktop mode may identify as touch-capable Linux.
+  const androidDesktop = /Linux/i.test(navigator.userAgent) &&
+    !/CrOS/i.test(navigator.userAgent) && navigator.maxTouchPoints > 0;
+  if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent) || androidDesktop) {
     const app = dialog.querySelector('.ai-providers a');
     app.removeAttribute('target');
-    app.dataset.url = 'intent://chatgpt.com/#native#Intent;scheme=https;package=com.openai.chatgpt;end';
+    // Use the same direct, package-scoped tap as the review app, aimed at ChatGPT home.
+    app.dataset.url = app.dataset.url.replace(/^https:/, 'intent:') + '#Intent;scheme=https;package=com.openai.chatgpt;end';
     app.textContent = 'ChatGPT 앱';
     get('launch-help').prepend('ChatGPT 앱이 열리지 않거나 웹으로 돌아오면 홈 화면에서 앱을 직접 열어 복사한 질문을 붙여넣으세요. ');
   }
