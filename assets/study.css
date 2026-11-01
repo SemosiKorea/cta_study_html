@@ -25,3 +25,5 @@
 .legacy .checklist li::before{background:#35694e}.legacy .exam-drill[open]>summary{border-color:var(--edge)}
 }
 @media print{.study .top,.study dialog,.read-button,.legacy-bar{display:none}.study{background:white;color:black}.study .hero,.study .panel,.study .unit,.study .problem{background:white}.study main{max-width:none}}
+.study .panel.part-list li{padding-inline:clamp(12px,3vw,22px)}
+@media screen and (min-width:680px){.study .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}

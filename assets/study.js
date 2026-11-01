@@ -21,14 +21,14 @@
       if (!history) return;
       const rows = units.map(u => ({...u, date:localStorage.getItem(prefix + u.key)}))
         .filter(u => datePattern.test(u.date || '')).sort((a,b) => b.date.localeCompare(a.date) || a.order-b.order);
-      document.querySelector('#read-count').textContent = rows.length + '개 장 완료';
+      document.querySelector('#read-count').textContent = rows.length + '개 단원 완료';
       const items = rows.map(u => {
         const item = document.createElement('li'), link = document.createElement('a');
         link.href = new URL(u.url,root).href;
         link.textContent = u.subject + ' · ' + u.title;
         item.append(document.createTextNode(u.date + '　'),link); return item;
       });
-      if (!items.length) { const empty=document.createElement('li'); empty.textContent='아직 완료 표시한 장이 없습니다.'; items.push(empty); }
+      if (!items.length) { const empty=document.createElement('li'); empty.textContent='아직 완료 표시한 단원이 없습니다.'; items.push(empty); }
       history.replaceChildren(...items);
     } catch { unavailable(); }
   }
