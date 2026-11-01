@@ -13,7 +13,6 @@
       <label class="ai-reading-label" for="ai-question">궁금한 점 <small>(선택)</small></label>
       <textarea id="ai-question" rows="2" autocomplete="off" placeholder="예외가 적용되면 왜 결론이 달라지나요?"></textarea>`,
     editHelp: '아래 질문을 고쳐 쓸 수 있습니다. 위의 문장이나 궁금한 점을 바꾸면 질문을 새로 작성합니다.',
-    manualChatGPT: true,
     onClose: clear
   });
   const excerpt = get('excerpt'), question = get('question');

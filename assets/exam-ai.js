@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  function createStudyDialog({fields, editHelp, onClose, manualChatGPT = false}) {
+  function createStudyDialog({fields, editHelp, onClose}) {
     const dialog = document.createElement('dialog');
     dialog.id = 'exam-ai';
     dialog.setAttribute('aria-labelledby', 'ai-mode');
@@ -39,16 +39,11 @@
       !/CrOS/i.test(navigator.userAgent) && navigator.maxTouchPoints > 0;
     if (navigator.userAgentData?.platform === 'Android' || /Android/i.test(navigator.userAgent) || androidDesktop) {
       const app = dialog.querySelector('.ai-providers a');
-      if (manualChatGPT) {
-        app.remove();
-        get('launch-help').prepend('ChatGPT를 쓰려면 질문을 복사한 뒤 홈 화면에서 ChatGPT 앱을 열어 붙여넣으세요. ');
-      } else {
-        app.removeAttribute('target');
-        // Use the same direct, package-scoped tap as the review app, aimed at ChatGPT home.
-        app.dataset.url = app.dataset.url.replace(/^https:/, 'intent:') + '#Intent;scheme=https;package=com.openai.chatgpt;end';
-        app.textContent = 'ChatGPT 앱';
-        get('launch-help').prepend('ChatGPT 앱이 열리지 않거나 웹으로 돌아오면 홈 화면에서 앱을 직접 열어 복사한 질문을 붙여넣으세요. ');
-      }
+      app.removeAttribute('target');
+      // Use the same direct, package-scoped tap as the review app, aimed at ChatGPT home.
+      app.dataset.url = app.dataset.url.replace(/^https:/, 'intent:') + '#Intent;scheme=https;package=com.openai.chatgpt;end';
+      app.textContent = 'ChatGPT 앱';
+      get('launch-help').prepend('ChatGPT 앱이 열리지 않거나 웹으로 돌아오면 홈 화면에서 앱을 직접 열어 복사한 질문을 붙여넣으세요. ');
     }
     const links = dialog.querySelectorAll('.ai-providers a');
     let trigger;
