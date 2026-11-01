@@ -43,3 +43,5 @@
 #exam-ai .ai-providers a { flex: 1; }
 #exam-ai .ai-providers a[aria-disabled=true], #exam-ai button:disabled { color: var(--sub); background: var(--sheet); border-color: var(--edge); cursor: default; }
 @media print { .ai-trigger, #exam-ai { display: none; } }
+#exam-ai .ai-reading-label { display: block; font-weight: 650; margin: .6rem 0 .2rem; }
+#exam-ai .ai-reading-label small { font-weight: 400; color: var(--sub); }
