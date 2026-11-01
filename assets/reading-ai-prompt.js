@@ -2,7 +2,7 @@
   'use strict';
 
   const text = element => element?.textContent.trim() || '';
-  const readingSummaries = new Set(['판단을 가르는 조건과 근거', '판단 조건과 근거 확인']);
+  const readingSummaries = new Set(['판단을 가르는 조건과 근거', '판단 조건과 근거 확인', '세부 요건·사례 더 보기']);
 
   function collectTargets() {
     const subject = text(document.querySelector('main > header .kicker')).split('/')[0].trim();
@@ -23,7 +23,7 @@
     const blocks = [], sources = new Set();
     for (const child of article.children) {
       if (child.hidden) continue;
-      if (child.matches('h3, p:not([class])')) {
+      if (child.matches('h3, p:not([class]), blockquote[data-ai-reading], figure[data-ai-reading]')) {
         blocks.push(child);
       } else if (child.matches('details[open]') &&
                  readingSummaries.has(text(child.querySelector(':scope > summary')))) {

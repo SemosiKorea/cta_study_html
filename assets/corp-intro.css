@@ -1,0 +1,53 @@
+.law-excerpt { margin: 1rem 0 .65rem; padding: .9rem 1rem; border-left: 4px solid var(--warm); background: var(--pill); color: var(--text); border-radius: 0 9px 9px 0; }
+.law-excerpt p { margin: 0; line-height: 1.8; }
+.study .law-excerpt footer { margin: .5rem 0 0; font-size: .82rem; }
+.study .item > p { margin: .7rem 0 1rem; }
+.rule-diagram { margin: 1rem 0; padding: 1rem; border: 1px solid var(--edge); border-radius: 12px; background: var(--tile); }
+.rule-diagram figcaption { font-weight: 750; margin-bottom: .8rem; color: var(--link); }
+.rule-steps { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.6rem; }
+.rule-steps li { position: relative; flex: 1; padding: .85rem; border: 1px solid var(--edge); border-radius: 9px; background: var(--sheet); }
+.rule-steps li:not(:last-child)::after { content: '↓'; position: absolute; left: calc(50% - .5em); bottom: -1.55rem; color: var(--link); line-height: 1.6rem; font-weight: 700; }
+.rule-steps b, .rule-steps span, .rule-node strong, .rule-node span { display: block; }
+.rule-steps span, .rule-node span { margin-top: .35rem; font-size: .93rem; }
+.rule-question { padding: .8rem; border: 1px solid var(--link); border-radius: 9px; background: var(--sheet); text-align: center; font-weight: 700; }
+.rule-branches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; padding-top: 1.7rem; }
+.rule-branches > .rule-node { position: relative; }
+.rule-branches > .rule-node::before { content: '↓'; position: absolute; top: -1.7rem; left: calc(50% - .5em); color: var(--link); font-weight: 700; }
+.rule-node { padding: .8rem; border: 1px solid var(--edge); border-radius: 9px; background: var(--sheet); }
+.rule-node.yes { border-top: 3px solid var(--link); }
+.rule-node.no, .rule-node.exception { border-top: 3px solid var(--warm); }
+.rule-node.exception { margin-top: .9rem; }
+.rule-node.end { border-style: dashed; }
+.rule-compare { margin: .5rem 0 0; }
+.rule-compare > div { display: grid; grid-template-columns: minmax(7rem, .9fr) minmax(0, 2fr); gap: .75rem; padding: .8rem 0; border-bottom: 1px solid var(--edge); }
+.rule-compare > div:last-child { border-bottom: 0; padding-bottom: 0; }
+.rule-compare dt { font-weight: 700; }
+.rule-compare dd { margin: 0; }
+.scope-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
+.time-case + .time-case { margin-top: 1rem; }
+.time-axis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; margin-top: .6rem; padding-top: .6rem; border-top: 3px solid var(--link); }
+.rule-more { border-top: 1px solid var(--edge); padding-top: .4rem; margin: .7rem 0; }
+.rule-more > summary { font-size: .93rem; }
+.rule-more .solution > p { margin: .8rem 0; }
+.intro-table { overflow-x: auto; max-width: 100%; margin: .65rem 0; }
+.intro-table table { border-collapse: collapse; width: 100%; font-size: .93rem; }
+.intro-table th, .intro-table td { border: 1px solid var(--edge); padding: .6rem; text-align: left; vertical-align: top; min-width: 8rem; }
+.intro-table th { background: var(--sheet); }
+.study [data-quiz-card] { margin: .75rem 0; }
+@media (min-width: 760px) {
+  .rule-steps { flex-direction: row; gap: 1.5rem; }
+  .rule-steps li:not(:last-child)::after { content: '→'; left: auto; right: -1.35rem; top: calc(50% - .8rem); bottom: auto; }
+}
+@media (max-width: 480px) {
+  .rule-diagram { padding: .75rem; }
+  .rule-branches, .scope-grid { grid-template-columns: 1fr; }
+  .rule-branches { gap: .7rem; border-left: 2px solid var(--edge); margin: .6rem 0 0 .6rem; padding: 0 0 0 1rem; }
+  .rule-branches > .rule-node::before { content: '→'; top: calc(50% - .8rem); left: -1.25rem; }
+  .rule-compare > div { grid-template-columns: 1fr; gap: .25rem; }
+  .time-axis { grid-template-columns: 1fr; border-top: 0; border-left: 3px solid var(--link); padding: 0 0 0 .7rem; }
+}
+@media print {
+  .rule-steps li, .rule-node, .law-excerpt { break-inside: avoid; }
+  .intro-table { overflow: visible; }
+  .intro-table th, .intro-table td { min-width: 0; }
+}
