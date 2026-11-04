@@ -14,6 +14,7 @@
       for (const b of buttons) {
         const date = localStorage.getItem(prefix + b.dataset.unit);
         const complete = datePattern.test(date || '');
+        if (b.dataset.cloudRead === '1') { b.textContent='읽기 완료 +1'; continue; }
         b.textContent = complete ? '✓ ' + date + ' 완료 · 취소' : '읽기 완료 표시';
         b.setAttribute('aria-pressed', String(complete));
       }
@@ -33,7 +34,7 @@
     } catch { unavailable(); }
   }
   function unavailable() {
-    for (const b of buttons) { b.disabled=true; b.textContent='이 브라우저에서 기록을 저장할 수 없습니다'; }
+    for (const b of buttons) { if (b.dataset.cloudRead === '1') continue; b.disabled=true; b.textContent='이 브라우저에서 기록을 저장할 수 없습니다'; }
     const count=document.querySelector('#read-count');
     if (count) count.textContent='브라우저의 저장 공간을 사용할 수 없습니다.';
   }
