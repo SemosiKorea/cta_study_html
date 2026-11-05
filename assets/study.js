@@ -4,6 +4,31 @@
   const units = window.CTA_UNITS || [];
   const prefix = 'cta_study_html.read.v1.';
   const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+  // Keep the column context beside every value when narrow screens stack rows.
+  for (const table of document.querySelectorAll('.intro-table table, .corp-supplement table')) {
+    const header = table.tHead?.rows[0];
+    if (!header || table.querySelector('[rowspan]')) continue;
+    const headings = [...header.cells].flatMap(cell =>
+      Array(cell.colSpan).fill(cell.textContent.trim()));
+    table.classList.add('responsive-table');
+    table.setAttribute('role', 'table');
+    for (const group of table.querySelectorAll('thead, tbody, tfoot')) group.setAttribute('role', 'rowgroup');
+    for (const row of table.rows) {
+      row.setAttribute('role', 'row');
+      let column = 0;
+      for (const cell of row.cells) {
+        cell.setAttribute('role', row === header ? 'columnheader' : cell.tagName === 'TH' ? 'rowheader' : 'cell');
+        if (row !== header) {
+          const label = document.createElement('span');
+          label.className = 'mobile-column-label';
+          label.setAttribute('aria-hidden', 'true');
+          label.textContent = [...new Set(headings.slice(column, column + cell.colSpan))].join(' · ');
+          cell.prepend(label);
+        }
+        column += cell.colSpan;
+      }
+    }
+  }
   function today() {
     const d = new Date();
     return [d.getFullYear(), String(d.getMonth() + 1).padStart(2, '0'), String(d.getDate()).padStart(2, '0')].join('-');

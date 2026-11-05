@@ -44,3 +44,47 @@ select[data-appearance] {
   color: CanvasText; background: Canvas;
 }
 @media print { select[data-appearance] { display: none; } }
+
+/* Let content reflow instead of making the reader pan sideways. */
+.study :is(main, section, article, nav, figure, fieldset, .tools, .top) { min-width: 0; }
+.study :is(button, input, select, textarea) { max-width: 100%; }
+.study :is(button, .tools a, .read-button) { white-space: normal; overflow-wrap: anywhere; }
+.study :is(img, svg, video, iframe) { max-width: 100%; }
+.study pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.study .mobile-column-label { display: none; }
+.study :is(.intro-table, .scroll) { max-width: 100%; }
+@media screen and (max-width: 600px) {
+  .study main { padding-inline: 12px; }
+  .study :is(.unit, .problem, .panel) { padding: 14px; }
+  .study .hero { padding: 18px; }
+  .study .top > *, .study .tools > * { min-width: 0; max-width: 100%; }
+  .study :is(.read-button, .tools a, select[data-appearance]) { min-height: 44px; }
+  .study summary { min-height: 44px; padding-block: 8px; }
+  .study :is(.intro-table, .scroll) { overflow: visible; }
+  /* Also fit the original table if JavaScript is unavailable. */
+  .study :is(.intro-table, .scroll) table { min-width: 0; width: 100%; table-layout: fixed; }
+  .study :is(.intro-table, .scroll) :is(th, td) { min-width: 0; overflow-wrap: anywhere; }
+  .study table.responsive-table { display: block; border: 0; }
+  .study table.responsive-table caption { display: block; margin-bottom: .6rem; text-align: left; }
+  .study table.responsive-table thead {
+    position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden;
+    clip-path: inset(50%); white-space: nowrap;
+  }
+  .study table.responsive-table :is(tbody, tfoot) { display: block; }
+  .study table.responsive-table :is(tbody, tfoot) > tr {
+    display: block; margin: 0 0 .75rem; border: 1px solid var(--edge); border-radius: 8px;
+    background: var(--sheet);
+  }
+  .study table.responsive-table :is(th, td) {
+    display: block; width: auto; min-width: 0; padding: .65rem .75rem; border: 0;
+    border-bottom: 1px solid var(--edge); text-align: left;
+  }
+  .study table.responsive-table :is(th, td):first-child { background: var(--tile); border-radius: 7px 7px 0 0; }
+  .study table.responsive-table :is(th, td):last-child { border-bottom: 0; }
+  .study .mobile-column-label { display: block; margin-bottom: .2rem; color: var(--sub); font-size: .8rem; font-weight: 650; }
+  .study dialog { width: calc(100% - 16px); max-width: calc(100% - 16px); max-height: calc(100dvh - 16px); }
+  .study .preview-tools > * { min-width: 0; max-width: 100%; }
+  .study #exam-ai .ai-top { flex-wrap: wrap; gap: .5rem; }
+  .study #exam-ai .ai-top button { flex-shrink: 0; }
+  .study #exam-ai .ai-providers a { flex: 1 1 8rem; min-width: 0; }
+}
