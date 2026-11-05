@@ -46,6 +46,7 @@
     const lines = [];
     let lastBlock;
     for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      if (node.parentElement.closest('.mobile-column-label')) continue;
       if (!range.intersectsNode(node)) continue;
       const from = node === range.startContainer ? range.startOffset : 0;
       const to = node === range.endContainer ? range.endOffset : node.length;
@@ -58,6 +59,23 @@
       lastBlock = block;
     }
     return lines.map(line => line.trim()).join('\n');
+  }
+
+  function readingText(block) {
+    if (!block.querySelector('.mobile-column-label')) return block.innerText.trim();
+    const copy = block.cloneNode(true);
+    copy.querySelectorAll('.mobile-column-label').forEach(label => label.remove());
+    // Render the clean copy offscreen to retain innerText's paragraph/table line breaks.
+    // Reading textContent from a detached clone would merge adjacent table cells.
+    const holder = document.createElement('div');
+    holder.setAttribute('aria-hidden', 'true');
+    holder.inert = true;
+    holder.style.cssText = 'position:fixed;left:-100000px;top:0;opacity:0;pointer-events:none';
+    holder.style.width = block.getBoundingClientRect().width + 'px';
+    holder.append(copy);
+    block.parentElement.append(holder);
+    try { return copy.innerText.trim(); }
+    finally { holder.remove(); }
   }
 
   function composePrompt({location, standard, source, body}, excerpt = '', question = '') {
@@ -78,7 +96,7 @@
     const {article, subject, part, chapter, title, page, standard} = target;
     const {blocks, sources} = readingParts(article);
     const source = [page, ...sources].filter(Boolean).join('\n');
-    const body = blocks.map(block => block.innerText.trim()).filter(Boolean).join('\n');
+    const body = blocks.map(readingText).filter(Boolean).join('\n');
     return composePrompt({location: [subject, part, chapter, title].join(' · '), standard, source, body}, excerpt, question);
   }
 
