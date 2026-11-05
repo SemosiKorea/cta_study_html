@@ -51,6 +51,13 @@ select[data-appearance] {
 .study :is(button, .tools a, .read-button) { white-space: normal; overflow-wrap: anywhere; }
 .study :is(img, svg, video, iframe) { max-width: 100%; }
 .study pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.study select, .study #route-controls select, .study #exam-ai select, .study .calc-fields select, .study .exam-filters select {
+  /* WebKit's native menulist ignores the control's minimum touch height. */
+  appearance: none; -webkit-appearance: none; padding-inline-end: 32px;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 16px) 50%, calc(100% - 11px) 50%;
+  background-size: 5px 5px; background-repeat: no-repeat;
+}
 .study .mobile-column-label { display: none; }
 .study :is(.intro-table, .scroll) { max-width: 100%; }
 @media screen and (max-width: 600px) {
