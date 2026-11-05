@@ -93,3 +93,7 @@
   dialog.querySelector('button').addEventListener('click',() => dialog.close());
   dialog.addEventListener('click',e => { if (e.target===dialog) dialog.close(); });
 })();
+
+// Connect existing reading units to the second-exam study guide.
+(() => { const root=new URL('../',document.currentScript.src); const script=document.createElement('script'); script.src=new URL('assets/second-links.js',root).href; script.defer=true; document.head.append(script); })();
+
