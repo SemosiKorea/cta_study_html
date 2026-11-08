@@ -34,6 +34,24 @@
 .intro-table th, .intro-table td { border: 1px solid var(--edge); padding: .6rem; text-align: left; vertical-align: top; min-width: 8rem; }
 .intro-table th { background: var(--sheet); }
 .study [data-quiz-card] { margin: .75rem 0; }
+.sentence-practice { border: 1px solid var(--edge); border-radius: 10px; padding: .75rem 1rem; scroll-margin-top: 1rem; }
+.sentence-practice > summary { font-size: 1rem; }
+.sentence-note, .sentence-instruction, .sentence-basis, .sentence-links { font-size: .86rem; color: var(--sub); }
+.sentence-note { border-left: 3px solid var(--warm); padding-left: .75rem; }
+.sentence-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; padding-top: 1rem; margin-top: 1rem; border-top: 1px solid var(--edge); align-items: start; }
+.sentence-source, .sentence-prediction { min-width: 0; padding: .85rem; border: 1px solid var(--edge); border-radius: 9px; }
+.sentence-source { background: var(--tile); }
+.sentence-prediction { border-left: 3px solid var(--warm); }
+.sentence-variants { display: grid; gap: .85rem; min-width: 0; }
+.sentence-label { font-size: .83rem; font-weight: 750; color: var(--link); }
+.sentence-prediction .sentence-label { color: var(--warm); }
+.sentence-text { line-height: 1.85; }
+.sentence-answer > summary { font-size: .86rem; min-height: 44px; display: list-item; padding-top: .65rem; }
+.sentence-guide h2 { font-size: 1.15rem; margin: 0; }
+@media (max-width: 720px) {
+  .sentence-pair { grid-template-columns: 1fr; }
+  .sentence-practice { padding: .65rem; }
+}
 @media (min-width: 760px) {
   .rule-steps { flex-direction: row; gap: 1.5rem; }
   .rule-steps li:not(:last-child)::after { content: '→'; left: auto; right: -1.35rem; top: calc(50% - .8rem); bottom: auto; }
