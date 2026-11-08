@@ -1,0 +1,452 @@
+{
+  "baseline": "2026-11-01",
+  "reviewedAt": "2026-11-09",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "targetYearCount": 5,
+  "fifthYear": null,
+  "targetPercent": 80,
+  "questions": [
+    {
+      "id": "2022-61",
+      "body": [
+        "part05.html#p504"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2022-62",
+      "body": [
+        "part02.html#p70",
+        "part02.html#p80"
+      ],
+      "supplements": [
+        "자본전입 재원별 의제배당"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2022-63",
+      "body": [
+        "part05.html#p401",
+        "part05.html#p420"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2022-64",
+      "body": [
+        "part02.html#p89",
+        "part05.html#p480"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2022-65",
+      "body": [
+        "part02.html#p128"
+      ],
+      "supplements": [],
+      "status": "conditional",
+      "note": "번호판 비대상·정상 부착과 부착 대상·미부착의 두 경우를 구분하는 현행 연습입니다."
+    },
+    {
+      "id": "2022-66",
+      "body": [
+        "part01.html#p9"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2022-67",
+      "body": [
+        "part02.html#p27",
+        "part04.html#p268",
+        "part02.html#p115",
+        "part04.html#p326"
+      ],
+      "supplements": [
+        "차감 열만 묻는 양편 조정",
+        "지분법 평가와 현금배당을 분리"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2022-68",
+      "body": [
+        "part03.html#p153",
+        "part03.html#p158",
+        "part03.html#p155",
+        "part03.html#p166",
+        "part03.html#p174"
+      ],
+      "supplements": [
+        "원 미만 절사와 다음 연도 잔액"
+      ],
+      "status": "supplemented",
+      "note": "원시험의 원 미만 절사 지시를 복원하고, 상각범위액 단계의 절사 순서를 본문에 표시했습니다."
+    },
+    {
+      "id": "2022-69",
+      "body": [
+        "part03.html#p200",
+        "part03.html#p208",
+        "part03.html#p215",
+        "part03.html#p190"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2022-70",
+      "body": [
+        "part04.html#p302",
+        "part04.html#p326"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-61",
+      "body": [
+        "part02.html#p89"
+      ],
+      "supplements": [
+        "적격합병으로 받은 주식의 보유기간"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2023-62",
+      "body": [
+        "part02.html#p25",
+        "part04.html#p268",
+        "part02.html#p115",
+        "part04.html#p302",
+        "part05.html#p472"
+      ],
+      "supplements": [
+        "할인차금과 공사수익의 계산 조건"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2023-63",
+      "body": [
+        "part05.html#p366"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-64",
+      "body": [
+        "part03.html#p208",
+        "part03.html#p215"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-65",
+      "body": [
+        "part05.html#p358",
+        "part02.html#p33"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-66",
+      "body": [
+        "part03.html#p200",
+        "part05.html#p461",
+        "part08.html#p695"
+      ],
+      "supplements": [],
+      "status": "conditional",
+      "note": "직전 연도의 세율과 제시 세액이 일치하지 않아 원자료로 단일 금액을 확정할 수 없습니다. 조건부 재계산과 구분합니다."
+    },
+    {
+      "id": "2023-67",
+      "body": [
+        "part06.html#p509",
+        "part06.html#p514"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-68",
+      "body": [
+        "part07.html#p575",
+        "part07.html#p589",
+        "part07.html#p602",
+        "part07.html#p610",
+        "part07.html#p584"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2023-69",
+      "body": [
+        "part03.html#p228",
+        "part03.html#p229",
+        "part03.html#p230",
+        "part03.html#p236"
+      ],
+      "supplements": [
+        "퇴직금전환금의 제외기간"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2023-70",
+      "body": [
+        "part03.html#p169"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2024-61",
+      "body": [
+        "part01.html#p13",
+        "part01.html#p14",
+        "part01.html#p15",
+        "part01.html#p16"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2024-62",
+      "body": [
+        "part02.html#p33",
+        "part06.html#p533"
+      ],
+      "supplements": [
+        "대표자 상여에서 다시 나누는 조건"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2024-63",
+      "body": [
+        "part02.html#p94",
+        "part02.html#p115"
+      ],
+      "supplements": [
+        "과태금과 국고귀속 자산손실의 구별"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2024-64",
+      "body": [
+        "part02.html#p70"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2024-65",
+      "body": [
+        "part03.html#p208",
+        "part03.html#p215"
+      ],
+      "supplements": [],
+      "status": "premise",
+      "note": "지출증빙 없음과 적격증명서류 미비를 구분합니다. 전자를 실제 지출·귀속이 입증되지 않는 경우로 읽는 기출 풀이의 전제도 확인합니다."
+    },
+    {
+      "id": "2024-66",
+      "body": [
+        "part04.html#p268",
+        "part04.html#p279"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2024-67",
+      "body": [
+        "part05.html#p358",
+        "part08.html#p687"
+      ],
+      "supplements": [
+        "고가매입의 자산 조정과 지급액 처분"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2024-68",
+      "body": [
+        "part04.html#p288",
+        "part04.html#p290",
+        "part04.html#p295"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2024-69",
+      "body": [
+        "part05.html#p468"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": "현행법으로 각 선지를 판단하면 틀린 선지가 둘입니다. 과거 단일 정답 번호와 현행 O·X 판단을 구분합니다."
+    },
+    {
+      "id": "2024-70",
+      "body": [
+        "part05.html#p401"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2025-61",
+      "body": [
+        "part06.html#p518",
+        "part05.html#p472"
+      ],
+      "supplements": [
+        "직전기 중간예납세액을 다시 빼지 않기"
+      ],
+      "status": "conditional",
+      "note": "공시대상기업집단의 규모 예외 충족 여부에 따라 가결산 의무와 선택 가능한 방식이 갈립니다."
+    },
+    {
+      "id": "2025-62",
+      "body": [
+        "part04.html#p328"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2025-63",
+      "body": [
+        "part02.html#p70",
+        "part02.html#p80"
+      ],
+      "supplements": [
+        "자본전입 재원별 의제배당"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2025-64",
+      "body": [
+        "part02.html#p65"
+      ],
+      "supplements": [
+        "보증금과 건설비의 적수를 따로 계산"
+      ],
+      "status": "conditional",
+      "note": "원시험은 전원정답 처리된 문항입니다. 현행 일별 잔액 방식의 계산은 원시험 선택형 채점과 구분합니다."
+    },
+    {
+      "id": "2025-65",
+      "body": [
+        "part04.html#p321"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    },
+    {
+      "id": "2025-66",
+      "body": [
+        "part04.html#p248",
+        "part04.html#p255"
+      ],
+      "supplements": [
+        "회계상 상계와 세무상 잔액을 구분"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2025-67",
+      "body": [
+        "part02.html#p94"
+      ],
+      "supplements": [
+        "손비 열거항목에서 바뀌는 표현"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2025-68",
+      "body": [
+        "part03.html#p169"
+      ],
+      "supplements": [
+        "자본적 지출과 별도 열거자산"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2025-69",
+      "body": [
+        "part04.html#p302",
+        "part08.html#p677"
+      ],
+      "supplements": [
+        "할인차금과 공사수익의 계산 조건"
+      ],
+      "status": "supplemented",
+      "note": ""
+    },
+    {
+      "id": "2025-70",
+      "body": [
+        "part06.html#p533"
+      ],
+      "supplements": [],
+      "status": "existing",
+      "note": ""
+    }
+  ]
+}
