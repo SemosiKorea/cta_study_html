@@ -1,0 +1,948 @@
+{
+  "scope": "2022–2025",
+  "baseline": "2026-11-01",
+  "checkedCommit": "0b19b25",
+  "method": "문제 사실과 연결된 본문의 일반 규칙으로 풀이. 기출 해설의 답과 완성 계산값은 근거에서 제외. 조건부 문항도 전체 분모에 포함.",
+  "questions": [
+    {
+      "id": "q2022-61",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③O ④O ⑤X",
+      "noteEvidence": [
+        "p504: 신용카드 허위 발급은 법정 통보 등 요건 충족 시 실제 발급차액 × 5%, 건별 최저 5,000원.",
+        "p504: 업무용승용차 명세서 미제출은 손금산입액의 1%; 주식등변동상황명세서는 액면금액·출자가액의 1%; 기부금영수증 허위 발급은 허위금액의 5%.",
+        "p504: 현금영수증 미가입은 대상 수입금액 × 미가입일수/사업연도 일수 × 1%."
+      ],
+      "missingConditions": [],
+      "note": "①은 법정 통보 등 부과요건이 충족된 일반적인 가산세율 설명으로 읽었다. 문항만으로 실제 개별 가산세 부과요건을 모두 확정한 것은 아니다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p504"
+      ],
+      "questionSha256": "572e578d790f6abbe761c24b233039f3c7c950916add68ad36726e3718e78757",
+      "sourceNotesSha256": "6763c1f580cc1d14690f775eb7285bca9f698a233e73e67efaee4f7dce5e1789"
+    },
+    {
+      "id": "q2022-62",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "2,685,000원(②). 대상 재원 (100+500+150+40+1,000)만원 × 15%.",
+      "noteEvidence": [
+        "p70: 일반 주식발행초과금·포괄적 교환이전차익·3% 재평가적립금은 제외.",
+        "p70: 출자전환 시가초과액·자기주식처분이익·1% 토지 재평가적립금·이익잉여금은 대상.",
+        "p70: 자기주식 소각 당시 시가가 취득가액을 초과하면 전입시기와 무관하게 대상."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p70",
+        "part02.html#p80"
+      ],
+      "questionSha256": "38835b4d882256efb2e4d0e0df43e62c2857539d2b18e018cebbc3e2b472b1ed",
+      "sourceNotesSha256": "eaa087937c5a1d4c5ecb2bae6fe6cfcddd9bb5608fdc9cbddb308f029faf86fb"
+    },
+    {
+      "id": "q2022-63",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③O ④X ⑤O",
+      "noteEvidence": [
+        "p401: 비적격합병은 시가취득, 대가와 순자산시가 차이는 매수차손익.",
+        "p420: 비적격분할은 등기일 시가취득.",
+        "p401: 적격합병은 세무상 장부가액 승계, 자산부채는 시가 계상하고 자산별 조정계정 관리.",
+        "p401: 승계 결손금은 승계사업 소득에서 공제. 다른 숫자 예제에서 중소기업의 승계소득 40·결손 55이면 40 전액 공제."
+      ],
+      "missingConditions": [],
+      "note": "최종 갱신본 p401의 일반규칙 및 다른 숫자 예제를 사용했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p401",
+        "part05.html#p420"
+      ],
+      "questionSha256": "09328a14b4607835206d74507cc61e08f5ec351166365301111ee23e1595fd8d",
+      "sourceNotesSha256": "932df5a5c676a3591b1e23b794091b9627f682088b3f833684011975b4045aa3"
+    },
+    {
+      "id": "q2022-64",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "외국납부세액공제 0원(제시 보기 없음).",
+      "noteEvidence": [
+        "p89: 외국자회사 기준은 의결권 10% 이상, 6개월 이상 계속 보유이며 간접투자회사등과 적용배제 배당을 구분.",
+        "p89: 2026년 적격 수령분은 100%에서 법정 차입금 이자 안분액을 차감.",
+        "p480 일반 분기: 외국자회사 수입배당금 익금불산입이 적용되는 배당에는 외국납부세액공제 배제."
+      ],
+      "missingConditions": [],
+      "note": "문항 숫자가 그대로 기재된 p480 완성풀이를 근거에서 제외했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p89",
+        "part05.html#p480"
+      ],
+      "questionSha256": "13f4be5c56a823b9b4d6417f3bf86a3bf4f2c5bacf86d031fe03e540c87aa1e4",
+      "sourceNotesSha256": "913a18dd547b7b4e4886ea38bb38134fb9d239511d83c43e64433c885d9f5abc"
+    },
+    {
+      "id": "q2022-65",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": true,
+      "finalPass": true,
+      "strictPass": false,
+      "answer": "조건별 판정: 번호판 요건을 충족하거나 의무대상이 아니면 17,687,500원(③). 의무대상인데 미부착이면 관련비용 33,000,000원 전액 부인. 원자료만으로 단일액 확정 불가.",
+      "noteEvidence": [
+        "p128: 대상·보험·번호판을 먼저 확인하며, 의무대상 번호판 미부착은 관련비용 전액 손금불산입.",
+        "p128: 업무사용비율=업무주행/총주행; 운용리스 상당액=임차료−보험료−자동차세−수선유지비; 업무사용 상당액 연 800만원 초과분 이월.",
+        "적용: 업무비율 75%, 업무미사용액 33,000,000×25%=8,250,000; 상당액 23,250,000×75%−8,000,000=9,437,500."
+      ],
+      "missingConditions": [
+        "차량 취득가액과 번호판 부착 사실이 문제에 없다. notes에는 번호판 의무대상의 구체적 가격기준도 없다."
+      ],
+      "note": "조건별/전제검토 문항. derivable=true는 조건 분기와 단일 확정 불가를 도출할 수 있다는 뜻이며 단일선지 정답 판정과 구분한다.",
+      "strictPassReason": "조건부·전제검토 문항으로 분모에는 포함하되 단일선지·완전확정 문제와 구분하여 엄격 통과 수에서 제외.",
+      "sourceTargets": [
+        "part02.html#p128"
+      ],
+      "questionSha256": "7bff17fe9d4875054dcdeb9cbf5de7d2e7c677c48e01c7cfb96a64b07fe16f37",
+      "sourceNotesSha256": "d9121b58467fdd8405a35d63eb398bd68d828d10d3e47e7518d64c2289a82801"
+    },
+    {
+      "id": "q2022-66",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②X ③O ④O ⑤O",
+      "noteEvidence": [
+        "p9: 국가·지자체는 자기 소득의 법인세 납부의무가 없고, 원천징수의무자는 원천징수세액 납부의무가 있다.",
+        "p9: 비영리내국법인은 청산소득 과세대상 제외; 주식·신주인수권·출자지분 양도수입은 열거된 수익사업.",
+        "p9: 외국법인은 국내원천소득을 과세범위로 판단."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part01.html#p9"
+      ],
+      "questionSha256": "5edecc004bfbb013e07502f8d583e646fe643582e9df14552ff1f0b79ac81173",
+      "sourceNotesSha256": "6ec67f1bde1b038db716c971cd308c8992afdf2d87dbfe953aed3515814ac570"
+    },
+    {
+      "id": "q2022-67",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "5,000,000원(②)=시효완성 대손 2,000,000+자산계상 가산세 제거 1,000,000+지분법평가이익 제외 2,000,000.",
+      "noteEvidence": [
+        "p268: 소멸시효 완성은 해당 연도 신고조정 대손.",
+        "p27: 자산계상 취득세 가산세는 손금산입(△유보)과 손금불산입(기타사외유출) 양편 조정; 차감 열에는 전자를 포함.",
+        "p326: 지분법평가이익 수익계상은 익금불산입; 현금배당 장부차감은 익금산입으로 별개."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p27",
+        "part04.html#p268",
+        "part02.html#p115",
+        "part04.html#p326"
+      ],
+      "questionSha256": "805624a275d6acb8ac6b2fa82f5a4e61bfb1ddcf9ba8edec28eaeb1d19ccb04d",
+      "sourceNotesSha256": "e602cd5f1d6a1c1be7a8df9ecf56a36da62dbefdd895b7a9b6407a0ad9ca0c29"
+    },
+    {
+      "id": "q2022-68",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "889,402원(①). 2020 범위액 12,950,000원 → 세무잔액 37,050,000원. 2021 범위액 9,595,950원 → 세무잔액 27,454,050원. 2022 범위액 floor(27,454,050×0.259)=7,110,598원. 손금불산입 8,000,000−7,110,598=889,402원.",
+      "noteEvidence": [
+        "p153: 일반 기계의 무신고 방법은 정률법.",
+        "p158·p155: 기준내용연수와 정률법 세무상 미상각잔액 × 정률을 적용.",
+        "p166·p174: 전기 부인액 우선 추인 후 실제 감면법인의 부족액을 의제상각하여 다음 해 세무상 잔액 감소.",
+        "p166 현행 본문: 이 기출에서는 상각범위액 단계부터 원 미만을 버린 뒤 회사계상액과 차액을 구하고, 시인부족액·전기부인액 추인·의제상각액을 다음 연도 세무잔액으로 연결한다."
+      ],
+      "missingConditions": [],
+      "note": "최신 문제의 원 단위 미만 절사 지시와 p166의 절사 단계를 직접 확인했다. 법정 계산의 보편적 절사규칙이라고 확장하지 않고 이 문제에 명시된 계산조건으로 사용했다. 동일 기출의 완성답·계산예제 숫자는 근거로 쓰지 않았다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p153",
+        "part03.html#p158",
+        "part03.html#p155",
+        "part03.html#p166",
+        "part03.html#p174"
+      ],
+      "questionSha256": "7af2ab222e78a92da77fd084d2417786e75d38819fd74b32060b29bcf456c03a",
+      "sourceNotesSha256": "fb155dbb016ef6fd812e3d06f9d1ff318875c92e510c50166076a4c85fb0a866"
+    },
+    {
+      "id": "q2022-69",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②O ③O ④O ⑤O",
+      "noteEvidence": [
+        "p200: 실제 지출 기준이며 어음은 결제일, 이미 지급하고 가지급금 처리한 기부금은 지출연도.",
+        "p208·p215: 실제 지출을 입증하지 못하고 사외유출 귀속이 불분명하면 대표자 상여; 실제 공급자와 다른 가맹점 전표는 적격 카드증빙 아님.",
+        "p190: 비특수관계인 저가양도는 정당한 사유 없고 정상가액 하한 미만인 실질 증여액을 기부금으로 판단."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p200",
+        "part03.html#p208",
+        "part03.html#p215",
+        "part03.html#p190"
+      ],
+      "questionSha256": "5ad59a1cb2b6e050a8b41a5d0d2cd93ca4de0bb97df4a17b0dc26a5ee004418a",
+      "sourceNotesSha256": "bd470b3d9dea0a20e451f22219cabdafa59dd439de104a3528b377fb17ada09f"
+    },
+    {
+      "id": "q2022-70",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②X ③O ④O ⑤O",
+      "noteEvidence": [
+        "p302: 중소기업의 1년 미만 건설 등은 인도기준 선택 가능.",
+        "p326: 2026년 법정 가상자산 평가방법은 선입선출법.",
+        "p302: 임대료의 장기 지급기간·결산 경과분 인식, 투자회사 경과 이자·할인·배당 인식, 현금정산 파생상품 계약상 대금결제일 규칙."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p302",
+        "part04.html#p326"
+      ],
+      "questionSha256": "497fed400f9c0e1348ba7fe499a72ca0ba94ec7385d9f7534a3157ced4565572",
+      "sourceNotesSha256": "9800bff473815b6411e85804524347f636afbe6daf9dfc92bab691c56fa445ab"
+    },
+    {
+      "id": "q2023-61",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②X ③X ④O ⑤X",
+      "noteEvidence": [
+        "p89: 간접투자회사등 제외, 의결권 10% 이상 및 6개월 보유.",
+        "p89: CFC 배당간주·혼성금융상품 배당 등 적용배제; 2026년 특례도 모든 법인의 무조건 전액제외 아님.",
+        "p89: 적격합병 승계 주식의 보유기간은 피합병법인 취득일부터 계산."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p89"
+      ],
+      "questionSha256": "b031b4afd74936dcb1c0ac997839db8b4a5bf4183b90eab39b6e14429a9922e6",
+      "sourceNotesSha256": "48847ec22ded887b72bdc5502a02208e5061543b7785b1c19ee28ddf9d03c78b"
+    },
+    {
+      "id": "q2023-62",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "43,973,333원(제시 보기 없음). 수정소득 303,200,000원, 10개월 연환산 과표 363,840,000원.",
+      "noteEvidence": [
+        "p302: 토지양도는 등기·청산 등 빠른 날; 현재가치할인차금은 결산 미계상 시 신고조정으로 제외 불가; 1년 초과 지급기간 임대료는 경과분 인식.",
+        "p268: 부도 후 2개월인 채권은 6개월 부도요건 미충족.",
+        "p115: 전기요금 연체가산금은 손금, 건강보험 연체금은 손금불산입.",
+        "p472: 2026 일반세율 2억원까지 10%, 초과 20%; 1년 미만은 연환산 후 월수/12.",
+        "계산: 304−4−0.3+2+1.5=303.2백만원; [200×10%+(363.84−200)×20%]×10/12."
+      ],
+      "missingConditions": [],
+      "note": "구기출 보기와 현행 2026 세율 결과를 분리했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p25",
+        "part04.html#p268",
+        "part02.html#p115",
+        "part04.html#p302",
+        "part05.html#p472"
+      ],
+      "questionSha256": "3973986a167d04b7c08e5afb3a948234cf20e1056713fc292326283aef0d1305",
+      "sourceNotesSha256": "b3136beb80427999ac1fdf444a33e718cfd3d2db00a95a6c5ed7beba78e93969"
+    },
+    {
+      "id": "q2023-63",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "934,246원(①). 대표 256,164원, 전무 0원, 상무 678,082원.",
+      "noteEvidence": [
+        "p366: 대여일의 적격 차입금 가중평균이자율, 특수관계 차입금 제외; 시가이자와 수취이자 차액이 3억원 또는 시가이자 5% 문턱 이상이면 차액 전부.",
+        "p366: 5년 초과는 약정기간이 아닌 실제 경과기간.",
+        "적용: B은행 대출은 대여일 전 만기, D는 특수관계라 제외하여 C은행 3%; 대여일수 184·245·275. 전무 차이 약 5,479원은 5%에도 미달."
+      ],
+      "missingConditions": [],
+      "note": "문항별 완성 수치풀이를 제외하고 일반규칙과 날짜에서 다시 산출했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p366"
+      ],
+      "questionSha256": "23a9a78dd052b15c0aa7d43efa4e905277e6c88f623fbaa9cff98cec2c2aa5dc",
+      "sourceNotesSha256": "1996b5078cb662dc65c0ac303093a05863113a1d80da06b9a45295d980ecddde"
+    },
+    {
+      "id": "q2023-64",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "기타사외유출 75,930,000원(①).",
+      "noteEvidence": [
+        "p208: 법인인 직원조합 복리시설비와 관계유지 목적 채권포기는 기업업무추진비로 분류.",
+        "p215: 중소기업 기본한도 3,600만원×월수/12; 일반 매출부터 100억원 0.3%, 500억원까지 0.2%, 초과 0.03%; 특정매출 해당 한도의 10%.",
+        "p215: 개인지출·귀속불명액은 상여, 실제 접대 적격증빙 미비액과 연간 한도초과액은 기타사외유출.",
+        "계산(백만원): 한도대상 225+3+10−15−5−4=214; 한도 30+30+80+1.8+0.27=142.07; 기타사외유출=4+(214−142.07)."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p208",
+        "part03.html#p215"
+      ],
+      "questionSha256": "4aae14e4d862d0ff03c3d4e015777546697dd2eaad7ab6fa910a2adf1e247b3c",
+      "sourceNotesSha256": "2f942e5962d60dc194604364b157f83f42a3c18c191d7158611cf2a08093c0ef"
+    },
+    {
+      "id": "q2023-65",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "익금불산입 3,500,000원(△유보), ④. 잔여 +유보 3,500,000원.",
+      "noteEvidence": [
+        "p33: 양의 유보는 회계 장부보다 세무상 자산가액이 큰 차이이며 추인 때 손금산입(△유보)으로 해소.",
+        "p358: 자산 처분 시 자산가액 차이를 해소한다는 일반규칙.",
+        "적용: 처분 50%에 대응하는 세무원가 가산분 7,000,000×50%=3,500,000; 장부 이익 8,000,000보다 세법 이익이 그만큼 감소."
+      ],
+      "missingConditions": [],
+      "note": "동일 기출숫자를 재현한 p358 예제는 사용하지 않았다. 양의 자산 유보와 부분처분의 대응관계로 도출했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p358",
+        "part02.html#p33"
+      ],
+      "questionSha256": "96ba93817912202281d3987b3296fd8e1ac511a53c5a4c89d4aeb9acd2ac15f8",
+      "sourceNotesSha256": "c1ecdc99ac694da84a19fa6b7a3b37068766130a86bbd10d5b1d260b0663a4f3"
+    },
+    {
+      "id": "q2023-66",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": true,
+      "finalPass": false,
+      "strictPass": false,
+      "answer": "조건검토: 당기 조정 전 결손 27,000,000원, 기부금 한도초과액=27,000,000−소급결손금. 원자료 일반산출세액은 35,000,000−15,000,000=20,000,000원. 2025 세율함수 없이 자료 일관성과 현행 금액을 확정할 수 없다. 단순히 10%를 가정하면 결손 12,000,000원·한도초과 15,000,000원이나 이는 검증된 2025 세율 적용이 아니다.",
+      "noteEvidence": [
+        "p200: 기부금 한도초과를 가산하면 결손 크기가 감소; 직전 세율과 세액자료의 일치 확인.",
+        "p461·p695: 직전 일반 산출세액−직전 과표에서 결손을 뺀 금액에 직전연도 세율을 적용한 세액; 토지등 양도분은 일반산출세액에서 제외."
+      ],
+      "missingConditions": [
+        "2025년 일반 내국법인 세율표 또는 이 문제에 적용할 직전연도 세율이 notes에 없다."
+      ],
+      "note": "조건별/전제검토 문항. 예제에서 가정한 10%를 2025년 법정세율로 전용하지 않았다.",
+      "strictPassReason": "조건부·전제검토 문항으로 분모에는 포함하되 단일선지·완전확정 문제와 구분하여 엄격 통과 수에서 제외.",
+      "sourceTargets": [
+        "part03.html#p200",
+        "part05.html#p461",
+        "part08.html#p695"
+      ],
+      "questionSha256": "734aedcc863395d445e6fe5f20b88db5e9806f6c4b0d6e8c09b0f9179197f137",
+      "sourceNotesSha256": "6552d7f5f435912b7c6fe6aa57d1af0b3a80e9b1314fa1cd3cd05873e11ecde0"
+    },
+    {
+      "id": "q2023-67",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③X ④O ⑤O",
+      "noteEvidence": [
+        "p509: 법정 외부감사를 받은 법인은 확인서 생략 가능, 실제 제출하는 대상법인은 4개월 신고기한.",
+        "p514: 성실신고확인 대상 개인사업자 법인전환은 전환 후 사업연도 말 현재 3년 이내.",
+        "p514: 미제출가산세는 산출세액 기준액 5%와 수입금액 0.02% 중 큰 금액; 경정 시 경정산출세액 사용."
+      ],
+      "missingConditions": [],
+      "note": "최종 갱신본에서 복구된 가산세 일반산식으로 ④⑤를 도출했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part06.html#p509",
+        "part06.html#p514"
+      ],
+      "questionSha256": "5dcb4639b8bec7957d89a886de87fefa381652f0a0cca4b0e09426aea3e80e92",
+      "sourceNotesSha256": "281016748278ce349f93e9b4a3ff04ccfc451c06976727eaed99bec147660906"
+    },
+    {
+      "id": "q2023-68",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②X ③X ④O ⑤X",
+      "noteEvidence": [
+        "p575: 고유목적 직접사용 3년 경로 또는 10년 안분 경로에 해당하는 자산 처분수입은 제외.",
+        "p589: 준비금은 설정연도 손금, 5년 내 미사용액 익금환입이며 세액에서 3년 차감하는 제도 아님.",
+        "p602: 자산양도 특례도 법인세 신고·납부 절차이며 자동 면세 아님.",
+        "p610·p584: 비영리내국법인은 장부 기록보관 불성실 가산세 제외이나 수익사업 구분경리 의무는 있음."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part07.html#p575",
+        "part07.html#p589",
+        "part07.html#p602",
+        "part07.html#p610",
+        "part07.html#p584"
+      ],
+      "questionSha256": "c6454acb3b51cd4c323cf4dbf1ee4d01a3511f280a7edf879b03c049260e644a",
+      "sourceNotesSha256": "0a86a2ab63060324425fee47ad56856f12ff1eacec6167bc6eb8f778be2cc160"
+    },
+    {
+      "id": "q2023-69",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③X ④O ⑤O",
+      "noteEvidence": [
+        "p228·p229: 거래 당시 확인된 채권자가 변제 후 소재불명인 경우 구별; 발행법인 직접지급 중 수령인 및 지급사실 불분명은 부인.",
+        "p230: 특정차입금 자본화는 건설기간에 한하며 준공 후 이자는 이후 비용.",
+        "p230: 원본 가산 연체이자 최초액은 자본적 지출, 가산액에서 다시 발생한 이자는 손금.",
+        "p236: 법정 퇴직금전환금은 근로자 퇴직 시까지 해당액을 업무무관 가지급금에서 제외."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p228",
+        "part03.html#p229",
+        "part03.html#p230",
+        "part03.html#p236"
+      ],
+      "questionSha256": "b131493973bd8a23459e5be8e25a1d60464a1aa1a13b343a797843ed7f3bb180",
+      "sourceNotesSha256": "5883b4819217ea2eb6eace29254f1c37a41e53702c5b4f5ab785d49366395ad4"
+    },
+    {
+      "id": "q2023-70",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "ㄱX ㄴO ㄷX",
+      "noteEvidence": [
+        "p169: 당기 자산별 수선비 합계 600만원 미만 또는 전기 말 순장부가액 5% 미만 또는 3년 미만 주기 수선 중 하나를 충족하면 전액 손금.",
+        "600만원 이상이나 정확히 3년 주기는 각각 해당 문턱을 충족하지 않음."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p169"
+      ],
+      "questionSha256": "91b97127edec056f95b9296bd3b5d7af4d77a5f1d2bd54f4e30fa3fd11ceb62b",
+      "sourceNotesSha256": "73580a9a64a57ebd0f2a65bf0dd7718ad18f5c29072064ff5489275650d73cd7"
+    },
+    {
+      "id": "q2024-61",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③X ④O ⑤O",
+      "noteEvidence": [
+        "p13: 사업연도 1년 상한, 규정 없는 내국법인은 설립신고·사업자등록과 함께 정한 기간 신고.",
+        "p15: 변경신고는 직전 종료일부터 3개월 이내; 전환기간 1개월 미만이면 새 사업연도 포함.",
+        "p16: 분할로 해산하면 분할등기일까지.",
+        "p14: 국내사업장 없는 외국법인의 해당 부동산등양도소득은 최초 발생일 개시."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part01.html#p13",
+        "part01.html#p14",
+        "part01.html#p15",
+        "part01.html#p16"
+      ],
+      "questionSha256": "f0b5097a75e3e9936db373a59da43f2d977a98905295c343a80af4c62540df28",
+      "sourceNotesSha256": "6338bbf909bfa0d50efe47555e41f0063748e62e5a9450285d4e89ed54e69ad4"
+    },
+    {
+      "id": "q2024-62",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③O ④O ⑤X",
+      "noteEvidence": [
+        "p33: 기부금 한도초과는 기타사외유출; 수정신고기한 내 회수·익금산입 특례와 경정 인지 예외.",
+        "p33: 귀속불명 대표자 상여 소득세 대납의 법정 조건을 충족하면 기타사외유출; 대표자 변경 귀속불명은 재직일수 안분.",
+        "p533: 추계 과표와 결산서상 법인세비용차감전순이익의 차액은 원칙적으로 대표자 상여, 천재지변 멸실 특례는 기타사외유출."
+      ],
+      "missingConditions": [],
+      "note": "최신 문제 ②에 장부상 당기순이익(법인세비용 차감 전)이 실제 명시되어 있다. 이전 축약문구 문제는 해소되었으며 본문 일반규칙으로 다섯 선지를 모두 설명할 수 있다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p33",
+        "part06.html#p533"
+      ],
+      "questionSha256": "e583a102c4424e9c38018d624e429343d9ab929ba608ef809cccf12e2d506511",
+      "sourceNotesSha256": "3fac21800f37519487cbb9fc1916ae4dfef0d6442eae86fe6fc4ddb970be6d2b"
+    },
+    {
+      "id": "q2024-63",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "ㄱX ㄴO ㄷX ㄹO ㅁX ㅂX ㅅO",
+      "noteEvidence": [
+        "p115: 건강보험 연체금·산재보험료 가산금·벌과금은 손금불산입; 산재보험료 연체금과 전기요금 연체가산금은 손금.",
+        "p115: 한국은행 최저준비금 부족 과태금은 손금불산입, 보세 원자재 법정기간 경과 국고귀속 자산손실은 손금산입."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p94",
+        "part02.html#p115"
+      ],
+      "questionSha256": "fa4c07f5360ca7fe7379401c9ccdb3e14c98012ae8fa38d8f22534c4c9c4c06f",
+      "sourceNotesSha256": "79121094c54c5c31d8743e9db22b084ab4d0fdf34b73a982480f0a5921eb7eb1"
+    },
+    {
+      "id": "q2024-64",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "B 3,000,000원 / C 4,000,000원 / D 1,000,000원(④).",
+      "noteEvidence": [
+        "p70: 제외 재원 자본전입도 자기주식으로 다른 주주 지분이 증가하면 전입 후 총주식수 × 지분율 증가 × 액면가액을 의제배당.",
+        "적용: 무상주 400,000주. 사례1 총500,000주, B·C·D 배당 15·20·5백만원. 사례2 자기주식 몫 80,000주 미발행, 총420,000주, 배당 12·16·4백만원. 차액 3·4·1백만원."
+      ],
+      "missingConditions": [],
+      "note": "발행가액 5,000원은 이 잉여금 자본전입 주식수 계산의 액면가액 500원과 구별했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p70"
+      ],
+      "questionSha256": "ccb7dc9e848f709d275f957c3b4a539b185130180d6cba0882988b23683596d5",
+      "sourceNotesSha256": "16857be69087e2471cd631f679244167ad77dbe666c2ad4c7397dbd269629ae8"
+    },
+    {
+      "id": "q2024-65",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": false,
+      "strictPass": false,
+      "answer": "지출증빙 없는 8,000,000원이 실제 지출 입증불가·귀속불명이라는 전제이면 대표자상여 8,000,000원 / 기타사외유출 12,350,000원(①).",
+      "noteEvidence": [
+        "p208·p215: 실제 지출·업무 관련성 확인 후 증빙 미비를 제외하고 한도 계산; 가공 사외유출 귀속불명은 대표자 상여.",
+        "p215: 일반법인 기본한도 12백만원; 일반매출 75억원×0.3%=22.5백만원; 특정매출 한도=(25억원×0.3%+20억원×0.2%)×10%=1.15백만원.",
+        "한도 35.65백만원; 적격대상 42백만원−한도=6.35백만원; 실제지출 확인된 부적격증빙 6백만원을 더하면 기타사외유출12.35백만원."
+      ],
+      "missingConditions": [
+        "문제의 '지출증빙 없음'만으로 실제 지출을 입증하지 못하고 사외유출 귀속도 불분명한지까지 명시되지 않았다."
+      ],
+      "note": "기출의 일반풀이에서는 '지출증빙 없음'을 실제 업무지출 입증불가 및 귀속불명 사외유출로 읽어 대표자상여 8,000,000원으로 처리한다. 그 해석을 수용하면 ①이며 나머지 한도계산·기타사외유출액은 본문에서 도출된다. 그러나 현재 문제·본문에는 무증빙만으로 귀속불명이 성립한다는 등치규칙 또는 귀속불명 사실이 없다. 따라서 두 처분금액 전체를 일반규칙과 명시된 사실만으로 엄격히 확정했다는 finalPass·strictPass는 false로 유지한다. 기출 해설의 정답 숫자는 이 전제를 대신하는 근거로 사용하지 않았다.",
+      "strictPassReason": "현재 본문과 명시된 문제 사실만으로 모든 요구 결과를 확정하는 데 필요한 조건이 부족.",
+      "sourceTargets": [
+        "part03.html#p208",
+        "part03.html#p215"
+      ],
+      "questionSha256": "db1696b320e703efce629f0ccb0a638b81c2bf12eda073446d57bb064e1c5bd1",
+      "sourceNotesSha256": "2f942e5962d60dc194604364b157f83f42a3c18c191d7158611cf2a08093c0ef"
+    },
+    {
+      "id": "q2024-66",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "81,674,945원(①).",
+      "noteEvidence": [
+        "p268: 시효완성은 사유 발생연도 신고조정; 재판상 화해는 손비계상연도; 비중소기업 부도외상매출금은 적격 부도채권 범위 밖, 부도어음은 6개월·저당권 없음 조건에서 1,000원 남김.",
+        "p279: 실적률=당기 세법상 대손/전기 말 세무채권; 기말한도=기말 세무채권×max(1%,실적률); 장부기말충당금에서 한도 차감.",
+        "적용: 대손74,999,000/전기채권1,360,000,000→0.055; 기말채권2,515,001,000×0.055=138,325,055; 220,000,000−138,325,055."
+      ],
+      "missingConditions": [],
+      "note": "같은 숫자의 p268·p279 완성풀이를 증거에서 제외하고 법정 대손 구분과 일반한도식에서 계산했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p268",
+        "part04.html#p279"
+      ],
+      "questionSha256": "f548e6716076b62681089bba2ca1367b92449a94d214c9def800c5073930dc32",
+      "sourceNotesSha256": "b12ab284e0113dabff4496db7774cb412cde65e335ed204b30f75bd65820fcb2"
+    },
+    {
+      "id": "q2024-67",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "제5기: 손금불산입 200,000,000원(상여), 손금산입 200,000,000원(△유보), ⑤.",
+      "noteEvidence": [
+        "p358: 시가상당액부터 지급한 것으로 보며 지급초과액=min(P−S,max(C−S,0)); 미지급초과액=(P−S)−지급초과액.",
+        "p358: 미지급 초과액을 나중에 지급하면 귀속자 가산처분과 종전 미지급 유보 손금산입.",
+        "적용: 취득기 미지급초과=(800−500)−(600−500)=200백만원; 다음 해 지급분에 두 조정."
+      ],
+      "missingConditions": [],
+      "note": "같은 기출숫자를 그대로 서술한 3개 연도 표는 제외했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p358",
+        "part08.html#p687"
+      ],
+      "questionSha256": "3194a0a2daf874197f71a44cabcde4fcd3103c3c8d90d3b30e7d849eae844761",
+      "sourceNotesSha256": "5bca64c4ebff98184422cf8dfb66ad983dd9cc0f0e55ca0b7e7b778f3d3061b9"
+    },
+    {
+      "id": "q2024-68",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③O ④O ⑤X",
+      "noteEvidence": [
+        "p288: 보조금 익금과 적격자산 사용 재원 대응 충당금 손금으로 과세이연; 상각자산 일시상각충당금, 비상각자산 압축기장충당금.",
+        "p290: 멸실 동종유형자산 대체·손괴자산 개량에 사용한 보험차익을 요건별 이연.",
+        "p295: 기한경과·사용 전 폐업해산은 미사용액 익금; 합병분할 승계법인 관리.",
+        "p288: 법정 세무조정계산서에 계상하여 신고 시 손금산입 가능."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p288",
+        "part04.html#p290",
+        "part04.html#p295"
+      ],
+      "questionSha256": "1f74e69f6357281daca3be657b6e96547f32e5970eb53ddace56bbfd1921dfcf",
+      "sourceNotesSha256": "889af5ca38af0180c9a41d5615da57f7c9fc6d996031144b5a52e344babb3173"
+    },
+    {
+      "id": "q2024-69",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②X ③X ④O ⑤O",
+      "noteEvidence": [
+        "p468: 대상법인·90% 배당요건 충족 시 잉여금처분 대상 사업연도에서 공제; 기관전용 사모집합투자기구 제외.",
+        "p468: 배당가능이익은 이익준비금·법정 평가손익 등의 추가 조정 필요.",
+        "p468: 최초 이월액은 결손금 차감 후 소득을 초과하는 배당액이며 5년 이월; 이월연도도90%요건.",
+        "p468: 지급법인 배당소득공제를 받은 배당은 수취법인 익금불산입과 중복 불가."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p468"
+      ],
+      "questionSha256": "0a4f67d6233437748027ba36e2e4ea9c7602f859656895b5c42dbb501e8cfa97",
+      "sourceNotesSha256": "865afb5cf4e3f6b8e7f5441c01a4d47423f705804472d454df3ac16f2c5702cd"
+    },
+    {
+      "id": "q2024-70",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②O ③X ④X ⑤X",
+      "noteEvidence": [
+        "p401: 합병 전 자기결손은 자기 종전 사업소득, 승계결손은 승계사업 소득에서 공제.",
+        "p401: 승계결손은 채무면제익 보전 익금불산입 불가; 승계기부금은 승계사업 소득에 종류별 한도 적용.",
+        "p401: 사업폐지·주식처분의 일반 사후관리 2년, 근로자유지는3년."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part05.html#p401"
+      ],
+      "questionSha256": "3b905eebe3e289ca4840c309e92879616d79f48f20386eafb1ea556e008f2e1d",
+      "sourceNotesSha256": "db029e46beb37e55c5e323a9a2122771a41fd416d5c7e5653c39fbc753d8fb91"
+    },
+    {
+      "id": "q2025-61",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": true,
+      "finalPass": true,
+      "strictPass": false,
+      "answer": "조건별: 업종별 매출액 규모 예외가 없으면 가결산 65백만원. 규모 예외에 해당하고 다른 가결산 의무가 없으면 직전기 방식45백만원과 가결산65백만원 중 선택, 최소45백만원(②).",
+      "noteEvidence": [
+        "p518: 직전 말 공시대상기업집단은 가결산 원칙이나 업종별 매출액 규모 예외는 선택 가능.",
+        "p518 일반식: 직전기 (산출세액−감면−원천징수−수시부과)×6/월수; 직전 중간예납 별도 차감 안함.",
+        "p472: 2026 일반법인 2억원10%·초과20%, 6개월 연환산.",
+        "적용(백만원): 반기과표500→연환산1000→세액180×1/2−13−2−10=65; 직전기(151−42−19)×1/2=45."
+      ],
+      "missingConditions": [],
+      "note": "조건별/전제검토 문항. 같은 숫자의 p518 완성풀이 대신 별도로 제시된 일반식으로 재산출했다. 실제 업종·매출 자료가 없으므로 예외 해당 여부 자체는 단정하지 않았다.",
+      "strictPassReason": "조건부·전제검토 문항으로 분모에는 포함하되 단일선지·완전확정 문제와 구분하여 엄격 통과 수에서 제외.",
+      "sourceTargets": [
+        "part06.html#p518",
+        "part05.html#p472"
+      ],
+      "questionSha256": "532ae2d4dec52061350337402de09030e6e1cd5b22500e90e4954dbd243fb34e",
+      "sourceNotesSha256": "3ca56a6f1f9eced74cfa24b5cdfe2a46884b453665dec167c93869d0f01517a3"
+    },
+    {
+      "id": "q2025-62",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "189백만원(③)=상품55+제품90+재공품27+원재료17.",
+      "noteEvidence": [
+        "p328: 변경신고는 종료일 이전3개월까지; 늦으면 다음 사업연도 적용.",
+        "p328: 신고대로 평가하면 신고방법, 임의변경은 무신고방법(선입선출)과 적법한 신고방법 평가액 중 큰 금액.",
+        "적용: 상품의 전기10월 신고는 당기 유효; 나머지는 각각 max(90,85), max(27,21), max(16,17)."
+      ],
+      "missingConditions": [],
+      "note": "동일 숫자의 완성합계·조정액은 증거에서 제외했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p328"
+      ],
+      "questionSha256": "7ca13ded18b3690ac7a402cf5d255fec31179765f1cb1271a268afbdca3d18a6",
+      "sourceNotesSha256": "b784b119724cbcde1fd2584e6e0bac869b2255cd90170a8c160e323b1b5d8f5f"
+    },
+    {
+      "id": "q2025-63",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②O ③O ④O ⑤O",
+      "noteEvidence": [
+        "p70: 출자전환도 시가발행 액면초과액은 일반 주식발행초과금이고 시가초과액과 구별.",
+        "p70: 이익잉여금으로 상환한 상환주식 액면초과액은 대상; 소각 당시 시가>취득가면 시기 무관.",
+        "p70: 적격분할 승계재산 평가증액은 분할차익 한도, 적격합병 피합병법인 이익잉여금은 합병차익 한도에서 대상."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p70",
+        "part02.html#p80"
+      ],
+      "questionSha256": "90334fae8aa765b1309c89b93c6277cc3e7e8df7384bd63e8029ed85f0df174e",
+      "sourceNotesSha256": "eaa087937c5a1d4c5ecb2bae6fe6cfcddd9bb5608fdc9cbddb308f029faf86fb"
+    },
+    {
+      "id": "q2025-64",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": true,
+      "finalPass": true,
+      "strictPass": false,
+      "answer": "일별 계산 약6,249,041.10원(6.249041095백만원, 제시 보기 없음).",
+      "noteEvidence": [
+        "p65: 추계 외 간주익금=max(0,(보증금적수−건설비상당액적수)×이자율/365−금융수익), 기준일 연3.1%.",
+        "p65: 건설비는 토지 제외 건물취득가액이며 감가상각누계액 차감 안함; 임대면적 적수 비율 사용.",
+        "p65: 보증금 적수는 실제 수령잔액과 일수; 처분손익 합계 음수인 처분이익은0.",
+        "적용(백만원·일): 보증금500×365+300×144=225700; 건설비400×(600×365+300×146)/900=116800; (225700−116800)×0.031/365−(2.5+0.5)."
+      ],
+      "missingConditions": [],
+      "note": "조건별/전제검토 문항. 실제 수령일8월10일(144일)과 임대개시8월8일(146일)을 구분했다. 월말잔액 방식을 적용하지 않았다.",
+      "strictPassReason": "조건부·전제검토 문항으로 분모에는 포함하되 단일선지·완전확정 문제와 구분하여 엄격 통과 수에서 제외.",
+      "sourceTargets": [
+        "part02.html#p65"
+      ],
+      "questionSha256": "e463d466ce6e55de686f699a16851e0d7572a20ea4e52e8853bf7e63097a8094",
+      "sourceNotesSha256": "e8426c4bf03d3ae91ebe3513262cdcac6cc50b1312c2356ee71b56f6bbc5bb73"
+    },
+    {
+      "id": "q2025-65",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③O ④O ⑤X",
+      "noteEvidence": [
+        "p321: 적격합병분할은 종전 장부가; 의무매입 공채 할인차액 회계상 유형자산 원가에 넣으면 포함.",
+        "p321: 현물출자로 신설하여 주식만 받은 출자법인 주식취득가액은 출자순자산 시가.",
+        "p321: 정부 무상할당 배출권은0; 별도 특례 없는 교환은 취득한 자산 시가."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p321"
+      ],
+      "questionSha256": "1b933ec4a46a3d06b892a638131058d9fa0e7606f1253c89f62c00cc38534b67",
+      "sourceNotesSha256": "5600b0cf8485b42785177a2d64e02303a3c247dab77c56a75a64b1dac4dc7b63"
+    },
+    {
+      "id": "q2025-66",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "100 / 100 / 360백만원(①).",
+      "noteEvidence": [
+        "p255: 연금지급을 급여충당금으로 상계한 금액은 연금부담금 손금불산입(유보)·급여충당금 손금산입(△유보).",
+        "p255: 추계액은 두 기준 중 큰 금액. 누계한도=min(추계액−세무급여충당금,기말운용자산); 당기한도는 지급후 세무연금충당금을 차감; 장부 당기설정액 차감 후 추가손금.",
+        "일반 잔액식 적용: 상계정리250−150=100; 세무급여충당금0+100−20=80; 연금이월750−150−250=350; 추가=min(990−80,930)−350−200=360."
+      ],
+      "missingConditions": [],
+      "note": "동일 기출숫자의 문단들을 제외하고 일반 잔액식과 한도식으로 산출했다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p248",
+        "part04.html#p255"
+      ],
+      "questionSha256": "2b613d22eb4bfb0ed52d4ee64b5de5f86ff4885e6ccf8630fda894a351182221",
+      "sourceNotesSha256": "e992dc687ba583c6a69b628359e4fb12b4f7d6bd8384b7e51948e6d640a1dcfd"
+    },
+    {
+      "id": "q2025-67",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "ㄱO ㄴX ㄷX ㄹO ㅁO ㅂX ㅅX",
+      "noteEvidence": [
+        "p94: 특수관계 저가장부계상 감가상각 차액은 min(실제취득가,시가)−장부계상액.",
+        "p94: 대손세액공제 받은 매출세액 중복 손금 불가; 등록협회라도 정상징수 경상경비 목적 등 조건 확인.",
+        "p94: 탐광 개발비와 우리사주조합 출연 자사주 장부가액 포함.",
+        "p94: 유족학자금은 사망 전 공통기준·일시지급 등 요건; 책임준비금 할인율 평가증가분 제외."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part02.html#p94"
+      ],
+      "questionSha256": "b522673ecb3f00f9e0992fab929fc633fd2ad69028c0b5a3ebf0ab8209c3f3c7",
+      "sourceNotesSha256": "39f87aac56e884d329f36ac104c4d10e5e9b200f255cfd8bd2061d97983e7da3"
+    },
+    {
+      "id": "q2025-68",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①O ②O ③X ④O ⑤O",
+      "noteEvidence": [
+        "p169: 법정 원상회복 철거는 폐기연도 장부가액−1,000원 손금 가능.",
+        "p169: 재해복구 자본적지출 비용계상은 상각계상액과 상각기초 양쪽에 반영.",
+        "p169: 수선비 비율은 전기 말 순장부가액5% 미만이며 취득가액 기준 아님;600만원 미만은 독립 요건.",
+        "p169: 휴대전화·개인용컴퓨터는 별도 열거자산으로 대량 보유 여부·100만원 기준과 구별."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part03.html#p169"
+      ],
+      "questionSha256": "2847b74621172161f779c770fa6a17552da7cc907a2622c5cc00204e90557db3",
+      "sourceNotesSha256": "73580a9a64a57ebd0f2a65bf0dd7718ad18f5c29072064ff5489275650d73cd7"
+    },
+    {
+      "id": "q2025-69",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "3.25백만원(②)=甲0.25+乙3.",
+      "noteEvidence": [
+        "p302: 누적진행률=누적 실제원가/총예정원가; 당기익금=계약금액×누적진행률−전기 세법상 누적익금; 장부수익과 차액 조정.",
+        "p677: 예정원가 변동이 없다면 종전 적법한 누적수익을 빼며 전기추정치 임의 소급수정 안함.",
+        "적용: 甲 전기원가52−28.6−5.2=18.2→전기세무수익75×18.2/52=26.25; 당기75×46.8/52−26.25=41.25. 乙84×43.35/57.8=63."
+      ],
+      "missingConditions": [],
+      "note": "동일 기출숫자 완성풀이를 제외했다. 제24기 익금산입0.25는 전기 세무상누적익금26.25 안에 포함되므로 중복 차감하지 않는다.",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part04.html#p302",
+        "part08.html#p677"
+      ],
+      "questionSha256": "6b363baee6ff2818daf50ee0eae846b0c28bea7fe53f044a8c2504b910ed4317",
+      "sourceNotesSha256": "5084d06812f2642ea2834b91af4fac9a1b8454e31677e45a74dccecadea49955"
+    },
+    {
+      "id": "q2025-70",
+      "checkedCommit": "0b19b25",
+      "denominatorIncluded": true,
+      "conditionalReview": false,
+      "finalPass": true,
+      "strictPass": true,
+      "answer": "①X ②O ③O ④O ⑤O",
+      "noteEvidence": [
+        "p533: 무신고 결정은 과세표준 신고기한부터1년 이내.",
+        "p533: 국세청장이 특히 중요하다고 인정하면 지방청장 결정경정 가능, 관련서류 지체 없이 송부.",
+        "p533: 지급명세서·계산서합계표 전부일부 미제출은 경정사유, 신고서첨부서류·실지조사 원칙, 재오류 발견 시 즉시 재경정."
+      ],
+      "missingConditions": [],
+      "note": "",
+      "strictPassReason": "OX 모든 선지 또는 현행 계산금액을 현재 본문의 일반규칙·다른 숫자 예제·명시된 계산조건으로 도출.",
+      "sourceTargets": [
+        "part06.html#p533"
+      ],
+      "questionSha256": "4971595f20c25368ca25802cb5988f9da761041d793a5cf0e1c0a258b48f62d1",
+      "sourceNotesSha256": "07e8d134d12dfd065b65f8cc86f10deb375cfb21352f4260f6c179e9712a17fe"
+    }
+  ]
+}

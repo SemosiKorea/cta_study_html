@@ -1,0 +1,17 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),{JSDOM}=require('jsdom'),YAML=require('yaml');
+const root=path.resolve(__dirname,'../..'),dir=path.join(root,'법인세_전범위_압축회독');
+const read=file=>fs.readFileSync(file,'utf8');const doc=file=>new JSDOM(read(file)).window.document;
+const data=JSON.parse(read(path.join(__dirname,'exam-2021.json'))),additions=JSON.parse(read(path.join(__dirname,'additions.json'))),review=JSON.parse(read(path.join(__dirname,'review.json'))),exam=doc(path.join(dir,'exam.html'));
+assert.deepEqual(data.questions.map(q=>q.number),[61,62,63,64,65,66,67,68,69,70]);
+assert.equal(exam.querySelectorAll('.problem').length,50);assert.equal(exam.querySelectorAll('.option').length,132);assert.equal(exam.querySelectorAll('.calc-entry').length,24);
+const ids=[...exam.querySelectorAll('[id]')].map(x=>x.id);assert.equal(new Set(ids).size,ids.length);
+const base=YAML.parse(read(path.join(dir,'법인세_기출40문항_회독웹앱.yaml'))).cards,newCards=YAML.parse(read(path.join(dir,'법인세_2021추가_회독웹앱.yaml'))).cards,all=YAML.parse(read(path.join(dir,'법인세_기출50문항_회독웹앱.yaml'))).cards;
+assert.equal(base.length,126);assert.equal(newCards.length,30);assert.equal(all.length,156);assert.deepEqual(all.slice(0,126),base);assert.deepEqual(all.slice(126),newCards);
+assert.equal(new Set(additions.items.map(x=>x.target)).size,additions.items.length);
+const cached=new Map();function load(file){if(!cached.has(file))cached.set(file,doc(file));return cached.get(file)}
+function localLink(a,file){const href=a.getAttribute('href');if(!href||/^[a-z][a-z0-9+.-]*:/i.test(href))return;const u=new URL(href,'https://local/'+path.relative(root,file)),local=path.join(root,decodeURIComponent(u.pathname));assert(fs.existsSync(local),`${file}: ${href}`);if(u.hash&&local.endsWith('.html'))assert(load(local).getElementById(decodeURIComponent(u.hash.slice(1))),`${file}: ${href}`);if(a.dataset.preview)assert(fs.existsSync(path.resolve(path.dirname(file),a.dataset.preview)),a.dataset.preview)}
+for(const q of data.questions){const s=exam.getElementById('q2021-'+q.number);assert(s);assert.equal(s.querySelectorAll('details[open]').length,0);if(q.type==='calculation'){assert(s.querySelector('.calc-entry').nextElementSibling.matches('details.calc-reveal'));for(const f of q.calculation.fields)assert(s.querySelector('.calc-reveal').textContent.includes(f.answer));}else{assert.equal(s.querySelectorAll('.option').length,5);assert.deepEqual([...s.querySelectorAll('.option .solution>strong')].map(x=>x.textContent),q.options.map(x=>x.answer));}for(const t of q.bodyTargets){const[f,id]=t.split('#'),d=load(path.join(dir,f)),a=d.getElementById(id);assert(a,t);assert(a.querySelector(`[data-exam-2021-links] a[href="exam.html#q2021-${q.number}"]`),t);}}
+for(const f of ['index.html','exam.html','exam-coverage.html',...new Set(data.questions.flatMap(q=>q.bodyTargets.map(t=>t.split('#')[0])))]){const file=path.join(dir,f),d=load(file);for(const a of d.querySelectorAll('a[href]'))localLink(a,file);}
+assert.equal(review.questions.length,50);assert.equal(new Set(review.questions.map(q=>q.id)).size,50);assert.equal(load(path.join(dir,'exam-coverage.html')).querySelectorAll('tbody>tr').length,50);
+if(review.questions.every(q=>typeof q.strictPass==='boolean')){const passed=review.questions.filter(q=>q.strictPass).length;assert(passed>=40);console.log(`Body evidence: ${passed}/50 (${passed*2}%), exceptions remain in denominator`)}
+console.log('50 questions, 132 OX + 24 calculations, 156/30 decks, note backlinks, local source links passed');

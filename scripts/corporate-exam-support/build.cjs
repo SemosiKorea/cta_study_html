@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const {JSDOM} = require('jsdom');
+require('./build-2021.cjs');
 const root = path.resolve(__dirname, '../..');
 const dir = path.join(root, '법인세_전범위_압축회독');
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'additions.json'), 'utf8'));
@@ -52,7 +53,14 @@ for (const change of data.examClarifications || []) {
 }
 const review = JSON.parse(fs.readFileSync(path.join(__dirname, 'review.json'), 'utf8'));
 const exam = new JSDOM(fs.readFileSync(path.join(dir, 'exam.html'), 'utf8')).window.document;
-const labels = {existing:'기존 본문 규칙', supplemented:'조건·산식 보강', conditional:'조건별 계산·별도 검토', premise:'기출 전제 읽기'};
+const labels = {existing:'기존 본문 규칙', supplemented:'조건·산식 보강', conditional:'조건별 계산·별도 검토', premise:'기출 전제 읽기', reconstructed:'현행 학습용 재구성'};
+const passed = review.questions.filter(q=>q.strictPass===true).length;
+const excluded = review.questions.filter(q=>q.strictPass===false);
+const total = review.questions.length;
+const percent = Math.round(passed / total * 100);
+const period = `${review.years[0]}~${review.years.at(-1)}년`;
+const complete = review.questions.every(q=>typeof q.strictPass==='boolean');
+const measurement = complete ? `<h3>본문 근거 충족 ${passed}/${total}문항 · ${percent}%</h3><p>목표 ${review.targetPercent}%에 대해, 문제 자료와 연결된 <b>노트 본문의 일반 규칙만으로</b> 모든 선지의 O·X 또는 요구 금액을 도출할 수 있는지 점검했습니다. 기출 해설의 정답·완성 계산값은 본문 근거로 세지 않았습니다.</p><p class="sentence-note">학습자의 실제 정답률을 측정한 수치는 아닙니다. 조건을 보완해야 하거나 현행 학습용으로 재구성한 ${excluded.length}문항도 분모 ${total}문항에 남겨 보수적으로 집계했습니다.</p><details><summary>엄격한 충족 집계에서 제외한 ${excluded.length}문항</summary><ul>${excluded.map(q=>`<li>${anchor('exam.html#q'+q.id,q.id.replace('-','년 ')+'번')} · ${escape(q.strictReason)}</li>`).join('')}</ul></details>` : '<p>본문 근거 충족 여부를 점검 중입니다.</p>';
 const bodyLink = target => {
   const [file,id] = target.split('#');
   const d = new JSDOM(fs.readFileSync(path.join(dir,file),'utf8')).window.document;
@@ -63,13 +71,13 @@ const bodyLink = target => {
 const sections = review.years.map(year => `<section class="panel" id="year-${year}"><h2>${year}년</h2><div class="intro-table"><table><thead><tr><th scope="col">문항</th><th scope="col">본문 연결</th><th scope="col">확인할 내용</th></tr></thead><tbody>${review.questions.filter(q => q.id.startsWith(year+'-')).map(q => {
   const problem = exam.getElementById('q'+q.id); assert(problem,q.id);
   const title = problem.querySelector('h2').textContent;
-  return `<tr><td>${anchor('exam.html#q'+q.id, q.id.split('-')[1]+'번 · '+title)}<p class="sub">${labels[q.status]}</p></td><td>${q.body.map(bodyLink).join('<br>')}</td><td>${q.supplements.length ? q.supplements.map(escape).join('<br>') : '연결된 본문의 일반 규칙·산식으로 대조합니다.'}${q.note ? `<p class="sentence-note">${escape(q.note)}</p>` : ''}</td></tr>`;
+  return `<tr><td>${anchor('exam.html#q'+q.id, q.id.split('-')[1]+'번 · '+title)}<p class="sub">${labels[q.status]} · ${q.strictPass===true?'본문 근거 충족':q.strictPass===false?'별도 검토':'점검 중'}</p></td><td>${q.body.map(bodyLink).join('<br>')}</td><td>${q.supplements.length ? q.supplements.map(escape).join('<br>') : '연결된 본문의 일반 규칙·산식으로 대조합니다.'}${q.note ? `<p class="sentence-note">${escape(q.note)}</p>` : ''}</td></tr>`;
 }).join('')}</tbody></table></div></section>`).join('');
-const report = `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>법인세 · 기출 조건 대조표</title><link rel="stylesheet" href="../assets/study.css"><link rel="stylesheet" href="../assets/corp-intro.css"><script src="../assets/appearance.js"></script><script defer src="../assets/study.js"></script></head><body class="study"><main><nav class="top" data-theme-controls><a href="index.html">← 법인세 목차</a><a href="exam.html">기출 연습</a><a href="../index.html">세법 공부</a></nav><header class="hero"><div class="kicker">법인세 / 본문 근거 점검</div><h1>기출 조건 대조표</h1><p>기출에 쓰인 판단 조건과 산식이 압축노트의 어디에 있는지 확인하세요.</p></header><section class="panel"><h2>${review.years[0]}~${review.years.at(-1)}년 · ${review.questions.length}문항</h2><p>2026년 11월 1일 기준으로 대조했습니다. 기출에 쓰인 조건과 산식은 각 항목의 <b>세부 요건·사례 더 보기</b>에 정리했습니다.</p><p>본문의 일반 규칙으로 선지의 O·X와 계산 금액을 설명할 수 있는지 확인합니다. 교재의 계산원리·기본통칙은 법령과 출처를 구분했습니다.</p><p class="sentence-note">5개년 80% 목표의 최종 평가는 추가 연도 검토 후 진행합니다. 현재는 위의 4개년 점검 자료입니다.</p></section><nav class="anchors" aria-label="기출 연도">${review.years.map(y=>anchor('#year-'+y,y+'년')).join('')}</nav>${sections}<section class="panel"><h2>기준 법령</h2><p>${anchor(data.sources.law,'법인세법 · 2026.7.1. 시행본')}<br>${anchor(data.sources.decree,'시행령 · 2026.10.1. 시행본')}<br>${anchor(data.sources.rules,'시행규칙 · 2026.7.1. 시행본')}</p><p>과거 시험의 정답 번호와 현행 규정에 따른 답이 달라지는 문항은 별도 메모로 표시했습니다. 출제 원문은 각 기출 문제의 시험지 링크에서 확인할 수 있습니다.</p></section><footer>본문 근거 점검 · ${review.reviewedAt} 확인</footer></main></body></html>`;
+const report = `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>법인세 · 기출 조건 대조표</title><link rel="stylesheet" href="../assets/study.css"><link rel="stylesheet" href="../assets/corp-intro.css"><script src="../assets/appearance.js"></script><script defer src="../assets/study.js"></script></head><body class="study"><main><nav class="top" data-theme-controls><a href="index.html">← 법인세 목차</a><a href="exam.html">기출 연습</a><a href="../index.html">세법 공부</a></nav><header class="hero"><div class="kicker">법인세 / 본문 근거 점검</div><h1>기출 조건 대조표</h1><p>기출에 쓰인 판단 조건과 산식이 압축노트의 어디에 있는지 확인하세요.</p></header><section class="panel"><h2>${review.years[0]}~${review.years.at(-1)}년 · ${review.questions.length}문항</h2><p>2026년 11월 1일 기준으로 대조했습니다. 기출에 쓰인 조건과 산식은 각 항목의 <b>세부 요건·사례 더 보기</b>에 정리했습니다.</p><p>본문의 일반 규칙으로 선지의 O·X와 계산 금액을 설명할 수 있는지 확인합니다. 교재의 계산원리·기본통칙은 법령과 출처를 구분했습니다.</p>${measurement}</section><nav class="anchors" aria-label="기출 연도">${review.years.map(y=>anchor('#year-'+y,y+'년')).join('')}</nav>${sections}<section class="panel"><h2>기준 법령</h2><p>${anchor(data.sources.law,'법인세법 · 2026.7.1. 시행본')}<br>${anchor(data.sources.decree,'시행령 · 2026.10.1. 시행본')}<br>${anchor(data.sources.rules,'시행규칙 · 2026.7.1. 시행본')}</p><p>과거 시험의 정답 번호와 현행 규정에 따른 답이 달라지는 문항은 별도 메모로 표시했습니다. 출제 원문은 각 기출 문제의 시험지 링크에서 확인할 수 있습니다.</p></section><footer>본문 근거 점검 · ${review.reviewedAt} 확인</footer></main></body></html>`;
 fs.writeFileSync(path.join(dir,'exam-coverage.html'),report);
 const indexPath = path.join(dir,'index.html');
 let index = fs.readFileSync(indexPath,'utf8');
-const panel = `<section class="panel" id="exam-support-info"><h2>기출에 나온 시행령·시행규칙</h2><p>기출을 풀 때 필요한 조건·산식을 각 항목의 <b>세부 요건·사례 더 보기</b>에 보강했습니다. 본문에서 판단 조건을 읽은 뒤 연결된 기출로 확인하세요.</p><div class="tools"><a href="exam-coverage.html">4개년 기출 조건 대조표</a></div><p class="sub">현재 점검 범위: 2022~2025년 40문항. 5개년 80% 목표의 최종 점검은 추가 연도 검토 후 구분하여 표시합니다.</p></section>`;
+const panel = `<section class="panel" id="exam-support-info"><h2>기출에 나온 시행령·시행규칙</h2><p>기출을 풀 때 필요한 조건·산식을 각 항목의 <b>세부 요건·사례 더 보기</b>에 보강했습니다. 본문에서 판단 조건을 읽은 뒤 연결된 기출로 확인하세요.</p><div class="tools"><a href="exam-coverage.html">5개년 기출 조건 대조표</a></div><p class="sub">${period} ${total}문항${complete ? ` · 본문 근거 충족 ${passed}/${total}문항(${percent}%). 실제 학습자 정답률을 측정한 수치는 아닙니다.` : ` · 본문 근거 점검 중`}</p></section>`;
 if(index.includes('id="exam-support-info"')) index=index.replace(/<section class="panel" id="exam-support-info">[\s\S]*?<\/section>/,panel);
 else index=index.replace('</header>','</header>'+panel);
 fs.writeFileSync(indexPath,index);
