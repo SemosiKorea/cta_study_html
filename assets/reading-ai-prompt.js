@@ -2,7 +2,7 @@
   'use strict';
 
   const text = element => element?.textContent.trim() || '';
-  const readingSummaries = new Set(['판단을 가르는 조건과 근거', '판단 조건과 근거 확인', '세부 요건·사례 더 보기']);
+  const readingSummaries = new Set(['판단을 가르는 조건과 근거', '판단 조건과 근거 확인', '세부 요건·사례 더 보기', '법조문·근거 보기']);
 
   function collectTargets() {
     const subject = text(document.querySelector('main > header .kicker')).split('/')[0].trim();
@@ -12,7 +12,7 @@
     return Array.from(document.querySelectorAll('main > section.unit > article.item'), article => ({
       article, subject, part, standard,
       chapter: text(article.parentElement.querySelector(':scope > h2')),
-      title: Array.from(article.querySelectorAll(':scope > h3'), text).join(' / '),
+      title: article.dataset.readingTitle || Array.from(article.querySelectorAll(':scope > h3'), text).join(' / '),
       page: text(article.querySelector(':scope > small a'))
     }));
   }
@@ -21,6 +21,9 @@
   // Keep only the printed headings, main paragraphs, and explanations the reader has opened.
   function readingParts(article) {
     const blocks = [], sources = new Set();
+    for (const link of article.querySelectorAll(':scope > .law-source a[href]')) {
+      if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) sources.add(link.href);
+    }
     for (const child of article.children) {
       if (child.hidden) continue;
       if (child.matches('h3, p:not([class]), blockquote[data-ai-reading], figure[data-ai-reading]')) {
@@ -32,7 +35,7 @@
       } else if (child.matches('details[open]') &&
                  readingSummaries.has(text(child.querySelector(':scope > summary')))) {
         blocks.push(...child.querySelectorAll(':scope > .solution:not([hidden]), :scope > .formula:not([hidden])'));
-        for (const link of child.querySelectorAll(':scope > p > a[href]')) {
+        for (const link of child.querySelectorAll(':scope > p > a[href], :scope > .solution a[href]')) {
           if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) {
             sources.add(link.href);
           }
