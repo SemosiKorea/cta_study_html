@@ -46,7 +46,7 @@
 
   function references({section, option}) {
     const source = Array.from(section.querySelectorAll(':scope > details'))
-      .find(el => text(el.querySelector(':scope > summary')) === '근거 조문과 교재 위치');
+      .find(el => ['근거 조문과 교재 위치', '근거 조문'].includes(text(el.querySelector(':scope > summary'))));
     if (!source) return [];
     const links = Array.from(source.querySelectorAll('a[href^="https://"]'), a => {
       const url = a.getAttribute('href');

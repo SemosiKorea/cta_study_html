@@ -25,6 +25,10 @@
       if (child.hidden) continue;
       if (child.matches('h3, p:not([class]), blockquote[data-ai-reading], figure[data-ai-reading]')) {
         blocks.push(child);
+        // Statute-based notes cite their primary source inside the visible excerpt.
+        for (const link of child.querySelectorAll('a[href]')) {
+          if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) sources.add(link.href);
+        }
       } else if (child.matches('details[open]') &&
                  readingSummaries.has(text(child.querySelector(':scope > summary')))) {
         blocks.push(...child.querySelectorAll(':scope > .solution:not([hidden]), :scope > .formula:not([hidden])'));
@@ -80,14 +84,14 @@
 
   function composePrompt({location, standard, source, body}, excerpt = '', question = '') {
     const parts = [
-      '[세무사 1차 · 교재 내용 이해]\n' + location,
+      '[세무사 1차 · 학습 내용 이해]\n' + location,
       standard,
       source && '자료 출처\n' + source,
-      '읽고 있는 교재 내용\n' + body,
+      '읽고 있는 학습 내용\n' + body,
       excerpt.trim() && '집중해서 이해하고 싶은 문장\n' + excerpt.trim(),
       question.trim() && '내 질문\n' + question.trim(),
       '내가 표시한 문장과 질문을 우선으로, 이 단락의 내용을 쉬운 말로 설명해 주세요. 결론을 가르는 조건을 짚고, 조건 하나를 바꾸면 결과가 어떻게 달라지는지 짧은 예로 보여 주세요. 마지막에는 내가 직접 판단할 확인 질문 하나를 내고 답을 기다려 주세요.',
-      '자료의 판단 기준일과 사례의 거래일·귀속기간을 구분해 주세요. 조문과 교재 설명을 구별하고, 추가 설명에 필요한 근거를 확인할 수 없으면 그 부분을 알려 주세요.'
+      '자료의 판단 기준일과 사례의 거래일·귀속기간을 구분해 주세요. 조문 원문과 학습용 설명을 구별하고, 추가 설명에 필요한 근거를 확인할 수 없으면 그 부분을 알려 주세요.'
     ];
     return parts.filter(Boolean).join('\n\n');
   }

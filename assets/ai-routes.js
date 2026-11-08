@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const subjects = ['법인세', '소득세', '양도소득세', '부가가치세'];
+  const subjects = ['법인세', '소득세', '양도소득세', '부가가치세', '국세기본법', '국세징수법'];
   const providers = {chatgpt: 'ChatGPT', claude: 'Claude', gemini: 'Gemini'};
   const hosts = {
     chatgpt: ['chatgpt.com', 'www.chatgpt.com', 'app.chatgpt.com', 'chat.openai.com'],
