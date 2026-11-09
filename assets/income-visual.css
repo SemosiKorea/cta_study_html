@@ -1,0 +1,67 @@
+.income-visual .visual-note { margin: .85rem 0 1rem; padding: 0; }
+.income-visual .visual-note > figcaption { font-weight: 750; color: var(--link); margin: .7rem 0; line-height: 1.55; }
+.income-visual .visual-analogy { margin: .4rem 0 .9rem; padding: .65rem .85rem; border-left: 3px solid var(--warm); background: var(--pill); border-radius: 0 8px 8px 0; }
+.income-visual .visual-label { display: block; font-size: .76rem; font-weight: 750; color: var(--sub); margin-bottom: .2rem; }
+.income-visual .visual-lead { font-size: .9rem; margin: .6rem 0; }
+.income-visual .visual-key { font-weight: 750; text-decoration: underline; text-decoration-color: var(--link); text-underline-offset: .2em; }
+.income-visual .visual-compare { margin: 0; }
+.income-visual .visual-compare > div { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.65fr); gap: 1rem; border-bottom: 1px solid var(--edge); padding: .8rem; background: var(--tile); }
+.income-visual .visual-compare > div:first-child { border-radius: 9px 9px 0 0; }
+.income-visual .visual-compare > div:last-child { border-bottom: 0; border-radius: 0 0 9px 9px; }
+.income-visual .visual-compare > div:only-child { border-radius: 9px; }
+.income-visual .visual-compare dt { font-weight: 700; }
+.income-visual .visual-compare dd { margin: 0; }
+.income-visual .visual-steps { counter-reset: taxstep; list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; }
+.income-visual .visual-steps > li { counter-increment: taxstep; position: relative; padding: .85rem .9rem .85rem 3rem; background: var(--tile); border: 1px solid var(--edge); border-radius: 9px; }
+.income-visual .visual-steps > li::before { content: counter(taxstep); position: absolute; left: .65rem; top: .9rem; display: grid; place-items: center; width: 1.55rem; height: 1.55rem; border-radius: 50%; background: var(--sheet); color: var(--link); font-weight: 750; font-size: .85rem; }
+.income-visual .visual-steps > li:not(:last-child)::after { content: '↓'; position: absolute; bottom: -1.55rem; left: 1rem; color: var(--link); font-weight: 750; }
+.income-visual .visual-steps h4, .income-visual .visual-decision h4 { margin: 0 0 .35rem; font-size: 1rem; letter-spacing: -.02em; }
+.income-visual .visual-steps p { margin: 0; }
+.income-visual .visual-subbranches { margin-top: .7rem; font-size: .92rem; border-left: 2px solid var(--link); padding-left: .65rem; }
+.income-visual .visual-subbranches > div { padding: .5rem; }
+.income-visual .visual-decision { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.2rem; }
+.income-visual .visual-decision > li { position: relative; padding: .85rem; border: 1px solid var(--edge); border-radius: 10px; }
+.income-visual .visual-decision > li:not(:last-child)::after { content: '↓'; position: absolute; bottom: -1.3rem; left: calc(50% - .4rem); color: var(--link); }
+.income-visual .visual-outcomes { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .65rem; margin-top: .7rem; }
+.income-visual .visual-outcomes:has(>div:only-child) { grid-template-columns: 1fr; }
+.income-visual .visual-outcomes > div { background: var(--tile); border-radius: 7px; padding: .6rem .75rem; border-top: 3px solid var(--link); }
+.income-visual .visual-outcomes > div:last-child:not(:only-child) { background: var(--pill); border-top-color: var(--warm); }
+.income-visual .visual-outcomes b { font-size: .8rem; display: block; color: var(--sub); margin-bottom: .2rem; }
+.income-visual .visual-timeline { display: grid; gap: .8rem; }
+.income-visual .visual-time-case { border-left: 3px solid var(--link); padding: .7rem .8rem; background: var(--tile); border-radius: 0 9px 9px 0; }
+.income-visual .visual-time-case h4 { font-size: .98rem; margin: 0 0 .3rem; }
+.income-visual .visual-time-case p { margin: .3rem 0 0; }
+.income-visual .visual-track { display: flex; gap: .4rem; margin: .5rem 0; }
+.income-visual .visual-track > span { flex: 1; min-width: 0; text-align: center; padding: .45rem; background: var(--sheet); border-top: 3px solid var(--link); font-weight: 700; }
+.income-visual .visual-track .track-end { flex: .8; border-top-color: var(--warm); border-right: 5px solid var(--warm); }
+.income-visual .visual-matrix { max-width: 100%; margin: .5rem 0; }
+.income-visual .visual-matrix table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.income-visual .visual-matrix th, .income-visual .visual-matrix td { padding: .7rem; border: 1px solid var(--edge); text-align: left; vertical-align: top; }
+.income-visual .visual-matrix th { background: var(--tile); }
+.income-visual .visual-group-title { font-size: .9rem; margin: 1rem 0 .4rem; color: var(--sub); }
+.income-visual .visual-focus { margin: .8rem 0; padding-left: .8rem; border-left: 3px solid var(--warm); font-size: .93rem; }
+.income-visual .visual-refs { font-size: .8rem; color: var(--sub); margin-top: .8rem; line-height: 1.9; }
+.income-visual .visual-refs > span { font-weight: 750; margin-right: .4rem; }
+.income-visual .visual-refs a { display: inline; }
+.income-visual .item > .rule-more > .solution { background: var(--sheet); padding: .5rem 0; }
+.income-visual .item > .rule-more { margin-top: .8rem; }
+.income-visual .visual-guide { font-size: .9rem; }
+.income-visual .visual-guide p { margin: .3rem 0; }
+@media (min-width: 900px) {
+  .income-visual .visual-steps.short { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.4rem; }
+  .income-visual .visual-steps.short > li { padding: 3rem .85rem .85rem; }
+  .income-visual .visual-steps.short > li::before { top: .75rem; left: .85rem; }
+  .income-visual .visual-steps.short > li:not(:last-child)::after { content: '→'; left: auto; right: -1.25rem; top: calc(50% - .6rem); bottom: auto; }
+}
+@media (max-width: 600px) {
+  .income-visual .visual-compare > div { grid-template-columns: 1fr; gap: .25rem; padding: .75rem; }
+  .income-visual .visual-compare dd { padding-left: .7rem; border-left: 2px solid var(--edge); }
+  .income-visual .visual-outcomes { grid-template-columns: 1fr; }
+  .income-visual .visual-matrix :is(th,td) { padding: .5rem .4rem; font-size: .88rem; word-break: normal; overflow-wrap: anywhere; }
+  .income-visual .visual-matrix th:first-child { width: 26%; }
+  .income-visual .visual-matrix.matrix-cols-2 th:first-child { width: 64%; }
+  .income-visual .visual-track > span { font-size: .86rem; }
+}
+@media print {
+  .income-visual :is(.visual-compare>div,.visual-steps>li,.visual-decision>li,.visual-time-case) { break-inside: avoid; }
+}

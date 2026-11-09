@@ -1,0 +1,887 @@
+{
+  "baseline": "2026-11-01",
+  "units": [
+    {
+      "file": "part01.html",
+      "id": "ch1-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch1-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch2-group",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch2-s1",
+      "type": "timeline"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch2-s2",
+      "type": "matrix"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch2-attribution",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch3-s1",
+      "type": "timeline"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch3-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "ch3-change",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch1-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch2-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch3-s1",
+      "type": "matrix"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch3-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch3-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch3-s4",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s4",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch4-s6",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch5-s1",
+      "type": "matrix"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch5-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch5-s3",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch5-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch5-s5",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s3",
+      "type": "timeline"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s4",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "ch6-s6",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch1-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch1-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch2-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch2-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch2-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch3-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch3-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s6",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch4-s7",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s3",
+      "type": "timeline"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s5",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch5-s6",
+      "type": "timeline"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch6-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch6-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch6-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "ch6-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch1-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch1-s2",
+      "type": "decision"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch2-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch3-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch3-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch4-s1",
+      "type": "timeline"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch4-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch4-s3",
+      "type": "timeline"
+    },
+    {
+      "file": "part04.html",
+      "id": "ch4-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch1-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch1-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch1-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch1-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s4",
+      "type": "timeline"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s5",
+      "type": "timeline"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s6",
+      "type": "timeline"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s7",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "ch2-s8",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s2",
+      "type": "matrix"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s4",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s5",
+      "type": "matrix"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s6",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s7",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s8",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s9",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s10",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s11",
+      "type": "matrix"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s12",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s13",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s14",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s15",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s16",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s17",
+      "type": "timeline"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s18",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch1-s19",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch2-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "ch3-s6",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch1-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch2-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch2-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch2-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch2-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch3-s1",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch3-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch4-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch4-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch4-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch4-s4",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "ch4-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s1",
+      "type": "matrix"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s5",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch1-s6",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch2-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch2-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch3-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch3-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch4-s1",
+      "type": "timeline"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch4-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part08.html",
+      "id": "ch4-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch1-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch1-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch1-s4",
+      "type": "timeline"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch2-s1",
+      "type": "steps"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch3-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "ch3-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch1-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch1-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch1-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch1-s4",
+      "type": "matrix"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch2-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch2-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch3-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch3-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch4-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch4-s2",
+      "type": "timeline"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch4-s3",
+      "type": "matrix"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch5-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch5-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch6-s1",
+      "type": "matrix"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch6-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch6-s3",
+      "type": "timeline"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch7-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch7-s2",
+      "type": "steps"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch7-s3",
+      "type": "steps"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch7-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s1",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s2",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s3",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s4",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s5",
+      "type": "matrix"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s6",
+      "type": "compare"
+    },
+    {
+      "file": "part10.html",
+      "id": "ch8-s7",
+      "type": "compare"
+    }
+  ],
+  "counts": {
+    "steps": 40,
+    "compare": 93,
+    "timeline": 30,
+    "matrix": 11,
+    "decision": 1
+  }
+}
