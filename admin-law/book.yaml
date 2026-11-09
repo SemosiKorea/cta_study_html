@@ -1,0 +1,770 @@
+schema: hoedok.cards/v1
+cards:
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 행정소송은 행정의 결정을 점검하는 법원의 절차"
+    statement: "행정소송법상 행정청에는 법령에 따라 행정권한을 위탁받은 사인이 포함될 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제2조제2항은 위임·위탁받은 행정기관, 공공단체와 그 기관, 사인을 포함합니다.\n근거: 행정소송법 제1조 · 행정소송법 제1조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제2조 · 제2조제2항 · 행정청의 범위 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "행정청과 계약했다는 사정만으로 항고소송이라고 고르지 않습니다. 행위의 공법적 성질과 원하는 해결을 함께 봅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 행정소송은 행정의 결정을 점검하는 법원의 절차"
+    statement: "행정소송법의 목적은 위법한 처분의 취소에만 한정된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제1조는 공권력 행사·불행사로 인한 권리·이익의 구제와 공법상 권리관계 또는 법적용에 관한 다툼의 해결도 정합니다.\n근거: 행정소송법 제1조 · 행정소송법 제1조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제2조 · 제2조제2항 · 행정청의 범위 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "행정청과 계약했다는 사정만으로 항고소송이라고 고르지 않습니다. 행위의 공법적 성질과 원하는 해결을 함께 봅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 네 가지 소송, 네 가지 질문"
+    statement: "당사자소송은 그 법률관계의 한쪽 당사자를 피고로 하는 소송이다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제3조제2호의 정의입니다. 처분청이 언제나 피고인 것은 아닙니다.\n근거: 행정소송법 제3조 · 행정소송법 제3조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제45조 · 행정소송법 제45조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0045&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "민중소송의 “자기 이익과 관계없음”을 “모든 국민이 언제나 가능”으로 바꾸면 틀립니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 네 가지 소송, 네 가지 질문"
+    statement: "민중소송은 공익을 위한 것이므로 법률에 근거가 없어도 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제45조에 따라 법률이 정한 경우에 법률이 정한 자만 제기할 수 있습니다.\n근거: 행정소송법 제3조 · 행정소송법 제3조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제45조 · 행정소송법 제45조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0045&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "민중소송의 “자기 이익과 관계없음”을 “모든 국민이 언제나 가능”으로 바꾸면 틀립니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 항고소송의 세 갈래와 판결의 세 가지 결론"
+    statement: "부작위위법확인소송은 행정청의 부작위가 위법하다는 확인을 구하는 소송이다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제4조제3호의 정의입니다. 법원이 곧바로 원하는 허가를 내준다는 뜻은 아닙니다.\n근거: 행정소송법 제4조 · 행정소송법 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제12조 · 행정소송법 제12조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제20조 · 행정소송법 제20조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“패소”라는 말 하나로 각하와 기각을 섞지 마세요. 사정판결처럼 위법하지만 기각되는 특별한 경우는 뒤에서 따로 구별합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 항고소송의 세 갈래와 판결의 세 가지 결론"
+    statement: "무효등확인소송은 처분의 존재 여부를 확인하는 경우를 포함하지 않는다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제4조제2호는 효력 유무뿐 아니라 존재 여부도 포함합니다.\n근거: 행정소송법 제4조 · 행정소송법 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제12조 · 행정소송법 제12조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제20조 · 행정소송법 제20조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“패소”라는 말 하나로 각하와 기각을 섞지 마세요. 사정판결처럼 위법하지만 기각되는 특별한 경우는 뒤에서 따로 구별합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 법률·규칙·판례를 읽는 순서"
+    statement: "행정소송법에 특별한 규정이 없는 사항에는 법원조직법·민사소송법·민사집행법의 규정을 준용한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제8조제2항에 열거된 세 법률입니다.\n근거: 행정소송법 제8조 · 행정소송법 제8조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제6조 · 행정소송법 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제1조 · 행정소송규칙 제1조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제2조 · 행정소송규칙 제2조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제4조 · 행정소송규칙 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "대법원규칙인 행정소송규칙과 행정청 내부 업무지침인 행정규칙을 같은 말로 생각하지 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "1장 · 법률·규칙·판례를 읽는 순서"
+    statement: "행정소송에 관한 대법원판결로 명령·규칙의 위헌·위법이 확정되면 법 제6조상 관보 게재의 주체는 대법원이다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "대법원은 행정안전부장관에게 통보하고, 그 통보를 받은 장관이 지체 없이 관보에 게재합니다.\n근거: 행정소송법 제8조 · 행정소송법 제8조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제6조 · 행정소송법 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제1조 · 행정소송규칙 제1조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제2조 · 행정소송규칙 제2조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제4조 · 행정소송규칙 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "대법원규칙인 행정소송규칙과 행정청 내부 업무지침인 행정규칙을 같은 말로 생각하지 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part01.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","1장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 처분성: 이름보다 법적 효과를 보기"
+    statement: "행정소송법상 “처분등”에는 행정심판에 대한 재결도 포함된다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제2조제1항제1호는 처분 및 행정심판에 대한 재결을 포함합니다. 재결취소소송의 허용 범위는 법 제19조에서 별도로 제한됩니다.\n근거: 행정소송법 제2조 · 제2조제1항제1호 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 행정소송법 제19조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "처분성이 부정된다고 그 행위가 언제나 적법하다는 뜻은 아닙니다. 그 행위를 해당 항고소송의 대상으로 삼을 수 있는지의 문제입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 처분성: 이름보다 법적 효과를 보기"
+    statement: "행정청의 모든 내부 검토·요청은 행정청이 한 일이므로 곧바로 취소소송의 대상이 된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제2조·제19조상 처분등인지 판단해야 합니다. 2014두5637 사건의 징계요구처럼 내부 중간 단계로 처분성이 부정되는 경우가 있습니다.\n근거: 행정소송법 제2조 · 제2조제1항제1호 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 행정소송법 제19조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "처분성이 부정된다고 그 행위가 언제나 적법하다는 뜻은 아닙니다. 그 행위를 해당 항고소송의 대상으로 삼을 수 있는지의 문제입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+    statement: "부작위가 되려면 당사자의 신청에 대하여 일정한 처분을 해야 할 법률상 의무가 있어야 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제2조제1항제2호는 신청·상당한 기간·법률상 처분의무·불행위를 요구합니다.\n근거: 행정소송법 제2조 · 제2조제1항제1호·제2호 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제4조 · 행정소송법 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "거부처분이 이미 있으면 이를 그대로 “계속된 무응답”이라고 부르지 않습니다. 내부 입국금지결정과 외부의 사증발급 거부처럼 행위를 나누어 보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+    statement: "행정청이 신청에 대해 거부처분을 한 상태는 응답이 없는 부작위와 동일하다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "거부는 응답한 행위이고 부작위는 의무가 있는데도 처분하지 않은 상태입니다. 법 제2조와 제4조에서 구별합니다.\n근거: 행정소송법 제2조 · 제2조제1항제1호·제2호 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제4조 · 행정소송법 제4조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "거부처분이 이미 있으면 이를 그대로 “계속된 무응답”이라고 부르지 않습니다. 내부 입국금지결정과 외부의 사증발급 거부처럼 행위를 나누어 보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 원처분과 재결: 어느 결정을 공격할까"
+    statement: "재결취소소송은 재결 자체에 고유한 위법이 있음을 이유로 하는 경우에 한한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제19조 단서의 원칙입니다. 특별법상 별도 규정의 존재는 따로 확인합니다.\n근거: 행정소송법 제19조 · 행정소송법 제19조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제18조 · 제18조제1항 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "행정심판을 “거쳤다”는 말과 재결을 “소송 대상으로 삼는다”는 말은 서로 다릅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 원처분과 재결: 어느 결정을 공격할까"
+    statement: "행정심판에서 기각재결이 있으면 원처분의 위법은 언제나 재결취소소송으로 다투어야 한다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제19조는 원처분의 위법과 재결 고유의 위법을 구별합니다. 기각재결을 거쳤다는 사실만으로 소송 대상이 바뀌지 않습니다.\n근거: 행정소송법 제19조 · 행정소송법 제19조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제18조 · 제18조제1항 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "행정심판을 “거쳤다”는 말과 재결을 “소송 대상으로 삼는다”는 말은 서로 다릅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 선결문제: 다른 소송 안에서 먼저 풀어야 할 문제"
+    statement: "처분의 효력 유무가 민사소송의 선결문제가 된 경우 수소법원은 처분청에 그 사실을 통지하여야 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제11조제2항은 통지 의무를 규정합니다.\n근거: 행정소송법 제11조 · 행정소송법 제11조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제17조 · 행정소송법 제17조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제25조 · 행정소송법 제25조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제26조 · 행정소송법 제26조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0026&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 행정소송법 제33조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제11조가 제16조의 제3자 참가까지 직접 열거한다고 외우지 않습니다. 제17·25·26·33조 네 개를 정확히 확인합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "2장 · 선결문제: 다른 소송 안에서 먼저 풀어야 할 문제"
+    statement: "법 제11조제1항이 민사소송의 선결문제에 직접 준용하는 조문에는 제16조의 제3자 소송참가가 포함된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "열거된 조문은 제17조·제25조·제26조·제33조입니다. 제16조와 제17조를 구별합니다.\n근거: 행정소송법 제11조 · 행정소송법 제11조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제17조 · 행정소송법 제17조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제25조 · 행정소송법 제25조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제26조 · 행정소송법 제26조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0026&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 행정소송법 제33조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제11조가 제16조의 제3자 참가까지 직접 열거한다고 외우지 않습니다. 제17·25·26·33조 네 개를 정확히 확인합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part02.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","2장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 원고적격: 법이 보호하는 내 이익인가"
+    statement: "처분의 직접 상대방이 아니라는 이유만으로 취소소송의 원고적격이 항상 부정되는 것은 아니다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제12조의 법률상 이익이 기준입니다. 2006두14001 판결은 제3자인 주민의 원고적격 판단을 보여 줍니다.\n근거: 행정소송법 제12조 · 제12조 전단 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "원고적격이 인정된다는 것은 소송의 문을 통과한다는 뜻입니다. 허가가 위법하다는 본안 결론까지 자동으로 정해지는 것은 아닙니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 원고적격: 법이 보호하는 내 이익인가"
+    statement: "취소소송은 처분에 관심을 가진 사람이면 누구나 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제12조는 처분등의 취소를 구할 법률상 이익을 요구합니다. 일반적 관심만으로 충분하지 않습니다.\n근거: 행정소송법 제12조 · 제12조 전단 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "원고적격이 인정된다는 것은 소송의 문을 통과한다는 뜻입니다. 허가가 위법하다는 본안 결론까지 자동으로 정해지는 것은 아닙니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 소의 이익: 기간이 끝나도 해결할 일이 남았을까"
+    statement: "처분의 집행이 끝난 뒤에도 취소로 회복되는 법률상 이익이 있으면 취소소송을 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제12조 후단은 기간 경과·집행 등으로 효과가 소멸한 경우에도 이를 인정합니다.\n근거: 행정소송법 제12조 · 제12조 후단 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "법 제12조의 전단과 후단을 같은 질문으로 외우지 마세요. 사람의 자격과 판결의 현재 필요를 나누어 생각합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 소의 이익: 기간이 끝나도 해결할 일이 남았을까"
+    statement: "처분의 효과가 소멸하면 회복되는 이익이 있는지와 관계없이 취소소송은 언제나 부적법하다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제12조 후단에 반합니다. 취소로 회복되는 법률상 이익을 추가로 확인해야 합니다.\n근거: 행정소송법 제12조 · 제12조 후단 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "법 제12조의 전단과 후단을 같은 질문으로 외우지 마세요. 사람의 자격과 판결의 현재 필요를 나누어 생각합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 피고와 피고경정: 답해야 할 상대를 정확히"
+    statement: "처분 후 관계 권한이 다른 행정청에 승계되었다면 원칙적으로 승계한 행정청이 취소소송의 피고가 된다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제13조제1항 단서는 권한을 승계한 행정청을 피고로 정합니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“피고경정”이라는 말만 보고 신청과 직권을 한 가지로 외우지 마세요. 어떤 이유로 피고를 고치는지 먼저 봅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 피고와 피고경정: 답해야 할 상대를 정확히"
+    statement: "피고를 잘못 지정하여 경정이 허가되면 새 피고에 대한 제소일은 항상 경정결정일이다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제14조제4항에 따라 처음 소를 제기한 때에 제기된 것으로 봅니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“피고경정”이라는 말만 보고 신청과 직권을 한 가지로 외우지 마세요. 어떤 이유로 피고를 고치는지 먼저 봅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 소송참가: 결과에 영향을 받는 사람도 듣기"
+    statement: "법원이 제3자를 참가시키는 결정을 하려면 미리 당사자와 제3자의 의견을 들어야 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제16조제2항의 의견 청취 의무입니다.\n근거: 행정소송법 제15조 · 행정소송법 제15조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제16조 · 행정소송법 제16조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제17조 · 행정소송법 제17조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제7조 · 행정소송규칙 제7조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“미리 의견을 들어야 한다”를 “반드시 동의를 받아야 한다”로 바꾸지 않습니다. 의견 청취와 동의는 다른 요건입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "3장 · 소송참가: 결과에 영향을 받는 사람도 듣기"
+    statement: "다른 행정청의 소송참가는 그 행정청이 신청한 경우에만 가능하고 법원의 직권으로는 할 수 없다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제17조제1항은 당사자·해당 행정청의 신청뿐 아니라 직권에 의한 참가도 허용합니다.\n근거: 행정소송법 제15조 · 행정소송법 제15조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제16조 · 행정소송법 제16조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제17조 · 행정소송법 제17조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제7조 · 행정소송규칙 제7조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“미리 의견을 들어야 한다”를 “반드시 동의를 받아야 한다”로 바꾸지 않습니다. 의견 청취와 동의는 다른 요건입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","3장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 관할과 이송: 알맞은 법원 찾기"
+    statement: "취소소송의 제1심 관할법원은 원칙적으로 피고 소재지를 관할하는 행정법원이다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제9조제1항의 원칙입니다. 제2항·제3항과 특별법의 추가 규정은 별도로 확인합니다.\n근거: 행정소송법 제7조 · 행정소송법 제7조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제9조 · 행정소송법 제9조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제10조 · 행정소송법 제10조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제5조 · 행정소송규칙 제5조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제1심 관할법원과 상급심을 혼동하지 않습니다. 또한 소송이 계속 중이라는 말은 그 법원에서 사건 절차가 진행 중이라는 뜻입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 관할과 이송: 알맞은 법원 찾기"
+    statement: "토지 수용에 관한 취소소송은 부동산 소재지 관할 행정법원에 제기할 수 없다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제9조제3항은 그 부동산 또는 장소의 소재지를 관할하는 행정법원에도 제기할 수 있도록 합니다.\n근거: 행정소송법 제7조 · 행정소송법 제7조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제9조 · 행정소송법 제9조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제10조 · 행정소송법 제10조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제5조 · 행정소송규칙 제5조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제1심 관할법원과 상급심을 혼동하지 않습니다. 또한 소송이 계속 중이라는 말은 그 법원에서 사건 절차가 진행 중이라는 뜻입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 행정심판: 반드시 거쳐야 하는 경유지일까"
+    statement: "취소소송은 법령상 행정심판을 청구할 수 있는 경우에도 원칙적으로 이를 거치지 않고 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제18조제1항 본문입니다. 다른 법률이 필요적 전심절차를 정한 경우는 단서에 따라 별도로 봅니다.\n근거: 행정소송법 제18조 · 행정소송법 제18조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“심판을 청구할 수 있다”와 “심판의 재결을 거쳐야 한다”는 강도가 다릅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 행정심판: 반드시 거쳐야 하는 경유지일까"
+    statement: "법 제18조제2항·제3항의 전심절차 예외 사유는 주장만 하면 되고 소명할 필요가 없다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "제18조제4항은 제2항과 제3항의 사유를 소명하도록 합니다.\n근거: 행정소송법 제18조 · 행정소송법 제18조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“심판을 청구할 수 있다”와 “심판의 재결을 거쳐야 한다”는 강도가 다릅니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 제소기간: 서로 다른 두 시계를 함께 보기"
+    statement: "법 제20조제1항의 90일은 불변기간이다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "제20조제3항은 제1항의 기간을 불변기간으로 정합니다.\n근거: 행정소송법 제20조 · 행정소송법 제20조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제5조 · 행정소송법 제5조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“안 날”을 “있은 날”로, “재결서 정본 송달일”을 “재결일”로 바꾼 선지가 자주 함정이 됩니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 제소기간: 서로 다른 두 시계를 함께 보기"
+    statement: "행정심판을 거친 경우 제20조제1항 단서의 90일은 항상 재결이 있은 날부터 시작한다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "해당 단서의 기산점은 재결서 정본을 송달받은 날입니다. 재결일은 제2항 단서의 1년과 구별합니다.\n근거: 행정소송법 제20조 · 행정소송법 제20조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제5조 · 행정소송법 제5조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "“안 날”을 “있은 날”로, “재결서 정본 송달일”을 “재결일”로 바꾼 선지가 자주 함정이 됩니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 소의 변경: 소송 중 길을 고칠 때"
+    statement: "제21조의 소의 변경은 청구의 기초에 변경이 없는 한 사실심 변론종결시까지 원고의 신청으로 허가할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제21조제1항의 요건입니다. 법원이 변경을 상당하다고 인정해야 합니다.\n근거: 행정소송법 제21조 · 행정소송법 제21조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제22조 · 행정소송법 제22조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0022&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제21조는 허가결정에 즉시항고, 제14조제1항의 피고경정은 신청을 각하한 결정에 즉시항고라는 차이도 비교해 두세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "4장 · 소의 변경: 소송 중 길을 고칠 때"
+    statement: "제22조의 처분변경에 따른 청구 변경 신청은 처분 변경이 있음을 안 날부터 90일 이내에 해야 한다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제22조제2항의 기한은 60일입니다. 제20조의 일반 제소기간 90일과 섞지 않습니다.\n근거: 행정소송법 제21조 · 행정소송법 제21조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제22조 · 행정소송법 제22조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0022&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제21조는 허가결정에 즉시항고, 제14조제1항의 피고경정은 신청을 각하한 결정에 즉시항고라는 차이도 비교해 두세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part04.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","4장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 관련 사건은 한 교실에서 함께 풀 수 있다"
+    statement: "관련청구소송의 이송은 당사자의 신청이 있을 때에만 가능하다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제10조제1항은 상당하다고 인정하면 신청 또는 직권으로 이송할 수 있게 합니다.\n근거: 행정소송법 제10조 · 관련청구소송의 이송·병합 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제8조 · 피고의 답변서 제출과 기재사항 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "병합할 수 있다는 말과 두 청구가 모두 이유 있다는 말은 다릅니다. 취소소송에서 이겼다고 손해배상이 자동으로 인정되지도 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 관련 사건은 한 교실에서 함께 풀 수 있다"
+    statement: "관련청구의 피고가 취소소송의 피고와 다르다는 이유만으로 병합이 금지되지는 않는다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제10조제2항은 피고 외의 자에 대한 관련청구도 함께 병합할 수 있다고 정합니다.\n근거: 행정소송법 제10조 · 관련청구소송의 이송·병합 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제8조 · 피고의 답변서 제출과 기재사항 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "병합할 수 있다는 말과 두 청구가 모두 이유 있다는 말은 다릅니다. 취소소송에서 이겼다고 손해배상이 자동으로 인정되지도 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 집행정지: 판결 전의 일시정지 버튼"
+    statement: "취소소송이 접수되면 문제 된 처분의 집행은 원칙적으로 자동 정지된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제23조제1항은 집행부정지가 원칙임을 정합니다.\n근거: 행정소송법 제23조 · 집행부정지 원칙과 집행정지 요건 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "회복하기 어려운 손해를 ‘물리적으로 절대 되돌릴 수 없는 손해’로만 외우지 마세요. 금전보상 가능성과 감당하기 어려운 구체적 사정을 함께 살피는 판단입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 집행정지: 판결 전의 일시정지 버튼"
+    statement: "집행 정지만으로 목적을 달성할 수 있다면 처분의 효력 자체를 정지할 수 없다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "효력정지에는 법 제23조제2항 단서의 보충성 제한이 있습니다.\n근거: 행정소송법 제23조 · 집행부정지 원칙과 집행정지 요건 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "회복하기 어려운 손해를 ‘물리적으로 절대 되돌릴 수 없는 손해’로만 외우지 마세요. 금전보상 가능성과 감당하기 어려운 구체적 사정을 함께 살피는 판단입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 언제까지 멈추며, 누구의 이야기를 들을까"
+    statement: "집행정지의 종기는 예외 없이 본안판결이 확정되는 날이다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "규칙 제10조에 따라 법원이 종기를 정하며, 원칙적인 기준은 본안판결 선고일부터 30일 이내입니다.\n근거: 행정소송법 제23조 · 제4항·제5항: 즉시항고와 그 효력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제24조 · 집행정지 결정의 취소 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0024&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제10조 · 집행정지의 종기 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제10의2조 · 학교폭력 조치 관련 피해학생 측 의견청취 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0010&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제13조 · 특정 피해자의 의견진술과 증거의 구별 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "규칙 제13조의 피해자 의견진술은 일반적인 모든 증언과 같은 제도가 아닙니다. ‘의견을 들었다 = 처분사유가 입증됐다’로 연결하지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 언제까지 멈추며, 누구의 이야기를 들을까"
+    statement: "집행정지 사유가 없어진 경우 신청 없이도 법원이 정지결정을 취소할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제24조는 당사자의 신청뿐 아니라 법원의 직권 취소도 허용합니다.\n근거: 행정소송법 제23조 · 제4항·제5항: 즉시항고와 그 효력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제24조 · 집행정지 결정의 취소 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0024&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제10조 · 집행정지의 종기 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제10의2조 · 학교폭력 조치 관련 피해학생 측 의견청취 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0010&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제13조 · 특정 피해자의 의견진술과 증거의 구별 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "규칙 제13조의 피해자 의견진술은 일반적인 모든 증언과 같은 제도가 아닙니다. ‘의견을 들었다 = 처분사유가 입증됐다’로 연결하지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+    statement: "법원은 기록에 나타난 자료에 관한 한 당사자가 주장하지 않은 사실도 판단할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제26조와 판례가 인정하는 보충적 직권심리의 범위입니다.\n근거: 행정소송법 제25조 · 행정심판기록 제출명령 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제26조 · 직권심리 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0026&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제11조 · 비공개 열람·심사와 기록 관리 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제12조 · 비공개 정보가 포함된 서류의 제출 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "직권조사사항, 직권증거조사, 증명책임은 서로 다른 말입니다. 특히 행정심판기록 제출명령은 ‘신청 또는 직권’ 목록에 넣지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "5장 · 법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+    statement: "행정심판기록 제출명령은 제25조에 따라 당사자 신청 없이 직권으로 할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "제25조제1항은 당사자의 신청이 있는 때 명할 수 있다고 정합니다.\n근거: 행정소송법 제25조 · 행정심판기록 제출명령 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제26조 · 직권심리 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0026&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제11조 · 비공개 열람·심사와 기록 관리 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제12조 · 비공개 정보가 포함된 서류의 제출 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "직권조사사항, 직권증거조사, 증명책임은 서로 다른 말입니다. 특히 행정심판기록 제출명령은 ‘신청 또는 직권’ 목록에 넣지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part05.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","5장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 처분 이유를 바꾸어도 같은 사건이어야 한다"
+    statement: "처분사유의 추가·변경은 사실심 변론종결 때까지 기본적 사실관계가 동일한 범위에서 가능하다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "행정소송규칙 제9조가 직접 정하는 요건입니다.\n근거: 행정소송규칙 제9조 · 처분사유 추가·변경의 시기와 기본적 사실관계의 동일성 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 취소소송의 대상 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘근거 법령이 달라졌다 = 언제나 불허’도, ‘처분 전에 있었다 = 언제나 허용’도 오답입니다. 사실관계의 동일성을 먼저 보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 처분 이유를 바꾸어도 같은 사건이어야 한다"
+    statement: "추가하려는 사유가 처분 전에 존재하기만 했다면 원래 사유와 다른 사건이어도 추가할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "존재 시기만으로는 부족합니다. 기본적 사실관계의 동일성이 필요합니다.\n근거: 행정소송규칙 제9조 · 처분사유 추가·변경의 시기와 기본적 사실관계의 동일성 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 취소소송의 대상 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘근거 법령이 달라졌다 = 언제나 불허’도, ‘처분 전에 있었다 = 언제나 허용’도 오답입니다. 사실관계의 동일성을 먼저 보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+    statement: "재량행위도 재량권의 한계를 넘거나 남용하면 취소소송의 심사를 받는다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제27조는 재량행위의 취소 가능성을 명시합니다.\n근거: 행정소송법 제27조 · 재량권 일탈·남용의 사법심사 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 처분 취소의 범위와 관련 판례 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘돈이면 일부취소 가능’이라고 외우지 마세요. 같은 금전부과라도 재량에 따른 과징금인지, 법정 산식으로 정해지는 금액인지가 중요합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+    statement: "재량에 따른 제재처분이 위법하면 법원은 언제나 자신이 적절하다고 생각하는 제재의 정도로 변경할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법원은 재량권 일탈·남용을 심사하며, 행정청에게 맡겨진 재량을 대신 행사하지 않습니다.\n근거: 행정소송법 제27조 · 재량권 일탈·남용의 사법심사 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제19조 · 처분 취소의 범위와 관련 판례 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘돈이면 일부취소 가능’이라고 외우지 마세요. 같은 금전부과라도 재량에 따른 과징금인지, 법정 산식으로 정해지는 금액인지가 중요합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 각하·기각·인용, 그리고 특별한 사정판결"
+    statement: "사정판결을 할 때 법원은 처분의 위법성을 판결 이유에만 쓰면 충분하다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제28조제1항은 판결 주문에 위법하다는 것을 명시하도록 합니다.\n근거: 행정소송법 제28조 · 사정판결의 요건·주문·피해구제 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0028&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제14조 · 사정판결의 공공복리 판단 시점 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "사정판결은 원고가 소송을 잘못 냈다는 각하가 아닙니다. 위법한 처분을 다투는 원고의 주장이 이유 있다는 점에서 출발합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 각하·기각·인용, 그리고 특별한 사정판결"
+    statement: "사정판결에서 공공복리에 관한 판단은 사실심 변론종결 때를 기준으로 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "행정소송규칙 제14조의 기준입니다.\n근거: 행정소송법 제28조 · 사정판결의 요건·주문·피해구제 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0028&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제14조 · 사정판결의 공공복리 판단 시점 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "사정판결은 원고가 소송을 잘못 냈다는 각하가 아닙니다. 위법한 처분을 다투는 원고의 주장이 이유 있다는 점에서 출발합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 조정권고와 취하: 판결 없이 마무리하는 길"
+    statement: "재판장은 행정소송에서 직권으로 서면 조정권고를 할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "행정소송규칙 제15조가 정한 권한입니다.\n근거: 행정소송규칙 제15조 · 법원의 직권에 의한 조정권고 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송법 제8조 · 제2항: 민사소송법 등 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제32조 · 처분 취소·변경으로 청구가 각하·기각될 때의 소송비용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0032&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "조정권고, 소 취하, 청구 포기, 취소판결은 서로 다른 절차입니다. 이 단원의 권고를 곧바로 법원이 처분을 바꾼 판결이라고 읽지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "6장 · 조정권고와 취하: 판결 없이 마무리하는 길"
+    statement: "법원의 조정권고가 있으면 당사자의 후속 행위 없이 처분이 자동으로 취소된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "권고 자체가 처분 취소판결은 아닙니다. 실제 취소·변경 등 후속 행위가 필요합니다.\n근거: 행정소송규칙 제15조 · 법원의 직권에 의한 조정권고 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송법 제8조 · 제2항: 민사소송법 등 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제32조 · 처분 취소·변경으로 청구가 각하·기각될 때의 소송비용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0032&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "조정권고, 소 취하, 청구 포기, 취소판결은 서로 다른 절차입니다. 이 단원의 권고를 곧바로 법원이 처분을 바꾼 판결이라고 읽지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part06.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","6장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 판결의 세 가지 힘을 따로 보기"
+    statement: "취소 확정판결의 효력은 소송 당사자에게만 미치므로 제3자는 취소된 처분을 계속 유효하게 취급할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법 제29조제1항은 제3자에게도 효력이 있다고 정합니다.\n근거: 행정소송법 제29조 · 취소판결 등의 제3자효 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0029&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제30조 · 취소판결의 기속력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0030&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제8조 · 민사소송법 준용과 기판력의 이해 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제29조의 제3자효를 ‘판결 이유의 모든 설명이 모든 사람에게 기판력을 갖는다’는 뜻으로 확대하지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 판결의 세 가지 힘을 따로 보기"
+    statement: "취소판결의 기속력은 피고 행정청 외의 관계 행정청에도 해당 사건에 관해 미친다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제30조제1항의 규정입니다.\n근거: 행정소송법 제29조 · 취소판결 등의 제3자효 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0029&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제30조 · 취소판결의 기속력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0030&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제8조 · 민사소송법 준용과 기판력의 이해 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제29조의 제3자효를 ‘판결 이유의 모든 설명이 모든 사람에게 기판력을 갖는다’는 뜻으로 확대하지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 거부처분이 취소되면 다시 대답해야 한다"
+    statement: "거부처분 취소판결이 확정되면 행정청은 종전 신청에 관하여 판결 취지에 따른 재처분을 해야 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제30조제2항의 재처분 의무입니다.\n근거: 행정소송법 제30조 · 제2항: 거부처분 취소 후 재처분 / 제3항: 절차위법으로 취소된 신청에 따른 처분 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0030&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘재처분 의무 = 반드시 신청 인용’으로 외우지 마세요. 무엇을 다시 해야 하는지는 승소판결의 구체적 취소 이유에 달려 있습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 거부처분이 취소되면 다시 대답해야 한다"
+    statement: "거부처분 취소판결만으로 신청한 허가가 법원에 의해 자동 발급된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "법은 행정청의 재처분을 요구합니다. 취소와 허가의 발급은 서로 다른 행위입니다.\n근거: 행정소송법 제30조 · 제2항: 거부처분 취소 후 재처분 / 제3항: 절차위법으로 취소된 신청에 따른 처분 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0030&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘재처분 의무 = 반드시 신청 인용’으로 외우지 마세요. 무엇을 다시 해야 하는지는 승소판결의 구체적 취소 이유에 달려 있습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 간접강제: 다시 판단하라는 약속을 지키게 하기"
+    statement: "행정소송법 제34조의 간접강제는 제1심 수소법원이 당사자의 신청에 따라 할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "관할과 신청 요건이 제34조제1항에 명시되어 있습니다.\n근거: 행정소송법 제34조 · 제1심 수소법원의 간접강제 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0034&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제2항: 부작위위법확인소송에 제34조 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 간접강제에 준용되는 재판 효력 규정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘제1심·신청·재처분’ 세 말을 함께 기억하세요. 간접강제를 행정청에 대한 모든 판결의 보편적인 집행방법으로 넓히지 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 간접강제: 다시 판단하라는 약속을 지키게 하기"
+    statement: "제34조의 간접강제 규정은 무효등확인소송에도 준용된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "제38조제1항의 무효등확인 준용 목록에는 제34조가 없습니다. 부작위위법확인에는 준용됩니다.\n근거: 행정소송법 제34조 · 제1심 수소법원의 간접강제 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0034&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제2항: 부작위위법확인소송에 제34조 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 간접강제에 준용되는 재판 효력 규정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘제1심·신청·재처분’ 세 말을 함께 기억하세요. 간접강제를 행정청에 대한 모든 판결의 보편적인 집행방법으로 넓히지 않습니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 제3자의 재심과 소송비용"
+    statement: "제3자 재심은 확정판결이 있음을 안 날부터 30일 이내이면서 판결 확정일부터 1년 이내에 제기해야 한다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제31조제2항·제3항의 두 불변기간을 모두 지켜야 합니다. 국외 특례는 별도입니다.\n근거: 행정소송법 제31조 · 제3자 재심의 요건·기간 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0031&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제5조 · 국외에서의 재심청구 기간 특례 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제32조 · 특정 경우의 피고 비용 부담 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0032&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 소송비용 재판의 국가·공공단체에 대한 효력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제3자 재심의 30일은 처분을 안 날이 아니라 ‘확정판결이 있음을 안 날’부터입니다. 취소소송 제소기간 90일과 바꾸어 외우지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "7장 · 제3자의 재심과 소송비용"
+    statement: "사정판결로 원고의 청구가 기각되면 소송비용은 법 제32조에 따라 원고가 부담한다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "제32조는 이 경우 소송비용을 피고의 부담으로 정합니다.\n근거: 행정소송법 제31조 · 제3자 재심의 요건·기간 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0031&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제5조 · 국외에서의 재심청구 기간 특례 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제32조 · 특정 경우의 피고 비용 부담 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0032&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제33조 · 소송비용 재판의 국가·공공단체에 대한 효력 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제3자 재심의 30일은 처분을 안 날이 아니라 ‘확정판결이 있음을 안 날’부터입니다. 취소소송 제소기간 90일과 바꾸어 외우지 마세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part07.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","7장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 무효등확인: 그 처분은 효력이 있나요"
+    statement: "무효등확인소송에는 집행정지 규정은 준용되지만 사정판결 규정은 준용되지 않는다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제38조제1항은 제23조·제24조를 포함하지만 제28조는 포함하지 않습니다.\n근거: 행정소송법 제35조 · 법률상 이익과 무효등확인의 원고적격 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0035&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제37조 · 취소소송·당사자소송으로의 변경 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0037&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제1항: 무효등확인에 준용하는 규정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제16조 · 기간 내 무효확인소송에서 취소 청구 여부 석명 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제18조 · 제1항: 무효등확인의 규칙 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제소기간 없음과 언제나 승소는 다릅니다. 확인의 법률상 이익, 무효사유의 주장·증명 등은 여전히 필요합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 무효등확인: 그 처분은 효력이 있나요"
+    statement: "취소소송 제소기간이 지나면 단순 취소사유도 당연히 무효사유가 된다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "기간 경과는 하자의 성질을 바꾸지 않습니다. 무효 여부는 별도의 실체적 기준으로 판단합니다.\n근거: 행정소송법 제35조 · 법률상 이익과 무효등확인의 원고적격 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0035&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제37조 · 취소소송·당사자소송으로의 변경 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0037&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제1항: 무효등확인에 준용하는 규정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제16조 · 기간 내 무효확인소송에서 취소 청구 여부 석명 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제18조 · 제1항: 무효등확인의 규칙 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "제소기간 없음과 언제나 승소는 다릅니다. 확인의 법률상 이익, 무효사유의 주장·증명 등은 여전히 필요합니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u01"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 부작위위법확인: 대답해야 하는데 침묵할 때"
+    statement: "부작위위법확인소송은 처분 신청을 한 사람 중 확인을 구할 법률상 이익이 있는 사람만 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제36조의 원고적격 요건입니다.\n근거: 행정소송법 제2조 · 제1항제2호: 부작위의 정의 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제36조 · 신청인과 법률상 이익 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0036&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제2항: 부작위위법확인의 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제17조 · 소송 중 뒤늦게 처분한 경우의 각하와 비용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제18조 · 제2항: 부작위위법확인의 규칙 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "법 제38조의 준용표와 실제 기간 계산을 구별하세요. 조문에 제20조가 있다는 이유만으로 지속 중인 침묵에 임의의 처분일을 만들어 90일을 세면 안 됩니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 부작위위법확인: 대답해야 하는데 침묵할 때"
+    statement: "명시적인 거부처분을 받았어도 신청인이 원하는 허가가 없으면 언제나 부작위에 해당한다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "거부도 처분입니다. 응답하지 않는 부작위와 거부처분의 위법은 구별해야 합니다.\n근거: 행정소송법 제2조 · 제1항제2호: 부작위의 정의 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제36조 · 신청인과 법률상 이익 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0036&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제38조 · 제2항: 부작위위법확인의 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제17조 · 소송 중 뒤늦게 처분한 경우의 각하와 비용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제18조 · 제2항: 부작위위법확인의 규칙 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "법 제38조의 준용표와 실제 기간 계산을 구별하세요. 조문에 제20조가 있다는 이유만으로 지속 중인 침묵에 임의의 처분일을 만들어 90일을 세면 안 됩니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u02"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 당사자소송: 공법상 돈과 지위를 직접 다투기"
+    statement: "당사자소송의 피고는 원칙적으로 국가·공공단체 그 밖의 권리주체이다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제39조의 규정입니다. 처분청을 피고로 하는 취소소송과 구별합니다.\n근거: 행정소송법 제39조 · 국가·공공단체 등 권리주체가 피고 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0039&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제40조 · 관할과 관계 행정청 소재지 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0040&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제41조 · 법령에 정한 제소기간의 불변기간성 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0041&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제42조 · 항고소송으로의 변경 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0042&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제44조 · 당사자소송의 준용 목록 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0044&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제19조 · 손실보상·확정된 공법상 권리·공법상 계약 등 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제20조 · 당사자소송에 준용하는 규칙 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘세금과 관련 = 모두 항고소송’, ‘국가에 돈 청구 = 모두 당사자소송’이라는 공식은 모두 위험합니다. 환급청구의 법적 근거와 권리 확정 구조를 살펴보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 당사자소송: 공법상 돈과 지위를 직접 다투기"
+    statement: "2026년 11월 기준으로 국가 상대 당사자소송의 가집행선고를 금지하는 행정소송법 제43조가 그대로 시행 중이다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "그 조항은 2022년 위헌결정을 거쳐 2026년 5월 12일 삭제됐습니다. 옛 기출의 법 상태와 현재를 구별해야 합니다.\n근거: 행정소송법 제39조 · 국가·공공단체 등 권리주체가 피고 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0039&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제40조 · 관할과 관계 행정청 소재지 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0040&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제41조 · 법령에 정한 제소기간의 불변기간성 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0041&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제42조 · 항고소송으로의 변경 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0042&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제44조 · 당사자소송의 준용 목록 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0044&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제19조 · 손실보상·확정된 공법상 권리·공법상 계약 등 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제20조 · 당사자소송에 준용하는 규칙 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0020&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "‘세금과 관련 = 모두 항고소송’, ‘국가에 돈 청구 = 모두 당사자소송’이라는 공식은 모두 위험합니다. 환급청구의 법적 근거와 권리 확정 구조를 살펴보세요."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u03"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 민중소송과 기관소송: 법이 열어 준 특별한 문"
+    statement: "민중소송과 기관소송은 법률이 정한 경우에 법률이 정한 자만 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "O"
+    rationale: "법 제45조의 법정주의입니다.\n근거: 행정소송법 제3조 · 민중소송·기관소송의 정의와 헌법재판소 관장사항 제외 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제45조 · 법률이 정한 경우에 법률이 정한 자만 제기 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0045&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제46조 · 구하는 내용에 따른 취소·확인·당사자소송 규정 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0046&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "감사원의 모든 행위가 소송 대상이 아니라고 일반화하지 마세요. 아래 판례는 특정 징계요구와 재심의결정의 처분성, 기관소송 근거의 유무에 관한 판단입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]
+  - type: "ox"
+    subject: "행정소송법"
+    unit: "8장 · 민중소송과 기관소송: 법이 열어 준 특별한 문"
+    statement: "기관 사이의 분쟁이라면 개별 법률의 근거 없이도 행정소송법 제45조만으로 기관소송을 제기할 수 있다."
+    choices: ["O","X","?"]
+    answer: "X"
+    rationale: "제45조는 모든 기관 분쟁을 허용하는 포괄적 제소권 규정이 아닙니다. 개별 법률상 허용이 필요합니다.\n근거: 행정소송법 제3조 · 민중소송·기관소송의 정의와 헌법재판소 관장사항 제외 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제45조 · 법률이 정한 경우에 법률이 정한 자만 제기 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0045&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제46조 · 구하는 내용에 따른 취소·확인·당사자소송 규정 준용 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0046&lsiSeq=285913&urlMode=lsScJoRltInfoR"
+    correction: ""
+    trap: "감사원의 모든 행위가 소송 대상이 아니라고 일반화하지 마세요. 아래 판례는 특정 징계요구와 재심의결정의 처분성, 기관소송 근거의 유무에 관한 판단입니다."
+    source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part08.html#u04"
+    referenceYear: 2026
+    tags: ["행정소송법","첫학습","조문회독","8장"]

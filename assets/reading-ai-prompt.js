@@ -26,7 +26,8 @@
     }
     for (const child of article.children) {
       if (child.hidden) continue;
-      if (child.matches('h3, p:not([class]), blockquote[data-ai-reading], figure[data-ai-reading]')) {
+      if (child.matches('h3, p:not([class]), blockquote[data-ai-reading], figure[data-ai-reading]') ||
+          (article.closest('.admin') && child.matches('.core, .analogy, .case-card, .intro-table'))) {
         blocks.push(child);
         // Statute-based notes cite their primary source inside the visible excerpt.
         for (const link of child.querySelectorAll('a[href]')) {

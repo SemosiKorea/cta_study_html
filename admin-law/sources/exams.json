@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "2025-41",
+    "year": 2025,
+    "number": 41,
+    "page": 19,
+    "topic": "행정소송 종류",
+    "chapter": 1
+  },
+  {
+    "id": "2025-42",
+    "year": 2025,
+    "number": 42,
+    "page": 19,
+    "topic": "소송비용",
+    "chapter": 7
+  },
+  {
+    "id": "2025-43",
+    "year": 2025,
+    "number": 43,
+    "page": 19,
+    "topic": "재판관할",
+    "chapter": 4
+  },
+  {
+    "id": "2025-44",
+    "year": 2025,
+    "number": 44,
+    "page": 20,
+    "topic": "관련청구 이송·병합",
+    "chapter": 5
+  },
+  {
+    "id": "2025-45",
+    "year": 2025,
+    "number": 45,
+    "page": 20,
+    "topic": "민사소송 선결문제 준용",
+    "chapter": 2
+  },
+  {
+    "id": "2025-46",
+    "year": 2025,
+    "number": 46,
+    "page": 20,
+    "topic": "법률상 이익",
+    "chapter": 3
+  },
+  {
+    "id": "2025-47",
+    "year": 2025,
+    "number": 47,
+    "page": 21,
+    "topic": "원고적격 사례",
+    "chapter": 3
+  },
+  {
+    "id": "2025-48",
+    "year": 2025,
+    "number": 48,
+    "page": 21,
+    "topic": "피고적격·경정",
+    "chapter": 3
+  },
+  {
+    "id": "2025-49",
+    "year": 2025,
+    "number": 49,
+    "page": 21,
+    "topic": "소송참가",
+    "chapter": 3
+  },
+  {
+    "id": "2025-50",
+    "year": 2025,
+    "number": 50,
+    "page": 22,
+    "topic": "공부 기재행위의 처분성",
+    "chapter": 2
+  },
+  {
+    "id": "2025-51",
+    "year": 2025,
+    "number": 51,
+    "page": 22,
+    "topic": "행정심판 전치주의",
+    "chapter": 4
+  },
+  {
+    "id": "2025-52",
+    "year": 2025,
+    "number": 52,
+    "page": 22,
+    "topic": "당사자소송 준용규정",
+    "chapter": 8
+  },
+  {
+    "id": "2025-53",
+    "year": 2025,
+    "number": 53,
+    "page": 22,
+    "topic": "집행정지 요건",
+    "chapter": 5
+  },
+  {
+    "id": "2025-54",
+    "year": 2025,
+    "number": 54,
+    "page": 23,
+    "topic": "집행정지 효력",
+    "chapter": 5
+  },
+  {
+    "id": "2025-55",
+    "year": 2025,
+    "number": 55,
+    "page": 23,
+    "topic": "제소기간",
+    "chapter": 4
+  },
+  {
+    "id": "2025-56",
+    "year": 2025,
+    "number": 56,
+    "page": 23,
+    "topic": "소의 변경",
+    "chapter": 4
+  },
+  {
+    "id": "2025-57",
+    "year": 2025,
+    "number": 57,
+    "page": 24,
+    "topic": "원처분주의·재결주의",
+    "chapter": 2
+  },
+  {
+    "id": "2025-58",
+    "year": 2025,
+    "number": 58,
+    "page": 24,
+    "topic": "항고·당사자·민사소송 구별",
+    "chapter": 8
+  },
+  {
+    "id": "2025-59",
+    "year": 2025,
+    "number": 59,
+    "page": 24,
+    "topic": "처분성 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2025-60",
+    "year": 2025,
+    "number": 60,
+    "page": 24,
+    "topic": "행정소송 종합 판례",
+    "chapter": 1
+  },
+  {
+    "id": "2025-61",
+    "year": 2025,
+    "number": 61,
+    "page": 25,
+    "topic": "소송요건과 본안요건",
+    "chapter": 6
+  },
+  {
+    "id": "2025-62",
+    "year": 2025,
+    "number": 62,
+    "page": 25,
+    "topic": "직권심리",
+    "chapter": 5
+  },
+  {
+    "id": "2025-63",
+    "year": 2025,
+    "number": 63,
+    "page": 25,
+    "topic": "주장·증명책임",
+    "chapter": 5
+  },
+  {
+    "id": "2025-64",
+    "year": 2025,
+    "number": 64,
+    "page": 25,
+    "topic": "처분사유 추가·변경",
+    "chapter": 6
+  },
+  {
+    "id": "2025-65",
+    "year": 2025,
+    "number": 65,
+    "page": 26,
+    "topic": "판결 방식",
+    "chapter": 6
+  },
+  {
+    "id": "2025-66",
+    "year": 2025,
+    "number": 66,
+    "page": 26,
+    "topic": "사정판결",
+    "chapter": 6
+  },
+  {
+    "id": "2025-67",
+    "year": 2025,
+    "number": 67,
+    "page": 26,
+    "topic": "판결 외 종료·조정권고",
+    "chapter": 6
+  },
+  {
+    "id": "2025-68",
+    "year": 2025,
+    "number": 68,
+    "page": 26,
+    "topic": "판결 효력·기판력",
+    "chapter": 7
+  },
+  {
+    "id": "2025-69",
+    "year": 2025,
+    "number": 69,
+    "page": 27,
+    "topic": "간접강제",
+    "chapter": 7
+  },
+  {
+    "id": "2025-70",
+    "year": 2025,
+    "number": 70,
+    "page": 27,
+    "topic": "제3자 재심 기간",
+    "chapter": 7
+  },
+  {
+    "id": "2025-71",
+    "year": 2025,
+    "number": 71,
+    "page": 27,
+    "topic": "무효등확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2025-72",
+    "year": 2025,
+    "number": 72,
+    "page": 28,
+    "topic": "무효등확인소송 준용규정",
+    "chapter": 8
+  },
+  {
+    "id": "2025-73",
+    "year": 2025,
+    "number": 73,
+    "page": 28,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2025-74",
+    "year": 2025,
+    "number": 74,
+    "page": 28,
+    "topic": "부작위위법확인 판결·효력",
+    "chapter": 8
+  },
+  {
+    "id": "2025-75",
+    "year": 2025,
+    "number": 75,
+    "page": 28,
+    "topic": "허용되는 소송형식",
+    "chapter": 1
+  },
+  {
+    "id": "2025-76",
+    "year": 2025,
+    "number": 76,
+    "page": 29,
+    "topic": "당사자소송 대상 사례",
+    "chapter": 8
+  },
+  {
+    "id": "2025-77",
+    "year": 2025,
+    "number": 77,
+    "page": 29,
+    "topic": "당사자소송 일반",
+    "chapter": 8
+  },
+  {
+    "id": "2025-78",
+    "year": 2025,
+    "number": 78,
+    "page": 29,
+    "topic": "민중소송",
+    "chapter": 8
+  },
+  {
+    "id": "2025-79",
+    "year": 2025,
+    "number": 79,
+    "page": 30,
+    "topic": "기관소송",
+    "chapter": 8
+  },
+  {
+    "id": "2025-80",
+    "year": 2025,
+    "number": 80,
+    "page": 30,
+    "topic": "감사원 징계요구·재심의 결정 사례",
+    "chapter": 8
+  },
+  {
+    "id": "2024-41",
+    "year": 2024,
+    "number": 41,
+    "page": 18,
+    "topic": "취소소송 심리·석명권",
+    "chapter": 5
+  },
+  {
+    "id": "2024-42",
+    "year": 2024,
+    "number": 42,
+    "page": 18,
+    "topic": "처분사유 추가·변경",
+    "chapter": 6
+  },
+  {
+    "id": "2024-43",
+    "year": 2024,
+    "number": 43,
+    "page": 18,
+    "topic": "위법판단 기준시",
+    "chapter": 6
+  },
+  {
+    "id": "2024-44",
+    "year": 2024,
+    "number": 44,
+    "page": 19,
+    "topic": "주장·증명책임",
+    "chapter": 5
+  },
+  {
+    "id": "2024-45",
+    "year": 2024,
+    "number": 45,
+    "page": 19,
+    "topic": "사정판결",
+    "chapter": 6
+  },
+  {
+    "id": "2024-46",
+    "year": 2024,
+    "number": 46,
+    "page": 19,
+    "topic": "일부취소 가능성",
+    "chapter": 6
+  },
+  {
+    "id": "2024-47",
+    "year": 2024,
+    "number": 47,
+    "page": 20,
+    "topic": "취소판결 기속력",
+    "chapter": 7
+  },
+  {
+    "id": "2024-48",
+    "year": 2024,
+    "number": 48,
+    "page": 20,
+    "topic": "판결·집행정지 효력 및 기판력",
+    "chapter": 7
+  },
+  {
+    "id": "2024-49",
+    "year": 2024,
+    "number": 49,
+    "page": 20,
+    "topic": "민중소송",
+    "chapter": 8
+  },
+  {
+    "id": "2024-50",
+    "year": 2024,
+    "number": 50,
+    "page": 21,
+    "topic": "거부처분 취소 후 재처분",
+    "chapter": 7
+  },
+  {
+    "id": "2024-51",
+    "year": 2024,
+    "number": 51,
+    "page": 21,
+    "topic": "무효등확인소송의 유형",
+    "chapter": 8
+  },
+  {
+    "id": "2024-52",
+    "year": 2024,
+    "number": 52,
+    "page": 21,
+    "topic": "무효확인소송·확인의 이익·청구병합",
+    "chapter": 8
+  },
+  {
+    "id": "2024-53",
+    "year": 2024,
+    "number": 53,
+    "page": 22,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2024-54",
+    "year": 2024,
+    "number": 54,
+    "page": 22,
+    "topic": "제소기간·이송·고지",
+    "chapter": 4
+  },
+  {
+    "id": "2024-55",
+    "year": 2024,
+    "number": 55,
+    "page": 23,
+    "topic": "당사자소송 일반",
+    "chapter": 8
+  },
+  {
+    "id": "2024-56",
+    "year": 2024,
+    "number": 56,
+    "page": 23,
+    "topic": "당사자소송 대상 사례",
+    "chapter": 8
+  },
+  {
+    "id": "2024-57",
+    "year": 2024,
+    "number": 57,
+    "page": 23,
+    "topic": "허용되는 소송형식",
+    "chapter": 1
+  },
+  {
+    "id": "2024-58",
+    "year": 2024,
+    "number": 58,
+    "page": 24,
+    "topic": "간접강제",
+    "chapter": 7
+  },
+  {
+    "id": "2024-59",
+    "year": 2024,
+    "number": 59,
+    "page": 24,
+    "topic": "제3자 재심",
+    "chapter": 7
+  },
+  {
+    "id": "2024-60",
+    "year": 2024,
+    "number": 60,
+    "page": 24,
+    "topic": "내부위임·무효 처분 사례",
+    "chapter": 3
+  },
+  {
+    "id": "2024-61",
+    "year": 2024,
+    "number": 61,
+    "page": 25,
+    "topic": "원고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2024-62",
+    "year": 2024,
+    "number": 62,
+    "page": 25,
+    "topic": "피고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2024-63",
+    "year": 2024,
+    "number": 63,
+    "page": 25,
+    "topic": "피고경정",
+    "chapter": 3
+  },
+  {
+    "id": "2024-64",
+    "year": 2024,
+    "number": 64,
+    "page": 26,
+    "topic": "소송참가",
+    "chapter": 3
+  },
+  {
+    "id": "2024-65",
+    "year": 2024,
+    "number": 65,
+    "page": 26,
+    "topic": "관련청구 이송",
+    "chapter": 5
+  },
+  {
+    "id": "2024-66",
+    "year": 2024,
+    "number": 66,
+    "page": 26,
+    "topic": "적용·준용 법령",
+    "chapter": 1
+  },
+  {
+    "id": "2024-67",
+    "year": 2024,
+    "number": 67,
+    "page": 26,
+    "topic": "기속력 인정 판결",
+    "chapter": 7
+  },
+  {
+    "id": "2024-68",
+    "year": 2024,
+    "number": 68,
+    "page": 27,
+    "topic": "취소소송 대상·처분성",
+    "chapter": 2
+  },
+  {
+    "id": "2024-69",
+    "year": 2024,
+    "number": 69,
+    "page": 27,
+    "topic": "명령·규칙 위헌판결 공고",
+    "chapter": 1
+  },
+  {
+    "id": "2024-70",
+    "year": 2024,
+    "number": 70,
+    "page": 27,
+    "topic": "재결취소소송",
+    "chapter": 2
+  },
+  {
+    "id": "2024-71",
+    "year": 2024,
+    "number": 71,
+    "page": 28,
+    "topic": "소 변경·제소시점",
+    "chapter": 4
+  },
+  {
+    "id": "2024-72",
+    "year": 2024,
+    "number": 72,
+    "page": 28,
+    "topic": "토지수용 관련 소송 피고",
+    "chapter": 8
+  },
+  {
+    "id": "2024-73",
+    "year": 2024,
+    "number": 73,
+    "page": 28,
+    "topic": "변경명령재결 후 처분·제소기간",
+    "chapter": 4
+  },
+  {
+    "id": "2024-74",
+    "year": 2024,
+    "number": 74,
+    "page": 28,
+    "topic": "필요적 전심절차·제소기간",
+    "chapter": 4
+  },
+  {
+    "id": "2024-75",
+    "year": 2024,
+    "number": 75,
+    "page": 29,
+    "topic": "기관소송과 항고소송 구별",
+    "chapter": 8
+  },
+  {
+    "id": "2024-76",
+    "year": 2024,
+    "number": 76,
+    "page": 29,
+    "topic": "보조금 취소처분 집행정지",
+    "chapter": 5
+  },
+  {
+    "id": "2024-77",
+    "year": 2024,
+    "number": 77,
+    "page": 29,
+    "topic": "조세 필요적 전심절차",
+    "chapter": 4
+  },
+  {
+    "id": "2024-78",
+    "year": 2024,
+    "number": 78,
+    "page": 30,
+    "topic": "조세행정 처분성",
+    "chapter": 2
+  },
+  {
+    "id": "2024-79",
+    "year": 2024,
+    "number": 79,
+    "page": 30,
+    "topic": "거부처분·신청권",
+    "chapter": 2
+  },
+  {
+    "id": "2024-80",
+    "year": 2024,
+    "number": 80,
+    "page": 30,
+    "topic": "협의의 소의 이익",
+    "chapter": 3
+  },
+  {
+    "id": "2023-41",
+    "year": 2023,
+    "number": 41,
+    "page": 18,
+    "topic": "행정소송의 한계",
+    "chapter": 1
+  },
+  {
+    "id": "2023-42",
+    "year": 2023,
+    "number": 42,
+    "page": 18,
+    "topic": "행정심판 전치",
+    "chapter": 4
+  },
+  {
+    "id": "2023-43",
+    "year": 2023,
+    "number": 43,
+    "page": 18,
+    "topic": "다른 법률 준용",
+    "chapter": 1
+  },
+  {
+    "id": "2023-44",
+    "year": 2023,
+    "number": 44,
+    "page": 19,
+    "topic": "재판관할·이송",
+    "chapter": 4
+  },
+  {
+    "id": "2023-45",
+    "year": 2023,
+    "number": 45,
+    "page": 19,
+    "topic": "관련청구 병합",
+    "chapter": 5
+  },
+  {
+    "id": "2023-46",
+    "year": 2023,
+    "number": 46,
+    "page": 19,
+    "topic": "피고적격·수납업무 대행",
+    "chapter": 3
+  },
+  {
+    "id": "2023-47",
+    "year": 2023,
+    "number": 47,
+    "page": 20,
+    "topic": "항고소송 제기요건·처분성",
+    "chapter": 2
+  },
+  {
+    "id": "2023-48",
+    "year": 2023,
+    "number": 48,
+    "page": 20,
+    "topic": "원고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2023-49",
+    "year": 2023,
+    "number": 49,
+    "page": 20,
+    "topic": "소송참가",
+    "chapter": 3
+  },
+  {
+    "id": "2023-50",
+    "year": 2023,
+    "number": 50,
+    "page": 21,
+    "topic": "행정소송의 종류",
+    "chapter": 1
+  },
+  {
+    "id": "2023-51",
+    "year": 2023,
+    "number": 51,
+    "page": 21,
+    "topic": "소의 변경",
+    "chapter": 4
+  },
+  {
+    "id": "2023-52",
+    "year": 2023,
+    "number": 52,
+    "page": 21,
+    "topic": "거부행위 처분성·신청권",
+    "chapter": 2
+  },
+  {
+    "id": "2023-53",
+    "year": 2023,
+    "number": 53,
+    "page": 22,
+    "topic": "기관소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-54",
+    "year": 2023,
+    "number": 54,
+    "page": 22,
+    "topic": "당사자소송 사례",
+    "chapter": 8
+  },
+  {
+    "id": "2023-55",
+    "year": 2023,
+    "number": 55,
+    "page": 22,
+    "topic": "입국금지·사증거부 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2023-56",
+    "year": 2023,
+    "number": 56,
+    "page": 23,
+    "topic": "집행정지 효력·불복",
+    "chapter": 5
+  },
+  {
+    "id": "2023-57",
+    "year": 2023,
+    "number": 57,
+    "page": 23,
+    "topic": "위법판단 기준시",
+    "chapter": 6
+  },
+  {
+    "id": "2023-58",
+    "year": 2023,
+    "number": 58,
+    "page": 23,
+    "topic": "처분사유 추가·변경",
+    "chapter": 6
+  },
+  {
+    "id": "2023-59",
+    "year": 2023,
+    "number": 59,
+    "page": 24,
+    "topic": "주장·입증책임",
+    "chapter": 5
+  },
+  {
+    "id": "2023-60",
+    "year": 2023,
+    "number": 60,
+    "page": 24,
+    "topic": "집행정지 요건",
+    "chapter": 5
+  },
+  {
+    "id": "2023-61",
+    "year": 2023,
+    "number": 61,
+    "page": 24,
+    "topic": "일부취소",
+    "chapter": 6
+  },
+  {
+    "id": "2023-62",
+    "year": 2023,
+    "number": 62,
+    "page": 25,
+    "topic": "관련청구 병합·국가배상",
+    "chapter": 5
+  },
+  {
+    "id": "2023-63",
+    "year": 2023,
+    "number": 63,
+    "page": 25,
+    "topic": "사정판결",
+    "chapter": 6
+  },
+  {
+    "id": "2023-64",
+    "year": 2023,
+    "number": 64,
+    "page": 25,
+    "topic": "관련청구 이송·불복",
+    "chapter": 5
+  },
+  {
+    "id": "2023-65",
+    "year": 2023,
+    "number": 65,
+    "page": 25,
+    "topic": "심리원칙",
+    "chapter": 5
+  },
+  {
+    "id": "2023-66",
+    "year": 2023,
+    "number": 66,
+    "page": 26,
+    "topic": "제3자 재심 기간",
+    "chapter": 7
+  },
+  {
+    "id": "2023-67",
+    "year": 2023,
+    "number": 67,
+    "page": 26,
+    "topic": "간접강제",
+    "chapter": 7
+  },
+  {
+    "id": "2023-68",
+    "year": 2023,
+    "number": 68,
+    "page": 26,
+    "topic": "당사자소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-69",
+    "year": 2023,
+    "number": 69,
+    "page": 27,
+    "topic": "소송비용",
+    "chapter": 7
+  },
+  {
+    "id": "2023-70",
+    "year": 2023,
+    "number": 70,
+    "page": 27,
+    "topic": "당사자소송 사례",
+    "chapter": 8
+  },
+  {
+    "id": "2023-71",
+    "year": 2023,
+    "number": 71,
+    "page": 27,
+    "topic": "소송유형의 허용 한계",
+    "chapter": 1
+  },
+  {
+    "id": "2023-72",
+    "year": 2023,
+    "number": 72,
+    "page": 28,
+    "topic": "무효등확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-73",
+    "year": 2023,
+    "number": 73,
+    "page": 28,
+    "topic": "민중소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-74",
+    "year": 2023,
+    "number": 74,
+    "page": 28,
+    "topic": "무효등확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-75",
+    "year": 2023,
+    "number": 75,
+    "page": 28,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2023-76",
+    "year": 2023,
+    "number": 76,
+    "page": 29,
+    "topic": "처분성 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2023-77",
+    "year": 2023,
+    "number": 77,
+    "page": 29,
+    "topic": "처분성 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2023-78",
+    "year": 2023,
+    "number": 78,
+    "page": 29,
+    "topic": "제소기간 기산점",
+    "chapter": 4
+  },
+  {
+    "id": "2023-79",
+    "year": 2023,
+    "number": 79,
+    "page": 30,
+    "topic": "준용규정",
+    "chapter": 8
+  },
+  {
+    "id": "2023-80",
+    "year": 2023,
+    "number": 80,
+    "page": 30,
+    "topic": "영업정지와 소송요건 통합",
+    "chapter": 4
+  },
+  {
+    "id": "2022-41",
+    "year": 2022,
+    "number": 41,
+    "page": 19,
+    "topic": "총칙·관할·재량 통합",
+    "chapter": 1
+  },
+  {
+    "id": "2022-42",
+    "year": 2022,
+    "number": 42,
+    "page": 19,
+    "topic": "무효·부작위 준용표",
+    "chapter": 8
+  },
+  {
+    "id": "2022-43",
+    "year": 2022,
+    "number": 43,
+    "page": 19,
+    "topic": "기관소송",
+    "chapter": 8
+  },
+  {
+    "id": "2022-44",
+    "year": 2022,
+    "number": 44,
+    "page": 20,
+    "topic": "국외 기간 특례",
+    "chapter": 4
+  },
+  {
+    "id": "2022-45",
+    "year": 2022,
+    "number": 45,
+    "page": 20,
+    "topic": "행정소송의 종류",
+    "chapter": 1
+  },
+  {
+    "id": "2022-46",
+    "year": 2022,
+    "number": 46,
+    "page": 20,
+    "topic": "준용규정",
+    "chapter": 1
+  },
+  {
+    "id": "2022-47",
+    "year": 2022,
+    "number": 47,
+    "page": 20,
+    "topic": "민중소송",
+    "chapter": 8
+  },
+  {
+    "id": "2022-48",
+    "year": 2022,
+    "number": 48,
+    "page": 21,
+    "topic": "선결문제 준용규정",
+    "chapter": 2
+  },
+  {
+    "id": "2022-49",
+    "year": 2022,
+    "number": 49,
+    "page": 21,
+    "topic": "처분성과 항고소송 한계",
+    "chapter": 2
+  },
+  {
+    "id": "2022-50",
+    "year": 2022,
+    "number": 50,
+    "page": 21,
+    "topic": "재판관할",
+    "chapter": 4
+  },
+  {
+    "id": "2022-51",
+    "year": 2022,
+    "number": 51,
+    "page": 22,
+    "topic": "재결·원처분주의",
+    "chapter": 2
+  },
+  {
+    "id": "2022-52",
+    "year": 2022,
+    "number": 52,
+    "page": 22,
+    "topic": "협의의 소의 이익",
+    "chapter": 3
+  },
+  {
+    "id": "2022-53",
+    "year": 2022,
+    "number": 53,
+    "page": 23,
+    "topic": "제소기간",
+    "chapter": 4
+  },
+  {
+    "id": "2022-54",
+    "year": 2022,
+    "number": 54,
+    "page": 23,
+    "topic": "거부행위 처분성·신청권",
+    "chapter": 2
+  },
+  {
+    "id": "2022-55",
+    "year": 2022,
+    "number": 55,
+    "page": 24,
+    "topic": "소의 변경",
+    "chapter": 4
+  },
+  {
+    "id": "2022-56",
+    "year": 2022,
+    "number": 56,
+    "page": 24,
+    "topic": "처분성 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2022-57",
+    "year": 2022,
+    "number": 57,
+    "page": 24,
+    "topic": "제3자 원고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2022-58",
+    "year": 2022,
+    "number": 58,
+    "page": 25,
+    "topic": "취소소송 제기요건",
+    "chapter": 4
+  },
+  {
+    "id": "2022-59",
+    "year": 2022,
+    "number": 59,
+    "page": 25,
+    "topic": "원고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2022-60",
+    "year": 2022,
+    "number": 60,
+    "page": 25,
+    "topic": "집행정지 요건",
+    "chapter": 5
+  },
+  {
+    "id": "2022-61",
+    "year": 2022,
+    "number": 61,
+    "page": 26,
+    "topic": "경업자 면허취소소송",
+    "chapter": 3
+  },
+  {
+    "id": "2022-62",
+    "year": 2022,
+    "number": 62,
+    "page": 26,
+    "topic": "소의 변경 절차",
+    "chapter": 4
+  },
+  {
+    "id": "2022-63",
+    "year": 2022,
+    "number": 63,
+    "page": 26,
+    "topic": "무효등확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2022-64",
+    "year": 2022,
+    "number": 64,
+    "page": 27,
+    "topic": "피고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2022-65",
+    "year": 2022,
+    "number": 65,
+    "page": 27,
+    "topic": "집행정지 준용표",
+    "chapter": 5
+  },
+  {
+    "id": "2022-66",
+    "year": 2022,
+    "number": 66,
+    "page": 27,
+    "topic": "당사자소송",
+    "chapter": 8
+  },
+  {
+    "id": "2022-67",
+    "year": 2022,
+    "number": 67,
+    "page": 27,
+    "topic": "판결효력·소송형태 한계",
+    "chapter": 7
+  },
+  {
+    "id": "2022-68",
+    "year": 2022,
+    "number": 68,
+    "page": 28,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2022-69",
+    "year": 2022,
+    "number": 69,
+    "page": 28,
+    "topic": "처분사유 추가·변경",
+    "chapter": 6
+  },
+  {
+    "id": "2022-70",
+    "year": 2022,
+    "number": 70,
+    "page": 28,
+    "topic": "심리·판결",
+    "chapter": 6
+  },
+  {
+    "id": "2022-71",
+    "year": 2022,
+    "number": 71,
+    "page": 29,
+    "topic": "기속력",
+    "chapter": 7
+  },
+  {
+    "id": "2022-72",
+    "year": 2022,
+    "number": 72,
+    "page": 29,
+    "topic": "판결·제3자 재심",
+    "chapter": 7
+  },
+  {
+    "id": "2022-73",
+    "year": 2022,
+    "number": 73,
+    "page": 29,
+    "topic": "소송비용",
+    "chapter": 7
+  },
+  {
+    "id": "2022-74",
+    "year": 2022,
+    "number": 74,
+    "page": 30,
+    "topic": "영업정지 재량통제 통합",
+    "chapter": 6
+  },
+  {
+    "id": "2022-75",
+    "year": 2022,
+    "number": 75,
+    "page": 30,
+    "topic": "판결·일부취소",
+    "chapter": 6
+  },
+  {
+    "id": "2022-76",
+    "year": 2022,
+    "number": 76,
+    "page": 30,
+    "topic": "사정판결",
+    "chapter": 6
+  },
+  {
+    "id": "2022-77",
+    "year": 2022,
+    "number": 77,
+    "page": 31,
+    "topic": "판결의 제3자효",
+    "chapter": 7
+  },
+  {
+    "id": "2022-78",
+    "year": 2022,
+    "number": 78,
+    "page": 31,
+    "topic": "피고경정·소송참가",
+    "chapter": 3
+  },
+  {
+    "id": "2022-79",
+    "year": 2022,
+    "number": 79,
+    "page": 31,
+    "topic": "증명·소명책임",
+    "chapter": 5
+  },
+  {
+    "id": "2022-80",
+    "year": 2022,
+    "number": 80,
+    "page": 31,
+    "topic": "간접강제 준용",
+    "chapter": 7
+  },
+  {
+    "id": "2021-41",
+    "year": 2021,
+    "number": 41,
+    "page": 19,
+    "topic": "행정소송의 대상과 한계",
+    "chapter": 1
+  },
+  {
+    "id": "2021-42",
+    "year": 2021,
+    "number": 42,
+    "page": 19,
+    "topic": "기관소송·민중소송",
+    "chapter": 8
+  },
+  {
+    "id": "2021-43",
+    "year": 2021,
+    "number": 43,
+    "page": 19,
+    "topic": "당사자소송·가집행",
+    "chapter": 8
+  },
+  {
+    "id": "2021-44",
+    "year": 2021,
+    "number": 44,
+    "page": 20,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2021-45",
+    "year": 2021,
+    "number": 45,
+    "page": 20,
+    "topic": "무효등확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2021-46",
+    "year": 2021,
+    "number": 46,
+    "page": 20,
+    "topic": "부작위위법확인 준용표",
+    "chapter": 8
+  },
+  {
+    "id": "2021-47",
+    "year": 2021,
+    "number": 47,
+    "page": 20,
+    "topic": "취소소송·당사자소송 공통규정",
+    "chapter": 8
+  },
+  {
+    "id": "2021-48",
+    "year": 2021,
+    "number": 48,
+    "page": 21,
+    "topic": "부가가치세 환급청구의 소송형태",
+    "chapter": 8
+  },
+  {
+    "id": "2021-49",
+    "year": 2021,
+    "number": 49,
+    "page": 21,
+    "topic": "주민소송의 유형",
+    "chapter": 8
+  },
+  {
+    "id": "2021-50",
+    "year": 2021,
+    "number": 50,
+    "page": 21,
+    "topic": "부작위위법확인소송",
+    "chapter": 8
+  },
+  {
+    "id": "2021-51",
+    "year": 2021,
+    "number": 51,
+    "page": 21,
+    "topic": "명령·규칙 위헌판결 통보",
+    "chapter": 1
+  },
+  {
+    "id": "2021-52",
+    "year": 2021,
+    "number": 52,
+    "page": 22,
+    "topic": "제소기간 기산점",
+    "chapter": 4
+  },
+  {
+    "id": "2021-53",
+    "year": 2021,
+    "number": 53,
+    "page": 22,
+    "topic": "제소기간과 전심절차",
+    "chapter": 4
+  },
+  {
+    "id": "2021-54",
+    "year": 2021,
+    "number": 54,
+    "page": 22,
+    "topic": "필요적 행정심판전치",
+    "chapter": 4
+  },
+  {
+    "id": "2021-55",
+    "year": 2021,
+    "number": 55,
+    "page": 23,
+    "topic": "피고적격",
+    "chapter": 3
+  },
+  {
+    "id": "2021-56",
+    "year": 2021,
+    "number": 56,
+    "page": 23,
+    "topic": "관할·이송",
+    "chapter": 4
+  },
+  {
+    "id": "2021-57",
+    "year": 2021,
+    "number": 57,
+    "page": 23,
+    "topic": "소의 변경",
+    "chapter": 4
+  },
+  {
+    "id": "2021-58",
+    "year": 2021,
+    "number": 58,
+    "page": 24,
+    "topic": "당사자능력",
+    "chapter": 3
+  },
+  {
+    "id": "2021-59",
+    "year": 2021,
+    "number": 59,
+    "page": 24,
+    "topic": "원고적격 사례",
+    "chapter": 3
+  },
+  {
+    "id": "2021-60",
+    "year": 2021,
+    "number": 60,
+    "page": 24,
+    "topic": "제3자 원고적격 사례",
+    "chapter": 3
+  },
+  {
+    "id": "2021-61",
+    "year": 2021,
+    "number": 61,
+    "page": 25,
+    "topic": "협의의 소의 이익",
+    "chapter": 3
+  },
+  {
+    "id": "2021-62",
+    "year": 2021,
+    "number": 62,
+    "page": 25,
+    "topic": "민사소송의 선결문제",
+    "chapter": 2
+  },
+  {
+    "id": "2021-63",
+    "year": 2021,
+    "number": 63,
+    "page": 25,
+    "topic": "제소기간 날짜 계산",
+    "chapter": 4
+  },
+  {
+    "id": "2021-64",
+    "year": 2021,
+    "number": 64,
+    "page": 26,
+    "topic": "직권·신청 사항 구별",
+    "chapter": 5
+  },
+  {
+    "id": "2021-65",
+    "year": 2021,
+    "number": 65,
+    "page": 26,
+    "topic": "소의 변경",
+    "chapter": 4
+  },
+  {
+    "id": "2021-66",
+    "year": 2021,
+    "number": 66,
+    "page": 26,
+    "topic": "교원징계와 소송유형",
+    "chapter": 8
+  },
+  {
+    "id": "2021-67",
+    "year": 2021,
+    "number": 67,
+    "page": 27,
+    "topic": "재결주의 개별법",
+    "chapter": 2
+  },
+  {
+    "id": "2021-68",
+    "year": 2021,
+    "number": 68,
+    "page": 27,
+    "topic": "처분성 사례",
+    "chapter": 2
+  },
+  {
+    "id": "2021-69",
+    "year": 2021,
+    "number": 69,
+    "page": 27,
+    "topic": "제3자·행정청 소송참가",
+    "chapter": 3
+  },
+  {
+    "id": "2021-70",
+    "year": 2021,
+    "number": 70,
+    "page": 28,
+    "topic": "소송유형별 집행정지",
+    "chapter": 5
+  },
+  {
+    "id": "2021-71",
+    "year": 2021,
+    "number": 71,
+    "page": 28,
+    "topic": "위법판단 기준시·처분사유",
+    "chapter": 6
+  },
+  {
+    "id": "2021-72",
+    "year": 2021,
+    "number": 72,
+    "page": 28,
+    "topic": "사정판결",
+    "chapter": 6
+  },
+  {
+    "id": "2021-73",
+    "year": 2021,
+    "number": 73,
+    "page": 29,
+    "topic": "소송물",
+    "chapter": 6
+  },
+  {
+    "id": "2021-74",
+    "year": 2021,
+    "number": 74,
+    "page": 29,
+    "topic": "확정판결 기속력",
+    "chapter": 7
+  },
+  {
+    "id": "2021-75",
+    "year": 2021,
+    "number": 75,
+    "page": 29,
+    "topic": "부작위위법확인판결 효력",
+    "chapter": 8
+  },
+  {
+    "id": "2021-76",
+    "year": 2021,
+    "number": 76,
+    "page": 30,
+    "topic": "확정판결 기판력",
+    "chapter": 7
+  },
+  {
+    "id": "2021-77",
+    "year": 2021,
+    "number": 77,
+    "page": 30,
+    "topic": "일부취소",
+    "chapter": 6
+  },
+  {
+    "id": "2021-78",
+    "year": 2021,
+    "number": 78,
+    "page": 30,
+    "topic": "취소판결 효력",
+    "chapter": 7
+  },
+  {
+    "id": "2021-79",
+    "year": 2021,
+    "number": 79,
+    "page": 31,
+    "topic": "재량통제",
+    "chapter": 6
+  },
+  {
+    "id": "2021-80",
+    "year": 2021,
+    "number": 80,
+    "page": 31,
+    "topic": "토지수용·보상금증액소송",
+    "chapter": 8
+  }
+]

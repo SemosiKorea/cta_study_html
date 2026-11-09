@@ -1,0 +1,2054 @@
+{
+  "standard": "2026-11-10",
+  "chapters": 8,
+  "units": 32,
+  "ox": 64,
+  "exams": 200,
+  "specialLaws": 7,
+  "cases": [
+    "2014두5637",
+    "2017두38874",
+    "95누12460",
+    "2006두14001",
+    "2006두7430",
+    "98두2270",
+    "2002두868",
+    "2011다95564",
+    "2020헌가12"
+  ],
+  "actArticles": [
+    "act-1",
+    "act-2",
+    "act-3",
+    "act-4",
+    "act-5",
+    "act-6",
+    "act-7",
+    "act-8",
+    "act-9",
+    "act-10",
+    "act-11",
+    "act-12",
+    "act-13",
+    "act-14",
+    "act-15",
+    "act-16",
+    "act-17",
+    "act-18",
+    "act-19",
+    "act-20",
+    "act-21",
+    "act-22",
+    "act-23",
+    "act-24",
+    "act-25",
+    "act-26",
+    "act-27",
+    "act-28",
+    "act-29",
+    "act-30",
+    "act-31",
+    "act-32",
+    "act-33",
+    "act-34",
+    "act-35",
+    "act-36",
+    "act-37",
+    "act-38",
+    "act-39",
+    "act-40",
+    "act-41",
+    "act-42",
+    "act-44",
+    "act-45",
+    "act-46",
+    "act-43"
+  ],
+  "rulesArticles": [
+    "rules-1",
+    "rules-2",
+    "rules-3",
+    "rules-4",
+    "rules-5",
+    "rules-6",
+    "rules-7",
+    "rules-8",
+    "rules-9",
+    "rules-10",
+    "rules-10의2",
+    "rules-11",
+    "rules-12",
+    "rules-13",
+    "rules-14",
+    "rules-15",
+    "rules-16",
+    "rules-17",
+    "rules-18",
+    "rules-19",
+    "rules-20"
+  ],
+  "lessonLinkedLawArticles": [
+    "act-1",
+    "act-10",
+    "act-11",
+    "act-12",
+    "act-13",
+    "act-14",
+    "act-15",
+    "act-16",
+    "act-17",
+    "act-18",
+    "act-19",
+    "act-2",
+    "act-20",
+    "act-21",
+    "act-22",
+    "act-23",
+    "act-24",
+    "act-25",
+    "act-26",
+    "act-27",
+    "act-28",
+    "act-29",
+    "act-3",
+    "act-30",
+    "act-31",
+    "act-32",
+    "act-33",
+    "act-34",
+    "act-35",
+    "act-36",
+    "act-37",
+    "act-38",
+    "act-39",
+    "act-4",
+    "act-40",
+    "act-41",
+    "act-42",
+    "act-44",
+    "act-45",
+    "act-46",
+    "act-5",
+    "act-6",
+    "act-7",
+    "act-8",
+    "act-9",
+    "rules-1",
+    "rules-10",
+    "rules-10의2",
+    "rules-11",
+    "rules-12",
+    "rules-13",
+    "rules-14",
+    "rules-15",
+    "rules-16",
+    "rules-17",
+    "rules-18",
+    "rules-19",
+    "rules-2",
+    "rules-20",
+    "rules-4",
+    "rules-5",
+    "rules-6",
+    "rules-7",
+    "rules-8",
+    "rules-9"
+  ],
+  "examLinks": [
+    {
+      "id": "2025-41",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u02",
+          "title": "네 가지 소송, 네 가지 질문"
+        }
+      ]
+    },
+    {
+      "id": "2025-42",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part06.html#u04",
+          "title": "조정권고와 취하: 판결 없이 마무리하는 길"
+        },
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2025-43",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        }
+      ]
+    },
+    {
+      "id": "2025-44",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        },
+        {
+          "url": "part05.html#u01",
+          "title": "관련 사건은 한 교실에서 함께 풀 수 있다"
+        }
+      ]
+    },
+    {
+      "id": "2025-45",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u04",
+          "title": "선결문제: 다른 소송 안에서 먼저 풀어야 할 문제"
+        }
+      ]
+    },
+    {
+      "id": "2025-46",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2025-47",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2025-48",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2025-49",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u04",
+          "title": "소송참가: 결과에 영향을 받는 사람도 듣기"
+        }
+      ]
+    },
+    {
+      "id": "2025-50",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2025-51",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2025-52",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2025-53",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u02",
+          "title": "집행정지: 판결 전의 일시정지 버튼"
+        }
+      ]
+    },
+    {
+      "id": "2025-54",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u03",
+          "title": "언제까지 멈추며, 누구의 이야기를 들을까"
+        }
+      ]
+    },
+    {
+      "id": "2025-55",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2025-56",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2025-57",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u03",
+          "title": "원처분과 재결: 어느 결정을 공격할까"
+        }
+      ]
+    },
+    {
+      "id": "2025-58",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part01.html#u01",
+          "title": "행정소송은 행정의 결정을 점검하는 법원의 절차"
+        }
+      ]
+    },
+    {
+      "id": "2025-59",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2025-60",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2025-61",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part01.html#u03",
+          "title": "항고소송의 세 갈래와 판결의 세 가지 결론"
+        }
+      ]
+    },
+    {
+      "id": "2025-62",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2025-63",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2025-64",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u01",
+          "title": "처분 이유를 바꾸어도 같은 사건이어야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2025-65",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part01.html#u03",
+          "title": "항고소송의 세 갈래와 판결의 세 가지 결론"
+        },
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2025-66",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2025-67",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u04",
+          "title": "조정권고와 취하: 판결 없이 마무리하는 길"
+        }
+      ]
+    },
+    {
+      "id": "2025-68",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        }
+      ]
+    },
+    {
+      "id": "2025-69",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u03",
+          "title": "간접강제: 다시 판단하라는 약속을 지키게 하기"
+        }
+      ]
+    },
+    {
+      "id": "2025-70",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2025-71",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2025-72",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2025-73",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part02.html#u02",
+          "title": "거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+        },
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2025-74",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2025-75",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2025-76",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2025-77",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2025-78",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2025-79",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2025-80",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        },
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2024-41",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2024-42",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u01",
+          "title": "처분 이유를 바꾸어도 같은 사건이어야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2024-43",
+      "chapter": 6,
+      "lessons": []
+    },
+    {
+      "id": "2024-44",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2024-45",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2024-46",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2024-47",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        }
+      ]
+    },
+    {
+      "id": "2024-48",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        }
+      ]
+    },
+    {
+      "id": "2024-49",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2024-50",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u02",
+          "title": "거부처분이 취소되면 다시 대답해야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2024-51",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2024-52",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2024-53",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2024-54",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2024-55",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2024-56",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2024-57",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2024-58",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u03",
+          "title": "간접강제: 다시 판단하라는 약속을 지키게 하기"
+        }
+      ]
+    },
+    {
+      "id": "2024-59",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2024-60",
+      "chapter": 3,
+      "lessons": []
+    },
+    {
+      "id": "2024-61",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2024-62",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2024-63",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2024-64",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u04",
+          "title": "소송참가: 결과에 영향을 받는 사람도 듣기"
+        }
+      ]
+    },
+    {
+      "id": "2024-65",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        },
+        {
+          "url": "part05.html#u01",
+          "title": "관련 사건은 한 교실에서 함께 풀 수 있다"
+        }
+      ]
+    },
+    {
+      "id": "2024-66",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u04",
+          "title": "법률·규칙·판례를 읽는 순서"
+        }
+      ]
+    },
+    {
+      "id": "2024-67",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u02",
+          "title": "거부처분이 취소되면 다시 대답해야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2024-68",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2024-69",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u04",
+          "title": "법률·규칙·판례를 읽는 순서"
+        }
+      ]
+    },
+    {
+      "id": "2024-70",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u03",
+          "title": "원처분과 재결: 어느 결정을 공격할까"
+        }
+      ]
+    },
+    {
+      "id": "2024-71",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2024-72",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2024-73",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part02.html#u03",
+          "title": "원처분과 재결: 어느 결정을 공격할까"
+        },
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2024-74",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2024-75",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2024-76",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u02",
+          "title": "집행정지: 판결 전의 일시정지 버튼"
+        }
+      ]
+    },
+    {
+      "id": "2024-77",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2024-78",
+      "chapter": 2,
+      "lessons": []
+    },
+    {
+      "id": "2024-79",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u02",
+          "title": "거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+        }
+      ]
+    },
+    {
+      "id": "2024-80",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u02",
+          "title": "소의 이익: 기간이 끝나도 해결할 일이 남았을까"
+        }
+      ]
+    },
+    {
+      "id": "2023-41",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2023-42",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2023-43",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u04",
+          "title": "법률·규칙·판례를 읽는 순서"
+        }
+      ]
+    },
+    {
+      "id": "2023-44",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        }
+      ]
+    },
+    {
+      "id": "2023-45",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u01",
+          "title": "관련 사건은 한 교실에서 함께 풀 수 있다"
+        }
+      ]
+    },
+    {
+      "id": "2023-46",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part01.html#u01",
+          "title": "행정소송은 행정의 결정을 점검하는 법원의 절차"
+        },
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2023-47",
+      "chapter": 2,
+      "lessons": []
+    },
+    {
+      "id": "2023-48",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2023-49",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u04",
+          "title": "소송참가: 결과에 영향을 받는 사람도 듣기"
+        }
+      ]
+    },
+    {
+      "id": "2023-50",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u02",
+          "title": "네 가지 소송, 네 가지 질문"
+        }
+      ]
+    },
+    {
+      "id": "2023-51",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2023-52",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u02",
+          "title": "거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+        }
+      ]
+    },
+    {
+      "id": "2023-53",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2023-54",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2023-55",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u02",
+          "title": "거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+        }
+      ]
+    },
+    {
+      "id": "2023-56",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u03",
+          "title": "언제까지 멈추며, 누구의 이야기를 들을까"
+        }
+      ]
+    },
+    {
+      "id": "2023-57",
+      "chapter": 6,
+      "lessons": []
+    },
+    {
+      "id": "2023-58",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u01",
+          "title": "처분 이유를 바꾸어도 같은 사건이어야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2023-59",
+      "chapter": 5,
+      "lessons": []
+    },
+    {
+      "id": "2023-60",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u02",
+          "title": "집행정지: 판결 전의 일시정지 버튼"
+        }
+      ]
+    },
+    {
+      "id": "2023-61",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2023-62",
+      "chapter": 5,
+      "lessons": []
+    },
+    {
+      "id": "2023-63",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2023-64",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        },
+        {
+          "url": "part05.html#u01",
+          "title": "관련 사건은 한 교실에서 함께 풀 수 있다"
+        }
+      ]
+    },
+    {
+      "id": "2023-65",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2023-66",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2023-67",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u03",
+          "title": "간접강제: 다시 판단하라는 약속을 지키게 하기"
+        }
+      ]
+    },
+    {
+      "id": "2023-68",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2023-69",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part06.html#u04",
+          "title": "조정권고와 취하: 판결 없이 마무리하는 길"
+        },
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2023-70",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2023-71",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2023-72",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2023-73",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2023-74",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2023-75",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2023-76",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2023-77",
+      "chapter": 2,
+      "lessons": []
+    },
+    {
+      "id": "2023-78",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2023-79",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2023-80",
+      "chapter": 4,
+      "lessons": []
+    },
+    {
+      "id": "2022-41",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u01",
+          "title": "행정소송은 행정의 결정을 점검하는 법원의 절차"
+        }
+      ]
+    },
+    {
+      "id": "2022-42",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2022-43",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2022-44",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2022-45",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u02",
+          "title": "네 가지 소송, 네 가지 질문"
+        }
+      ]
+    },
+    {
+      "id": "2022-46",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u04",
+          "title": "법률·규칙·판례를 읽는 순서"
+        }
+      ]
+    },
+    {
+      "id": "2022-47",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u04",
+          "title": "민중소송과 기관소송: 법이 열어 준 특별한 문"
+        }
+      ]
+    },
+    {
+      "id": "2022-48",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u04",
+          "title": "선결문제: 다른 소송 안에서 먼저 풀어야 할 문제"
+        }
+      ]
+    },
+    {
+      "id": "2022-49",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2022-50",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        }
+      ]
+    },
+    {
+      "id": "2022-51",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u03",
+          "title": "원처분과 재결: 어느 결정을 공격할까"
+        }
+      ]
+    },
+    {
+      "id": "2022-52",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u02",
+          "title": "소의 이익: 기간이 끝나도 해결할 일이 남았을까"
+        }
+      ]
+    },
+    {
+      "id": "2022-53",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2022-54",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u02",
+          "title": "거부와 부작위: “안 됩니다”와 “아무 답도 없음”"
+        }
+      ]
+    },
+    {
+      "id": "2022-55",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2022-56",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2022-57",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2022-58",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2022-59",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2022-60",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u02",
+          "title": "집행정지: 판결 전의 일시정지 버튼"
+        }
+      ]
+    },
+    {
+      "id": "2022-61",
+      "chapter": 3,
+      "lessons": []
+    },
+    {
+      "id": "2022-62",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2022-63",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u01",
+          "title": "무효등확인: 그 처분은 효력이 있나요"
+        }
+      ]
+    },
+    {
+      "id": "2022-64",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2022-65",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u03",
+          "title": "언제까지 멈추며, 누구의 이야기를 들을까"
+        }
+      ]
+    },
+    {
+      "id": "2022-66",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2022-67",
+      "chapter": 7,
+      "lessons": []
+    },
+    {
+      "id": "2022-68",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2022-69",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u01",
+          "title": "처분 이유를 바꾸어도 같은 사건이어야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2022-70",
+      "chapter": 6,
+      "lessons": []
+    },
+    {
+      "id": "2022-71",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        },
+        {
+          "url": "part07.html#u02",
+          "title": "거부처분이 취소되면 다시 대답해야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2022-72",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2022-73",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u04",
+          "title": "제3자의 재심과 소송비용"
+        }
+      ]
+    },
+    {
+      "id": "2022-74",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2022-75",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2022-76",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2022-77",
+      "chapter": 7,
+      "lessons": []
+    },
+    {
+      "id": "2022-78",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        },
+        {
+          "url": "part03.html#u04",
+          "title": "소송참가: 결과에 영향을 받는 사람도 듣기"
+        }
+      ]
+    },
+    {
+      "id": "2022-79",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u04",
+          "title": "법원은 자료를 살피지만, 모두 대신 찾아주지는 않는다"
+        }
+      ]
+    },
+    {
+      "id": "2022-80",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u03",
+          "title": "간접강제: 다시 판단하라는 약속을 지키게 하기"
+        }
+      ]
+    },
+    {
+      "id": "2021-41",
+      "chapter": 1,
+      "lessons": []
+    },
+    {
+      "id": "2021-42",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part01.html#u02",
+          "title": "네 가지 소송, 네 가지 질문"
+        }
+      ]
+    },
+    {
+      "id": "2021-43",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2021-44",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part01.html#u03",
+          "title": "항고소송의 세 갈래와 판결의 세 가지 결론"
+        },
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2021-45",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part01.html#u03",
+          "title": "항고소송의 세 갈래와 판결의 세 가지 결론"
+        }
+      ]
+    },
+    {
+      "id": "2021-46",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2021-47",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2021-48",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u03",
+          "title": "당사자소송: 공법상 돈과 지위를 직접 다투기"
+        }
+      ]
+    },
+    {
+      "id": "2021-49",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2021-50",
+      "chapter": 8,
+      "lessons": [
+        {
+          "url": "part08.html#u02",
+          "title": "부작위위법확인: 대답해야 하는데 침묵할 때"
+        }
+      ]
+    },
+    {
+      "id": "2021-51",
+      "chapter": 1,
+      "lessons": [
+        {
+          "url": "part01.html#u04",
+          "title": "법률·규칙·판례를 읽는 순서"
+        }
+      ]
+    },
+    {
+      "id": "2021-52",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-53",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-54",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u02",
+          "title": "행정심판: 반드시 거쳐야 하는 경유지일까"
+        }
+      ]
+    },
+    {
+      "id": "2021-55",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u03",
+          "title": "피고와 피고경정: 답해야 할 상대를 정확히"
+        }
+      ]
+    },
+    {
+      "id": "2021-56",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u01",
+          "title": "관할과 이송: 알맞은 법원 찾기"
+        }
+      ]
+    },
+    {
+      "id": "2021-57",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2021-58",
+      "chapter": 3,
+      "lessons": []
+    },
+    {
+      "id": "2021-59",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2021-60",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u01",
+          "title": "원고적격: 법이 보호하는 내 이익인가"
+        }
+      ]
+    },
+    {
+      "id": "2021-61",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u02",
+          "title": "소의 이익: 기간이 끝나도 해결할 일이 남았을까"
+        }
+      ]
+    },
+    {
+      "id": "2021-62",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u04",
+          "title": "선결문제: 다른 소송 안에서 먼저 풀어야 할 문제"
+        }
+      ]
+    },
+    {
+      "id": "2021-63",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u03",
+          "title": "제소기간: 서로 다른 두 시계를 함께 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-64",
+      "chapter": 5,
+      "lessons": []
+    },
+    {
+      "id": "2021-65",
+      "chapter": 4,
+      "lessons": [
+        {
+          "url": "part04.html#u04",
+          "title": "소의 변경: 소송 중 길을 고칠 때"
+        }
+      ]
+    },
+    {
+      "id": "2021-66",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2021-67",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u03",
+          "title": "원처분과 재결: 어느 결정을 공격할까"
+        }
+      ]
+    },
+    {
+      "id": "2021-68",
+      "chapter": 2,
+      "lessons": [
+        {
+          "url": "part02.html#u01",
+          "title": "처분성: 이름보다 법적 효과를 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-69",
+      "chapter": 3,
+      "lessons": [
+        {
+          "url": "part03.html#u04",
+          "title": "소송참가: 결과에 영향을 받는 사람도 듣기"
+        }
+      ]
+    },
+    {
+      "id": "2021-70",
+      "chapter": 5,
+      "lessons": [
+        {
+          "url": "part05.html#u02",
+          "title": "집행정지: 판결 전의 일시정지 버튼"
+        },
+        {
+          "url": "part05.html#u03",
+          "title": "언제까지 멈추며, 누구의 이야기를 들을까"
+        }
+      ]
+    },
+    {
+      "id": "2021-71",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u01",
+          "title": "처분 이유를 바꾸어도 같은 사건이어야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2021-72",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u03",
+          "title": "각하·기각·인용, 그리고 특별한 사정판결"
+        }
+      ]
+    },
+    {
+      "id": "2021-73",
+      "chapter": 6,
+      "lessons": []
+    },
+    {
+      "id": "2021-74",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        },
+        {
+          "url": "part07.html#u02",
+          "title": "거부처분이 취소되면 다시 대답해야 한다"
+        }
+      ]
+    },
+    {
+      "id": "2021-75",
+      "chapter": 8,
+      "lessons": []
+    },
+    {
+      "id": "2021-76",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-77",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2021-78",
+      "chapter": 7,
+      "lessons": [
+        {
+          "url": "part07.html#u01",
+          "title": "판결의 세 가지 힘을 따로 보기"
+        }
+      ]
+    },
+    {
+      "id": "2021-79",
+      "chapter": 6,
+      "lessons": [
+        {
+          "url": "part06.html#u02",
+          "title": "재량도 울타리가 있고, 법원이 대신 고를 수는 없다"
+        }
+      ]
+    },
+    {
+      "id": "2021-80",
+      "chapter": 8,
+      "lessons": []
+    }
+  ]
+}
