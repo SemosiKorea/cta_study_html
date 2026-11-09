@@ -10,7 +10,7 @@ const root = path.resolve(__dirname, '../..');
 const siblingRequire = createRequire(path.join(root, '../hoedok-desk/package.json'));
 const {chromium, webkit} = siblingRequire('playwright');
 const YAML = siblingRequire('yaml');
-const pages = ['index', ...Array.from({length:8}, (_,i)=>'part'+String(i+1).padStart(2,'0')), 'exam', 'cases', 'sources'];
+const pages = ['index', ...Array.from({length:8}, (_,i)=>'part'+String(i+1).padStart(2,'0')), 'exam', 'cases', 'sources', 'review'];
 const output = path.resolve(root, '../tmp/admin-law-ui');
 const results = [], failures = [];
 let server;
@@ -85,32 +85,74 @@ async function chapterChecks(page, label, errors) {
   assert.equal(await page.locator('#size-status').textContent(),'100%');
 }
 async function examChecks(page,label,errors,base) {
-  assert.equal(await visibleCount(page,'.exam-entry'),200);
+  assert.equal(await page.locator('.exam-group-grid .group-card:visible').count(),33);
+  assert.equal(await visibleCount(page,'.exam-entry'),0,'Overview should not dump 200 entries');
+  await page.locator('.group-card').first().scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(output,label.replaceAll('/','-')+'-groups.png'),fullPage:false});
+  const sourceLimits=page.locator('.source-limitations');
+  await sourceLimits.locator(':scope > summary').click();
+  assert.ok(await sourceLimits.locator('a[href="exam.html#q2024-60"]').isVisible());
+  await measure(page,label+' / source limitation disclosed',errors);
+  await sourceLimits.locator(':scope > summary').click();
   await page.locator('#exam-year').selectOption('2025');
-  assert.equal(await visibleCount(page,'.exam-entry'),40);
-  await page.locator('#exam-chapter').selectOption('8');
-  const expected=await page.locator('.exam-entry[data-year="2025"][data-chapter="8"]').count();
-  assert.equal(await visibleCount(page,'.exam-entry'),expected);
-  await page.locator('#exam-chapter').selectOption('');
+  assert.ok((await page.locator('#exam-count').innerText()).startsWith('40문항'));
+  await page.locator('[data-pick-group="stay"]').click();
+  assert.equal(await visibleCount(page,'.exam-entry'),2);
+  assert.equal(await page.locator('#exam-group').inputValue(),'stay');
+  await page.locator('.exam-entry:visible').first().locator('.exam-reasoning > summary').click();
+  assert.ok(await page.locator('.exam-entry:visible .issue-list').first().isVisible());
+  await measure(page,label+' / grouped criteria',errors);
+  await page.locator('.exam-entry:visible [data-compare]').nth(0).check();
+  await page.locator('.exam-entry:visible [data-compare]').nth(1).check();
+  await page.locator('#compare-open').click();
+  assert.equal(await page.locator('#compare-dialog .exam-entry').count(),2);
+  await page.locator('#compare-dialog .exam-reasoning > summary').first().click();
+  await measure(page,label+' / compare two questions',errors);
+  await page.screenshot({path:path.join(output,label.replaceAll('/','-')+'-comparison.png'),fullPage:false});
+  await page.locator('#compare-close').click();
+  await page.locator('#compare-clear').click();
+  assert.equal(await page.locator('#compare-bar').isVisible(),false);
+  await page.locator('#exam-reset').click();
   await page.locator('#exam-search').fill('2025년 80번');
   assert.equal(await visibleCount(page,'.exam-entry'),1);
   await page.locator('.exam-entry:visible [data-preview]').click();
-  const preview=page.locator('#source-preview');
-  await preview.waitFor({state:'visible'});
+  const preview=page.locator('#source-preview');await preview.waitFor({state:'visible'});
   await page.waitForFunction(()=>{const img=document.querySelector('#source-preview img');return img.complete&&img.naturalWidth>0;});
   assert.ok((await preview.locator('a').getAttribute('href')).includes('exam-2025.pdf#page='));
   await measure(page,label+' / exam preview',errors);
   await preview.getByRole('button',{name:'닫기',exact:true}).click();
   await page.locator('#exam-search').fill('존재하지않는검색어');
-  assert.equal(await visibleCount(page,'.exam-entry'),0);
-  assert.ok(await page.locator('#no-exams').isVisible());
-  await page.goto(base+'exam.html?year=2021&chapter=1&q=없는검색어#q2025-80');
+  assert.equal(await visibleCount(page,'.exam-entry'),0);assert.ok(await page.locator('#no-exams').isVisible());
+  await page.goto(base+'exam.html?group=stay&year=2021&chapter=1&q=없는검색어#q2025-80');
   assert.ok(await page.locator('#q2025-80').isVisible(),label+': linked question hidden by filters');
-  assert.equal(await page.locator('#exam-year').inputValue(),'');
-  assert.equal(await page.locator('#exam-search').inputValue(),'');
-  const backlink=page.locator('#q2025-80 a[href^="part"]').first();
-  await backlink.click();
-  await page.locator('section.unit').first().waitFor({state:'visible'});
+  assert.equal(await page.locator('#exam-year').inputValue(),'');assert.equal(await page.locator('#exam-search').inputValue(),'');
+  // In-page hash navigation must also reveal the new group.
+  await page.evaluate(()=>location.hash='q2021-47');
+  await page.locator('#q2021-47').waitFor({state:'visible'});
+  assert.equal(await page.locator('#exam-group').inputValue(),'reference');
+  await page.locator('#q2021-47 .exam-reasoning > summary').click();
+  const backlink=page.locator('#q2021-47 a[href^="part"]').first();await backlink.click();await page.locator('section.unit').first().waitFor({state:'visible'});
+  await page.goto(base+'exam.html?group=standing');
+  assert.equal(await visibleCount(page,'.exam-entry'),9);
+  const boxes=page.locator('.exam-group:visible [data-compare]');
+  for(let i=0;i<3;i++)await boxes.nth(i).check();
+  await boxes.nth(3).click();
+  assert.equal(await page.locator('[data-compare]:checked').count(),3,'Comparison cap must be three');
+  await page.locator('#compare-clear').click();
+}
+async function reviewChecks(page,label,errors,base){
+  const supplement=page.locator('.supplement').first();assert.ok(await page.locator('.supplement').count()>0);
+  const id=await supplement.getAttribute('id');await page.goto(base+'review.html#'+id);
+  assert.equal(await page.locator('#'+id).getAttribute('open'),'');
+  assert.ok(await page.locator('#'+id+' .analogy .limit').isVisible());
+  assert.equal(await page.locator('#quiz').count(),0);
+  await measure(page,label+' / supplemental note',errors);
+  await page.screenshot({path:path.join(output,label.replaceAll('/','-')+'-supplement.png'),fullPage:false});
+  await page.locator('#'+id+' [data-reading-ai]').click();
+  assert.ok((await page.locator('#ai-prompt').inputValue()).includes('비유와 실제 법의 차이'));
+  await measure(page,label+' / supplement AI',errors);await page.locator('#ai-close').click();
+  const link=page.locator('#'+id+' a[href^="exam.html#"]').first();await link.click();
+  await page.locator('.exam-entry:visible').first().waitFor({state:'visible'});
 }
 async function sourceChecks(page,label,errors,base) {
   assert.equal(await page.locator('section[id^="special-"]:not(#special-laws)').count(),7);
@@ -135,7 +177,7 @@ async function pageSuite(base) {
       await context.route('https://semosikorea-cta-v2.web.app/book-reading-v1.js*',route=>route.fulfill({contentType:'application/javascript',body:'/* Account writes disabled in UI QA. Covered separately by isolated bridge test. */'}));
       const page=await context.newPage(),errors=[];
       page.setDefaultTimeout(8000);
-      console.log(`Checking ${engineName} ${width}px ${dark?'dark':'light'} (12 pages)`);
+      console.log(`Checking ${engineName} ${width}px ${dark?'dark':'light'} (13 pages)`);
       page.on('pageerror',e=>errors.push(e.message));
       for(const name of pages) {
         const label=`${engineName}/${width}/${dark?'dark':'light'}/${name}`;
@@ -149,6 +191,7 @@ async function pageSuite(base) {
           if(name.startsWith('part'))await chapterChecks(page,label,errors);
           if(name==='exam')await examChecks(page,label,errors,base);
           if(name==='sources')await sourceChecks(page,label,errors,base);
+          if(name==='review')await reviewChecks(page,label,errors,base);
           if(name==='index') {
             assert.equal(await page.locator('.chapter-card').count(),8);
             const download=page.waitForEvent('download');

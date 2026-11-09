@@ -246,7 +246,7 @@ cards:
     statement: "처분 후 관계 권한이 다른 행정청에 승계되었다면 원칙적으로 승계한 행정청이 취소소송의 피고가 된다."
     choices: ["O","X","?"]
     answer: "O"
-    rationale: "법 제13조제1항 단서는 권한을 승계한 행정청을 피고로 정합니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    rationale: "법 제13조제1항 단서는 권한을 승계한 행정청을 피고로 정합니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제3조 · 사건에 적합한 소송수행자 지정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=260689&urlMode=lsScJoRltInfoR"
     correction: ""
     trap: "“피고경정”이라는 말만 보고 신청과 직권을 한 가지로 외우지 마세요. 어떤 이유로 피고를 고치는지 먼저 봅니다."
     source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u03"
@@ -258,7 +258,7 @@ cards:
     statement: "피고를 잘못 지정하여 경정이 허가되면 새 피고에 대한 제소일은 항상 경정결정일이다."
     choices: ["O","X","?"]
     answer: "X"
-    rationale: "법 제14조제4항에 따라 처음 소를 제기한 때에 제기된 것으로 봅니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR"
+    rationale: "법 제14조제4항에 따라 처음 소를 제기한 때에 제기된 것으로 봅니다.\n근거: 행정소송법 제13조 · 행정소송법 제13조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송법 제14조 · 행정소송법 제14조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=285913&urlMode=lsScJoRltInfoR\n행정소송규칙 제6조 · 행정소송규칙 제6조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0006&lsiSeq=260689&urlMode=lsScJoRltInfoR\n행정소송규칙 제3조 · 사건에 적합한 소송수행자 지정 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=260689&urlMode=lsScJoRltInfoR"
     correction: ""
     trap: "“피고경정”이라는 말만 보고 신청과 직권을 한 가지로 외우지 마세요. 어떤 이유로 피고를 고치는지 먼저 봅니다."
     source: "행정소송법 처음 회독 · 학습용 창작 OX · https://semosikorea.github.io/cta_study_html/admin-law/part03.html#u03"

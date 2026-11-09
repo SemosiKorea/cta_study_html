@@ -9,7 +9,7 @@
     const part = text(document.querySelector('main > header h1'));
     const standard = [text(document.querySelector('main > footer')).replace(/\s+/g, ' '),
       text(document.querySelector('main > p.sub'))].filter(Boolean).join('\n');
-    return Array.from(document.querySelectorAll('main > section.unit > article.item'), article => ({
+    return Array.from(document.querySelectorAll('main > section.unit > article.item, body.admin main > details.supplement > article.item'), article => ({
       article, subject, part, standard,
       chapter: text(article.parentElement.querySelector(':scope > h2')),
       title: article.dataset.readingTitle || Array.from(article.querySelectorAll(':scope > h3'), text).join(' / '),
@@ -22,7 +22,7 @@
   function readingParts(article) {
     const blocks = [], sources = new Set();
     for (const link of article.querySelectorAll(':scope > .law-source a[href]')) {
-      if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) sources.add(link.href);
+      if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr', 'www.scourt.go.kr', 'scourt.go.kr', 'sc.scourt.go.kr', 'law.ccourt.go.kr', 'www.ccourt.go.kr', 'ccourt.go.kr'].includes(link.hostname)) sources.add(link.href);
     }
     for (const child of article.children) {
       if (child.hidden) continue;
@@ -31,13 +31,13 @@
         blocks.push(child);
         // Statute-based notes cite their primary source inside the visible excerpt.
         for (const link of child.querySelectorAll('a[href]')) {
-          if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) sources.add(link.href);
+          if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr', 'www.scourt.go.kr', 'scourt.go.kr', 'sc.scourt.go.kr', 'law.ccourt.go.kr', 'www.ccourt.go.kr', 'ccourt.go.kr'].includes(link.hostname)) sources.add(link.href);
         }
       } else if (child.matches('details[open]') &&
                  readingSummaries.has(text(child.querySelector(':scope > summary')))) {
         blocks.push(...child.querySelectorAll(':scope > .solution:not([hidden]), :scope > .formula:not([hidden])'));
         for (const link of child.querySelectorAll(':scope > p > a[href], :scope > .solution a[href]')) {
-          if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr'].includes(link.hostname)) {
+          if (link.protocol === 'https:' && ['www.law.go.kr', 'law.go.kr', 'i.nts.go.kr', 'www.scourt.go.kr', 'scourt.go.kr', 'sc.scourt.go.kr', 'law.ccourt.go.kr', 'www.ccourt.go.kr', 'ccourt.go.kr'].includes(link.hostname)) {
             sources.add(link.href);
           }
         }

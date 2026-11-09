@@ -1,0 +1,4893 @@
+{
+  "years": [
+    2025
+  ],
+  "checkedAt": "2026-11-10",
+  "scope": "2025년 40문항 실제 보기 전수 대조. 기존 본문·특별법·공식 법령 및 판례를 비교. 정답번호를 만들지 않음.",
+  "questions": [
+    {
+      "id": "2025-41",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 항고소송은 행정청의 처분등을 대상으로 합니다",
+          "kind": "statute",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part01.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "항고소송은 행정청의 처분등을 대상으로 합니다. 처분등에는 처분과 재결이 포함됩니다(제2조·제3조)."
+        },
+        {
+          "label": "ㄴ 항고소송의 또 다른 대상은 부작위입니다(제3조)",
+          "kind": "statute",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part01.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "항고소송의 또 다른 대상은 부작위입니다(제3조)."
+        },
+        {
+          "label": "ㄷ 기관소송의 주체는 국가 또는 공공단체의 기관이며 지방자치단체로만 한정되지 않습니다(제3조제4호)",
+          "kind": "statute",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part01.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "기관소송의 주체는 국가 또는 공공단체의 기관이며 지방자치단체로만 한정되지 않습니다(제3조제4호)."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-42",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 사정판결의 소송비용은 피고 부담입니다(제32조)",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part06.html#u04",
+            "part07.html#u04",
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "사정판결의 소송비용은 피고 부담입니다(제32조)."
+        },
+        {
+          "label": "② 행정청이 처분을 취소·변경하여 청구가 각하·기각된 경우도 제32조가 적용됩니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part06.html#u04",
+            "part07.html#u04",
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "행정청이 처분을 취소·변경하여 청구가 각하·기각된 경우도 제32조가 적용됩니다."
+        },
+        {
+          "label": "③ 비용재판은 피고 또는 참가 행정청이 속한 국가·공공단체에도 효력이 미칩니다(제33조)",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part06.html#u04",
+            "part07.html#u04",
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "비용재판은 피고 또는 참가 행정청이 속한 국가·공공단체에도 효력이 미칩니다(제33조)."
+        },
+        {
+          "label": "④ 특별 규정 외에는 제8조제2항으로 민사소송법의 비용 규정을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part06.html#u04",
+            "part07.html#u04",
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "특별 규정 외에는 제8조제2항으로 민사소송법의 비용 규정을 준용합니다."
+        },
+        {
+          "label": "⑤ 제44조제1항은 당사자소송에도 제32조를 준용하므로 전혀 적용되지 않는다는 설명은 틀립니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part06.html#u04",
+            "part07.html#u04",
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제44조제1항은 당사자소송에도 제32조를 준용하므로 전혀 적용되지 않는다는 설명은 틀립니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-43",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 국가사무를 위탁받은 공공단체 또는 그 장이 피고면 대법원 소재지 행정법원에도 제소할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "국가사무를 위탁받은 공공단체 또는 그 장이 피고면 대법원 소재지 행정법원에도 제소할 수 있습니다."
+        },
+        {
+          "label": "② 중앙행정기관 또는 그 장이 피고면 같은 특별관할이 허용됩니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "중앙행정기관 또는 그 장이 피고면 같은 특별관할이 허용됩니다."
+        },
+        {
+          "label": "③ 중앙행정기관의 부속기관 또는 합의제 행정기관·그 장도 제9조제2항의 대상입니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "중앙행정기관의 부속기관 또는 합의제 행정기관·그 장도 제9조제2항의 대상입니다."
+        },
+        {
+          "label": "④ 토지수용 등 부동산·특정 장소 관련 처분은 소재지 관할 행정법원에도 제소할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "토지수용 등 부동산·특정 장소 관련 처분은 소재지 관할 행정법원에도 제소할 수 있습니다."
+        },
+        {
+          "label": "⑤ 일반 제1심 관할은 원고 주소지가 아니라 피고 소재지 관할 행정법원입니다(제9조제1항)",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "일반 제1심 관할은 원고 주소지가 아니라 피고 소재지 관할 행정법원입니다(제9조제1항)."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-44",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 제10조는 관련청구소송이 계속된 법원이 취소소송 법원으로 이송하는 구조입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part05.html#u01",
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "제10조는 관련청구소송이 계속된 법원이 취소소송 법원으로 이송하는 구조입니다. 취소소송을 관련청구 법원으로 보내는 규정이 아닙니다."
+        },
+        {
+          "label": "② 관련청구 이송은 상당하다고 인정할 때 허용됩니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part05.html#u01",
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "관련청구 이송은 상당하다고 인정할 때 허용됩니다."
+        },
+        {
+          "label": "③ 관련청구 이송은 당사자 신청 외에 법원 직권으로도 가능합니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part05.html#u01",
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "관련청구 이송은 당사자 신청 외에 법원 직권으로도 가능합니다."
+        },
+        {
+          "label": "④ 다른 사람을 상대로 하는 관련청구도 취소소송에 병합할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part05.html#u01",
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "다른 사람을 상대로 하는 관련청구도 취소소송에 병합할 수 있습니다."
+        },
+        {
+          "label": "⑤ 관련청구 병합은 사실심 변론종결 때까지 가능합니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part05.html#u01",
+            "part04.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "관련청구 병합은 사실심 변론종결 때까지 가능합니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-45",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 민사소송의 선결문제 심리에 제14조 피고경정은 제11조에 의해 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part02.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "민사소송의 선결문제 심리에 제14조 피고경정은 제11조에 의해 준용되지 않습니다."
+        },
+        {
+          "label": "② 제25조 행정심판기록 제출명령은 제11조에 의해 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part02.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제25조 행정심판기록 제출명령은 제11조에 의해 준용됩니다."
+        },
+        {
+          "label": "③ 제26조 직권심리는 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part02.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제26조 직권심리는 준용됩니다."
+        },
+        {
+          "label": "④ 제33조 비용재판의 효력은 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part02.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제33조 비용재판의 효력은 준용됩니다."
+        },
+        {
+          "label": "⑤ 제17조 행정청 소송참가는 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part02.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제17조 행정청 소송참가는 준용됩니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-46",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 법률상 이익은 근거·관련 법규가 보호하는 개별적·직접적·구체적 이익입니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part03.html#u01",
+            "part03.html#u02",
+            "part08.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "법률상 이익은 근거·관련 법규가 보호하는 개별적·직접적·구체적 이익입니다."
+        },
+        {
+          "label": "② 부작위위법확인은 처분을 신청한 사람으로서 위법확인을 구할 법률상 이익이 있어야 합니다(제36조)",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part03.html#u01",
+            "part03.html#u02",
+            "part08.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "부작위위법확인은 처분을 신청한 사람으로서 위법확인을 구할 법률상 이익이 있어야 합니다(제36조)."
+        },
+        {
+          "label": "③ 공장설립 승인 취소만으로 관련 건축허가가 당연 소멸하지 않으므로 주민에게 건축허가 취소의 실익이 남습니다(2015두3485)",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part03.html#u01",
+            "part03.html#u02",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-factory-interest"
+          ],
+          "note": "공장설립 승인 취소만으로 관련 건축허가가 당연 소멸하지 않으므로 주민에게 건축허가 취소의 실익이 남습니다(2015두3485)."
+        },
+        {
+          "label": "④ 소의 이익은 소송요건이므로 상고심에서도 유지되어야 합니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part03.html#u01",
+            "part03.html#u02",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-factory-interest"
+          ],
+          "note": "소의 이익은 소송요건이므로 상고심에서도 유지되어야 합니다."
+        },
+        {
+          "label": "⑤ 효력이 소멸한 처분도 취소로 회복되는 법률상 이익이 있으면 다툴 수 있습니다(제12조 후문)",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part03.html#u01",
+            "part03.html#u02",
+            "part08.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "효력이 소멸한 처분도 취소로 회복되는 법률상 이익이 있으면 다툴 수 있습니다(제12조 후문)."
+        }
+      ],
+      "gapSummary": "소의 이익의 일반론은 있으나 공장 승인 취소 후 건축허가 존속 사례를 보완합니다."
+    },
+    {
+      "id": "2025-47",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 직원 노동조합은 임시이사 선임처분의 취소를 구할 원고적격이 없습니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part03.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "직원 노동조합은 임시이사 선임처분의 취소를 구할 원고적격이 없습니다. 교수·학생 단체와 구별합니다."
+        },
+        {
+          "label": "② 일반소매인은 새로운 구내소매인 지정처분을 다툴 법률상 이익이 없습니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part03.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "일반소매인은 새로운 구내소매인 지정처분을 다툴 법률상 이익이 없습니다. 일반소매인 사이의 거리 제한과 구별합니다."
+        },
+        {
+          "label": "③ 의사협회는 회원 의사와 별개 법적 주체이므로 수가 고시 취소를 구할 법률상 이익이 없습니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part03.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "의사협회는 회원 의사와 별개 법적 주체이므로 수가 고시 취소를 구할 법률상 이익이 없습니다."
+        },
+        {
+          "label": "④ 한의사에게 약사의 한약조제시험 합격취소를 구할 원고적격은 인정되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part03.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "한의사에게 약사의 한약조제시험 합격취소를 구할 원고적격은 인정되지 않습니다."
+        },
+        {
+          "label": "⑤ 지방자치단체도 다른 지방자치단체장의 건축협의 취소로 자기 권리를 침해받으면 원고적격이 인정됩니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part03.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "지방자치단체도 다른 지방자치단체장의 건축협의 취소로 자기 권리를 침해받으면 원고적격이 인정됩니다."
+        }
+      ],
+      "gapSummary": "원고적격의 일반론만으로는 5개 선지를 구별하기 어려워 사례를 전부 보완합니다."
+    },
+    {
+      "id": "2025-48",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 피고경정 신청자는 원고입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part03.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "피고경정 신청자는 원고입니다. 제3자가 신청할 수 있다는 설명은 틀립니다(제14조)."
+        },
+        {
+          "label": "② 경정허가가 있으면 종전 피고에 대한 소는 취하한 것으로 봅니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part03.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "경정허가가 있으면 종전 피고에 대한 소는 취하한 것으로 봅니다."
+        },
+        {
+          "label": "③ 새 피고 상대 소는 최초 소 제기 시점에 제기된 것으로 봅니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part03.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "새 피고 상대 소는 최초 소 제기 시점에 제기된 것으로 봅니다."
+        },
+        {
+          "label": "④ 처분적 조례의 피고는 의회가 아니라 공포한 집행기관입니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part03.html#u03"
+          ],
+          "supplementIds": [
+            "y25-defendant"
+          ],
+          "note": "처분적 조례의 피고는 의회가 아니라 공포한 집행기관입니다."
+        },
+        {
+          "label": "⑤ 구법상 저작권위원회 결정의 피고는 위원회 자체이며 위원장이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part03.html#u03"
+          ],
+          "supplementIds": [
+            "y25-defendant"
+          ],
+          "note": "구법상 저작권위원회 결정의 피고는 위원회 자체이며 위원장이 아닙니다."
+        }
+      ],
+      "gapSummary": "피고경정 조문에 더해 처분적 조례와 위원회 사례를 보완했습니다."
+    },
+    {
+      "id": "2025-49",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 제3자 참가는 당사자·제3자 신청 또는 직권으로 허가할 수 있습니다(제16조)",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part03.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제3자 참가는 당사자·제3자 신청 또는 직권으로 허가할 수 있습니다(제16조)."
+        },
+        {
+          "label": "② 제3자의 참가신청을 각하한 결정에는 즉시항고할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part03.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제3자의 참가신청을 각하한 결정에는 즉시항고할 수 있습니다."
+        },
+        {
+          "label": "③ 제16조 참가와 별도로 제8조제2항에 따른 민사소송법상 보조참가도 허용됩니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part03.html#u04"
+          ],
+          "supplementIds": [
+            "y25-intervention"
+          ],
+          "note": "제16조 참가와 별도로 제8조제2항에 따른 민사소송법상 보조참가도 허용됩니다. 금지된다는 설명은 틀립니다."
+        },
+        {
+          "label": "④ 민사소송법 제76조의 보조참가인은 원칙적으로 소송행위를 할 수 있지만 소송 단계에 따라 못 하는 행위가 있습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part03.html#u04"
+          ],
+          "supplementIds": [
+            "y25-intervention"
+          ],
+          "note": "민사소송법 제76조의 보조참가인은 원칙적으로 소송행위를 할 수 있지만 소송 단계에 따라 못 하는 행위가 있습니다."
+        },
+        {
+          "label": "⑤ 행정청 참가는 제17조제3항이 민사소송법 제76조를 준용하므로 피참가인의 행위와 충돌하면 참가행위의 효력이 없습니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part03.html#u04"
+          ],
+          "supplementIds": [
+            "y25-intervention"
+          ],
+          "note": "행정청 참가는 제17조제3항이 민사소송법 제76조를 준용하므로 피참가인의 행위와 충돌하면 참가행위의 효력이 없습니다."
+        }
+      ],
+      "gapSummary": "일반 보조참가의 허용과 제16조·제17조 참가 지위의 차이를 명시 보완했습니다."
+    },
+    {
+      "id": "2025-50",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 토지대장 직권말소는 소유권 등 권리행사에 영향을 주므로 처분입니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-register"
+          ],
+          "note": "토지대장 직권말소는 소유권 등 권리행사에 영향을 주므로 처분입니다."
+        },
+        {
+          "label": "② 토지대장 소유자 이름변경 거부는 실체적 소유권 변동을 가져오지 않아 처분성을 부정합니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-register"
+          ],
+          "note": "토지대장 소유자 이름변경 거부는 실체적 소유권 변동을 가져오지 않아 처분성을 부정합니다."
+        },
+        {
+          "label": "③ 건축물대장 작성신청 반려는 법정 신청권과 등기 등 권리행사를 막으므로 처분입니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-register"
+          ],
+          "note": "건축물대장 작성신청 반려는 법정 신청권과 등기 등 권리행사를 막으므로 처분입니다."
+        },
+        {
+          "label": "④ 건축물대장 용도변경 거부는 적법한 이용과 규제·과세 등에 영향을 줘 처분입니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-register"
+          ],
+          "note": "건축물대장 용도변경 거부는 적법한 이용과 규제·과세 등에 영향을 줘 처분입니다."
+        },
+        {
+          "label": "⑤ 지적공부상 토지면적 등록정정신청 반려는 공공사업 시행자의 법정 대위신청권을 거부한 2011두3371 사안에서 처분성이 인정됩니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-register"
+          ],
+          "note": "지적공부상 토지면적 등록정정신청 반려는 공공사업 시행자의 법정 대위신청권을 거부한 2011두3371 사안에서 처분성이 인정됩니다."
+        }
+      ],
+      "gapSummary": "공부 기재의 구체적 다섯 사례를 공식 대법원 원문으로 보완했습니다. 면적정정은 공공사업 시행자의 법정 대위신청 사안임을 명시했습니다."
+    },
+    {
+      "id": "2025-51",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 지방세 부과처분 취소에는 지방세기본법 제98조의 필요적 전치가 적용됩니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part08.html#u01",
+            "part08.html#u02",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "지방세 부과처분 취소에는 지방세기본법 제98조의 필요적 전치가 적용됩니다."
+        },
+        {
+          "label": "② 전심절차에서 주장하지 않은 위법사유를 소송에서 새로 주장할 수 있습니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part08.html#u01",
+            "part08.html#u02",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-preliminary-appeal"
+          ],
+          "note": "전심절차에서 주장하지 않은 위법사유를 소송에서 새로 주장할 수 있습니다. 주장 일치를 요구하지 않습니다."
+        },
+        {
+          "label": "③ 부작위위법확인에는 제38조제2항으로 제18조가 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part08.html#u01",
+            "part08.html#u02",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-preliminary-appeal"
+          ],
+          "note": "부작위위법확인에는 제38조제2항으로 제18조가 준용됩니다."
+        },
+        {
+          "label": "④ 무효확인소송 자체와 무효를 주장하며 취소를 구하는 소송은 다릅니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part08.html#u01",
+            "part08.html#u02",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-preliminary-appeal"
+          ],
+          "note": "무효확인소송 자체와 무효를 주장하며 취소를 구하는 소송은 다릅니다. 후자는 취소소송의 전치요건을 갖춰야 합니다."
+        },
+        {
+          "label": "⑤ 제18조제2·3항의 전치 예외사유는 소명해야 합니다(제4항)",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part08.html#u01",
+            "part08.html#u02",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "제18조제2·3항의 전치 예외사유는 소명해야 합니다(제4항)."
+        }
+      ],
+      "gapSummary": "전심 미주장 사유의 추가 허용 및 무효선언 취소소송의 전치요건을 직접 판례와 함께 보완했습니다."
+    },
+    {
+      "id": "2025-52",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ",
+        "ㄹ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 당사자소송의 관할은 제40조가 제9조를 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "당사자소송의 관할은 제40조가 제9조를 준용합니다."
+        },
+        {
+          "label": "ㄴ 제44조제1항은 제26조 직권심리를 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제44조제1항은 제26조 직권심리를 준용합니다."
+        },
+        {
+          "label": "ㄷ 제44조제1항은 제25조 행정심판기록 제출명령을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제44조제1항은 제25조 행정심판기록 제출명령을 준용합니다."
+        },
+        {
+          "label": "ㄹ 제44조에는 제23조가 없어 집행정지는 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "ㄹ"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제44조에는 제23조가 없어 집행정지는 준용되지 않습니다. 가처분을 검토합니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-53",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 공공복리에 중대한 영향의 주장·소명책임은 원고가 아니라 행정청에게 있습니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part05.html#u02"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "공공복리에 중대한 영향의 주장·소명책임은 원고가 아니라 행정청에게 있습니다."
+        },
+        {
+          "label": "② 집행정지의 본안소송은 소송요건을 갖춘 적법한 것이어야 합니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part05.html#u02"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "집행정지의 본안소송은 소송요건을 갖춘 적법한 것이어야 합니다."
+        },
+        {
+          "label": "③ 처분 자체의 최종 적법성을 판단하지 않고 집행정지 요건 흠결을 이유로 신청을 배척할 수 있습니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part05.html#u02"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "처분 자체의 최종 적법성을 판단하지 않고 집행정지 요건 흠결을 이유로 신청을 배척할 수 있습니다."
+        },
+        {
+          "label": "④ 제23조제2항은 신청뿐 아니라 직권 집행정지도 허용합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part05.html#u02"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "제23조제2항은 신청뿐 아니라 직권 집행정지도 허용합니다."
+        },
+        {
+          "label": "⑤ 본안청구가 이유 없음이 명백하지 않아야 한다는 요건도 포함됩니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part05.html#u02"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "본안청구가 이유 없음이 명백하지 않아야 한다는 요건도 포함됩니다."
+        }
+      ],
+      "gapSummary": "적법한 본안·소명책임 분담·임시 심사와 본안심사 구별을 보완합니다."
+    },
+    {
+      "id": "2025-54",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 제23조제2항은 효력 등의 전부 또는 일부 정지를 허용합니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part05.html#u02",
+            "part05.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "제23조제2항은 효력 등의 전부 또는 일부 정지를 허용합니다."
+        },
+        {
+          "label": "② 제38조제1항이 제23조를 준용하므로 무효확인에도 집행정지가 가능합니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part05.html#u02",
+            "part05.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "제38조제1항이 제23조를 준용하므로 무효확인에도 집행정지가 가능합니다."
+        },
+        {
+          "label": "③ 정지결정의 즉시항고는 정지결정의 집행을 자동으로 멈추지 않습니다(제23조제5항)",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part05.html#u02",
+            "part05.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "정지결정의 즉시항고는 정지결정의 집행을 자동으로 멈추지 않습니다(제23조제5항)."
+        },
+        {
+          "label": "④ 본안에서 패소해도 그동안 유효했던 집행정지가 소급해 사라지지는 않습니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part05.html#u02",
+            "part05.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "본안에서 패소해도 그동안 유효했던 집행정지가 소급해 사라지지는 않습니다."
+        },
+        {
+          "label": "⑤ 과징금부과처분 집행정지 동안 납부기간도 진행하지 않고 정지 종료 후 남은 기간이 다시 진행합니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part05.html#u02",
+            "part05.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-stay"
+          ],
+          "note": "과징금부과처분 집행정지 동안 납부기간도 진행하지 않고 정지 종료 후 남은 기간이 다시 진행합니다."
+        }
+      ],
+      "gapSummary": "집행정지의 비소급적 종료 및 납부기간 중단 사례를 추가합니다."
+    },
+    {
+      "id": "2025-55",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 구 소 취하와 신 소 제기인 일반적 교환적 변경은 원칙적으로 변경 시점을 기준으로 제소기간을 봅니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part04.html#u03",
+            "part04.html#u04",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "구 소 취하와 신 소 제기인 일반적 교환적 변경은 원칙적으로 변경 시점을 기준으로 제소기간을 봅니다."
+        },
+        {
+          "label": "② 부작위위법확인은 계속되는 부작위에 원칙적으로 기간 제한이 없지만 행정심판을 거친 경우 제20조 준용의 문제가 있습니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part04.html#u03",
+            "part04.html#u04",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "부작위위법확인은 계속되는 부작위에 원칙적으로 기간 제한이 없지만 행정심판을 거친 경우 제20조 준용의 문제가 있습니다."
+        },
+        {
+          "label": "③ 필요적 전치에서 재결을 기다리지 않는 예외는 원칙적으로 심판청구 후 60일 경과입니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part04.html#u03",
+            "part04.html#u04",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "필요적 전치에서 재결을 기다리지 않는 예외는 원칙적으로 심판청구 후 60일 경과입니다. 30일이 아닙니다."
+        },
+        {
+          "label": "④ 행정소송법에는 제소기간 자체의 불고지·오고지 효과를 일반적으로 정한 규정이 없습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part04.html#u03",
+            "part04.html#u04",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "행정소송법에는 제소기간 자체의 불고지·오고지 효과를 일반적으로 정한 규정이 없습니다. 제20조의 행정심판 가능 여부 오고지와 구별합니다."
+        },
+        {
+          "label": "⑤ 기간 지난 행정심판을 내어 각하돼도 재결서 송달로 이미 지난 취소소송 기간이 되살아나지 않습니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part04.html#u02",
+            "part04.html#u03",
+            "part04.html#u04",
+            "part08.html#u02"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "기간 지난 행정심판을 내어 각하돼도 재결서 송달로 이미 지난 취소소송 기간이 되살아나지 않습니다."
+        }
+      ],
+      "gapSummary": "일반 교환적 변경과 법정 소급, 불고지·오고지, 부적법한 전심의 기간 효과를 보완합니다."
+    },
+    {
+      "id": "2025-56",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 제21조: 청구 기초 불변, 사실심 변론종결 전, 원고 신청, 상당성의 요건을 갖춰야 합니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part04.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제21조: 청구 기초 불변, 사실심 변론종결 전, 원고 신청, 상당성의 요건을 갖춰야 합니다."
+        },
+        {
+          "label": "② 취소→당사자 변경은 최초 제소로 소급하며 당초 취소소송이 적법한 기간에 제기됐다면 기간을 준수한 것으로 봅니다(92누3335)",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part04.html#u04"
+          ],
+          "supplementIds": [
+            "y25-change-deadline"
+          ],
+          "note": "취소→당사자 변경은 최초 제소로 소급하며 당초 취소소송이 적법한 기간에 제기됐다면 기간을 준수한 것으로 봅니다(92누3335)."
+        },
+        {
+          "label": "③ 행정소송법 제21·42조는 행정소송 종류 사이의 변경 규정입니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part04.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "행정소송법 제21·42조는 행정소송 종류 사이의 변경 규정입니다. 행정·민사 상호 변경은 이 조문의 직접 규정이 아닙니다."
+        },
+        {
+          "label": "④ 법원 직권만으로 소변경할 수 없고 원고 신청이 필요합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part04.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "법원 직권만으로 소변경할 수 없고 원고 신청이 필요합니다."
+        },
+        {
+          "label": "⑤ 처분변경으로 인한 변경신청은 안 날부터 60일 이내입니다(제22조)",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part04.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "처분변경으로 인한 변경신청은 안 날부터 60일 이내입니다(제22조). 90일이 아닙니다."
+        }
+      ],
+      "gapSummary": "취소→당사자 기간 준수의 판례 적용을 보완합니다."
+    },
+    {
+      "id": "2025-57",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 감사원 변상판정 재심의판정은 감사원법 제40조의 재결주의입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part02.html#u03",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "감사원 변상판정 재심의판정은 감사원법 제40조의 재결주의입니다."
+        },
+        {
+          "label": "② 노동위원회법 제27조는 중앙노동위원회 처분에 대한 소를 정하는 재결주의 구조입니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part02.html#u03",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-special-review"
+          ],
+          "note": "노동위원회법 제27조는 중앙노동위원회 처분에 대한 소를 정하는 재결주의 구조입니다."
+        },
+        {
+          "label": "③ 토지보상법 제85조에 따른 수용재결 불복은 원처분주의입니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part02.html#u03",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "토지보상법 제85조에 따른 수용재결 불복은 원처분주의입니다."
+        },
+        {
+          "label": "④ 공립학교 교원 징계는 원래 징계처분을 대상으로 합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part02.html#u03",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-special-review"
+          ],
+          "note": "공립학교 교원 징계는 원래 징계처분을 대상으로 합니다. 소청을 거쳤다고 재결주의가 되지 않습니다."
+        },
+        {
+          "label": "⑤ 특허법 제186조에 따른 심결취소소송은 재결주의입니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part02.html#u03",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "특허법 제186조에 따른 심결취소소송은 재결주의입니다."
+        }
+      ],
+      "gapSummary": "기존 특별법 7개 중 노동위원회 및 공립교원 소청 비교가 빠져 보완합니다."
+    },
+    {
+      "id": "2025-58",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 산업단지 입주변경계약의 취소는 처분이므로 항고소송입니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "산업단지 입주변경계약의 취소는 처분이므로 항고소송입니다. 계약이라는 명칭으로 당사자소송이라고 판단하면 안 됩니다."
+        },
+        {
+          "label": "② 국유재산 무단점유 변상금부과는 행정처분으로 항고소송 대상입니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "국유재산 무단점유 변상금부과는 행정처분으로 항고소송 대상입니다."
+        },
+        {
+          "label": "③ 구 도시정비법상 재개발조합장 지위 분쟁은 민사소송입니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "구 도시정비법상 재개발조합장 지위 분쟁은 민사소송입니다."
+        },
+        {
+          "label": "④ 구 공무원연금관리공단 급여결정 불복은 취소소송입니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "구 공무원연금관리공단 급여결정 불복은 취소소송입니다."
+        },
+        {
+          "label": "⑤ 훈기부상 화랑훈장 기록과 달리 태극훈장 수여자 지위를 확인하는 소는 국가를 피고로 하는 당사자소송입니다(90누4440)",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part01.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "훈기부상 화랑훈장 기록과 달리 태극훈장 수여자 지위를 확인하는 소는 국가를 피고로 하는 당사자소송입니다(90누4440)."
+        }
+      ],
+      "gapSummary": "항고·당사자·민사의 구체적 5개 사례를 구분하여 보완합니다."
+    },
+    {
+      "id": "2025-59",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ",
+        "ㄹ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 개별공시지가 결정은 독립하여 다툴 수 있는 처분입니다",
+          "kind": "case",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-acts"
+          ],
+          "note": "개별공시지가 결정은 독립하여 다툴 수 있는 처분입니다."
+        },
+        {
+          "label": "ㄴ 건축법상 이행강제금의 최초 납부독촉은 징수처분입니다",
+          "kind": "case",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-acts"
+          ],
+          "note": "건축법상 이행강제금의 최초 납부독촉은 징수처분입니다."
+        },
+        {
+          "label": "ㄷ 지방의회 의장 선임은 공적 직무권한을 부여하는 처분입니다",
+          "kind": "case",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-acts"
+          ],
+          "note": "지방의회 의장 선임은 공적 직무권한을 부여하는 처분입니다."
+        },
+        {
+          "label": "ㄹ 금융감독원장 문책경고는 임원 자격 등에 법적 불이익을 주어 처분성이 인정됩니다",
+          "kind": "case",
+          "choices": [
+            "ㄹ"
+          ],
+          "existing": [
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-acts"
+          ],
+          "note": "금융감독원장 문책경고는 임원 자격 등에 법적 불이익을 주어 처분성이 인정됩니다."
+        }
+      ],
+      "gapSummary": "처분성의 일반 정의만 있던 부분을 네 사례와 대비 기준으로 보완합니다."
+    },
+    {
+      "id": "2025-60",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 부작위위법확인은 작위의무의 실제 이행을 명하는 소송이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part08.html#u03",
+            "part03.html#u03",
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "부작위위법확인은 작위의무의 실제 이행을 명하는 소송이 아닙니다."
+        },
+        {
+          "label": "② 구 수도법상 상수원보호구역에서 급수받는다는 이익만으로 변경처분 취소의 법률상 이익을 인정하지 않았습니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part08.html#u03",
+            "part03.html#u03",
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-standing"
+          ],
+          "note": "구 수도법상 상수원보호구역에서 급수받는다는 이익만으로 변경처분 취소의 법률상 이익을 인정하지 않았습니다."
+        },
+        {
+          "label": "③ 공법상 청산금채권을 양수해도 공법상 성질은 유지되므로 당사자소송으로 지급을 청구합니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part08.html#u03",
+            "part03.html#u03",
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-public-claims"
+          ],
+          "note": "공법상 청산금채권을 양수해도 공법상 성질은 유지되므로 당사자소송으로 지급을 청구합니다."
+        },
+        {
+          "label": "④ 당사자소송도 제44조에 의해 피고경정이 허용됩니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part08.html#u03",
+            "part03.html#u03",
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "당사자소송도 제44조에 의해 피고경정이 허용됩니다. 잘못 지정했을 때 석명·경정 기회를 주는 것이 필요합니다."
+        },
+        {
+          "label": "⑤ 군의관 신체등위판정은 최종 병역처분 자료 단계이므로 항고소송 대상이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part08.html#u03",
+            "part03.html#u03",
+            "part02.html#u01"
+          ],
+          "supplementIds": [
+            "y25-acts"
+          ],
+          "note": "군의관 신체등위판정은 최종 병역처분 자료 단계이므로 항고소송 대상이 아닙니다."
+        }
+      ],
+      "gapSummary": "상수원 주민·청산금 양수·군의관의 개별 판례를 보완합니다."
+    },
+    {
+      "id": "2025-61",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 원고적격은 소송요건입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part06.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "원고적격은 소송요건입니다."
+        },
+        {
+          "label": "② 소의 이익은 소송요건입니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part06.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "소의 이익은 소송요건입니다."
+        },
+        {
+          "label": "③ 필요한 전심절차 준수는 소송요건입니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part06.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "필요한 전심절차 준수는 소송요건입니다."
+        },
+        {
+          "label": "④ 행정청이 처분 절차를 지켰는지는 원칙적으로 본안의 처분 적법성 문제입니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part06.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "행정청이 처분 절차를 지켰는지는 원칙적으로 본안의 처분 적법성 문제입니다."
+        },
+        {
+          "label": "⑤ 처분성은 항고소송의 대상적격이라는 소송요건입니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part06.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "처분성은 항고소송의 대상적격이라는 소송요건입니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-62",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 공개심리는 행정소송만의 특수한 심리방법이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "공개심리는 행정소송만의 특수한 심리방법이 아닙니다."
+        },
+        {
+          "label": "② 쌍방심리는 행정소송만의 특수한 심리방법이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "쌍방심리는 행정소송만의 특수한 심리방법이 아닙니다."
+        },
+        {
+          "label": "③ 구술심리는 행정소송만의 특수한 심리방법이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "구술심리는 행정소송만의 특수한 심리방법이 아닙니다."
+        },
+        {
+          "label": "④ 변론주의는 기본 구조이며 제26조가 이를 보충합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "변론주의는 기본 구조이며 제26조가 이를 보충합니다."
+        },
+        {
+          "label": "⑤ 제26조는 필요하면 직권 증거조사 및 당사자 미주장 사실 판단을 허용하는 특칙입니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제26조는 필요하면 직권 증거조사 및 당사자 미주장 사실 판단을 허용하는 특칙입니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-63",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ",
+        "ㄹ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 처분 적법성의 입증책임은 일반적으로 행정청에게 있습니다",
+          "kind": "case",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [
+            "y25-proof"
+          ],
+          "note": "처분 적법성의 입증책임은 일반적으로 행정청에게 있습니다."
+        },
+        {
+          "label": "ㄴ 재량권 일탈·남용의 특별한 사정은 이를 주장하는 원고가 증명합니다",
+          "kind": "case",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [
+            "y25-proof"
+          ],
+          "note": "재량권 일탈·남용의 특별한 사정은 이를 주장하는 원고가 증명합니다."
+        },
+        {
+          "label": "ㄷ 자연과학적 절대확실성 대신 경험칙·전체 증거에 의한 고도의 개연성이 증명 기준입니다",
+          "kind": "case",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [
+            "y25-proof"
+          ],
+          "note": "자연과학적 절대확실성 대신 경험칙·전체 증거에 의한 고도의 개연성이 증명 기준입니다."
+        },
+        {
+          "label": "ㄹ 허가기준 미달을 이유로 거부한 처분의 적법성은 처분청이 주장·입증합니다",
+          "kind": "case",
+          "choices": [
+            "ㄹ"
+          ],
+          "existing": [
+            "part05.html#u04"
+          ],
+          "supplementIds": [
+            "y25-proof"
+          ],
+          "note": "허가기준 미달을 이유로 거부한 처분의 적법성은 처분청이 주장·입증합니다."
+        }
+      ],
+      "gapSummary": "원칙만 있던 증명책임에 재량·허가기준·증명 정도의 구별을 보완합니다."
+    },
+    {
+      "id": "2025-64",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 행정소송법 자체에는 명문 규정이 없지만 행정소송규칙 제9조에는 규정이 있습니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part06.html#u01"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "행정소송법 자체에는 명문 규정이 없지만 행정소송규칙 제9조에는 규정이 있습니다. 법과 규칙을 구별합니다."
+        },
+        {
+          "label": "② 처분사유의 기초사실·평가요소를 구체화하는 사정은 추가 주장할 수 있습니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part06.html#u01"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "처분사유의 기초사실·평가요소를 구체화하는 사정은 추가 주장할 수 있습니다."
+        },
+        {
+          "label": "③ 기본 사실이 같고 법적 평가만 달라지면 적용 법령을 추가·변경할 수 있습니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part06.html#u01"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "기본 사실이 같고 법적 평가만 달라지면 적용 법령을 추가·변경할 수 있습니다."
+        },
+        {
+          "label": "④ 시한은 사실심 개시 전이 아니라 사실심 변론종결까지입니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part06.html#u01"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "시한은 사실심 개시 전이 아니라 사실심 변론종결까지입니다."
+        },
+        {
+          "label": "⑤ 계약 미이행과 계약 관련 뇌물 제공은 별개의 행동으로 기본 사실관계가 다릅니다(98두18565)",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part06.html#u01"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "계약 미이행과 계약 관련 뇌물 제공은 별개의 행동으로 기본 사실관계가 다릅니다(98두18565)."
+        }
+      ],
+      "gapSummary": "계약 미이행/뇌물의 비동일 사례와 법률·대법원규칙의 차이를 추가합니다."
+    },
+    {
+      "id": "2025-65",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 전부·일부 인용은 청구의 이유를 판단한 본안판결입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part06.html#u03",
+            "part01.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "전부·일부 인용은 청구의 이유를 판단한 본안판결입니다."
+        },
+        {
+          "label": "② 판결서 기재방법은 행정소송법의 특별방식이 아니라 제8조제2항에 따른 민사소송법 준용이 기본입니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part06.html#u03",
+            "part01.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "판결서 기재방법은 행정소송법의 특별방식이 아니라 제8조제2항에 따른 민사소송법 준용이 기본입니다."
+        },
+        {
+          "label": "③ 민사소송법 제206조: 재판장이 주문을 읽고 필요하면 이유를 간략히 설명할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part06.html#u03",
+            "part01.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "민사소송법 제206조: 재판장이 주문을 읽고 필요하면 이유를 간략히 설명할 수 있습니다."
+        },
+        {
+          "label": "④ 민사소송법 제207조: 당사자가 출석하지 않아도 선고할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part06.html#u03",
+            "part01.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "민사소송법 제207조: 당사자가 출석하지 않아도 선고할 수 있습니다."
+        },
+        {
+          "label": "⑤ 판결 주문은 그 자체로 내용과 범위를 특정할 수 있어야 합니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part06.html#u03",
+            "part01.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "판결 주문은 그 자체로 내용과 범위를 특정할 수 있어야 합니다."
+        }
+      ],
+      "gapSummary": "판결문·선고에 준용되는 민사소송법 세부를 보완합니다."
+    },
+    {
+      "id": "2025-66",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 사정판결은 소송을 마치는 종국판결이며 중간판결이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part06.html#u03"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "사정판결은 소송을 마치는 종국판결이며 중간판결이 아닙니다."
+        },
+        {
+          "label": "② 처분의 위법성은 처분시를 기준으로 봅니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part06.html#u03"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "처분의 위법성은 처분시를 기준으로 봅니다. 취소가 공익에 맞는지는 사실심 변론종결시로 구별합니다."
+        },
+        {
+          "label": "③ 사정판결은 위법한 처분을 남기는 예외이므로 엄격하고 제한적으로 사용합니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part06.html#u03"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "사정판결은 위법한 처분을 남기는 예외이므로 엄격하고 제한적으로 사용합니다."
+        },
+        {
+          "label": "④ 처분이 위법하고 청구가 이유 있다는 전제에서만 가능합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part06.html#u03"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "처분이 위법하고 청구가 이유 있다는 전제에서만 가능합니다."
+        },
+        {
+          "label": "⑤ 사정판결은 당사자 신청이 있어야만 가능한 제도가 아닙니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part06.html#u03"
+          ],
+          "supplementIds": [
+            "y25-grounds"
+          ],
+          "note": "사정판결은 당사자 신청이 있어야만 가능한 제도가 아닙니다."
+        }
+      ],
+      "gapSummary": "위법 판단시점은 처분시임을 명시하고 예외성의 판례를 연결합니다."
+    },
+    {
+      "id": "2025-67",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 소의 취하는 원고가 하는 행위입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part06.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "소의 취하는 원고가 하는 행위입니다. 피고가 하는 것이 아닙니다."
+        },
+        {
+          "label": "② 원고가 청구가 이유 없다고 인정하는 것은 포기의 뜻이며 인낙과 다릅니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part06.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "원고가 청구가 이유 없다고 인정하는 것은 포기의 뜻이며 인낙과 다릅니다. 항고소송의 공익상 한계도 살펴야 합니다."
+        },
+        {
+          "label": "③ 행정소송규칙 제15조는 직권으로 서면 권고할 수 있다고 정합니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part06.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "행정소송규칙 제15조는 직권으로 서면 권고할 수 있다고 정합니다."
+        },
+        {
+          "label": "④ 권고는 서면이며 당사자·참고인 등 진술 청취는 필요할 때 할 수 있는 것이지 항상 필수가 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part06.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "권고는 서면이며 당사자·참고인 등 진술 청취는 필요할 때 할 수 있는 것이지 항상 필수가 아닙니다."
+        },
+        {
+          "label": "⑤ 청구 포기는 원고의 행위이지 피고도 하는 것이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part06.html#u04"
+          ],
+          "supplementIds": [
+            "y25-judgment-procedure"
+          ],
+          "note": "청구 포기는 원고의 행위이지 피고도 하는 것이 아닙니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-68",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 취소판결 기속력은 행정소송법 제30조에 명문으로 규정됩니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part07.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "취소판결 기속력은 행정소송법 제30조에 명문으로 규정됩니다."
+        },
+        {
+          "label": "② 제29조에 따라 취소 확정판결은 제3자에게도 효력이 미칩니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part07.html#u01"
+          ],
+          "supplementIds": [],
+          "note": "제29조에 따라 취소 확정판결은 제3자에게도 효력이 미칩니다."
+        },
+        {
+          "label": "③ 과세처분 취소청구 기각 확정판결의 기판력은 같은 처분의 무효확인소송에도 미칩니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part07.html#u01"
+          ],
+          "supplementIds": [
+            "y25-effects"
+          ],
+          "note": "과세처분 취소청구 기각 확정판결의 기판력은 같은 처분의 무효확인소송에도 미칩니다. 각하판결과 구별합니다."
+        },
+        {
+          "label": "④ 민사소송법 제216조: 기판력은 원칙적으로 주문에 포함된 것에 한합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part07.html#u01"
+          ],
+          "supplementIds": [
+            "y25-effects"
+          ],
+          "note": "민사소송법 제216조: 기판력은 원칙적으로 주문에 포함된 것에 한합니다."
+        },
+        {
+          "label": "⑤ 취소판결로 이미 소멸한 과세처분을 대상으로 한 경정처분은 대상이 없어 당연무효입니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part07.html#u01"
+          ],
+          "supplementIds": [
+            "y25-effects"
+          ],
+          "note": "취소판결로 이미 소멸한 과세처분을 대상으로 한 경정처분은 대상이 없어 당연무효입니다. 새로운 별도 과세와 혼동하면 안 됩니다."
+        }
+      ],
+      "gapSummary": "기판력과 기속력을 구분하고, 기각확정 후 무효확인 및 취소확정 후 경정의 직접 판례를 보완했습니다."
+    },
+    {
+      "id": "2025-69",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 행정소송법 제8조를 통하여 민사집행법 제262조가 준용됩니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part07.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-coercion"
+          ],
+          "note": "행정소송법 제8조를 통하여 민사집행법 제262조가 준용됩니다. 변론 없이 가능하나 결정 전 채무자 심문이 필요합니다."
+        },
+        {
+          "label": "② 무효확인에는 제34조가 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part07.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-coercion"
+          ],
+          "note": "무효확인에는 제34조가 준용되지 않습니다. 거부처분무효확인의 재처분의무와 간접강제는 별개입니다."
+        },
+        {
+          "label": "③ 간접강제는 변론 없이 결정할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part07.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-coercion"
+          ],
+          "note": "간접강제는 변론 없이 결정할 수 있습니다. 심문 불필요라는 뜻은 아닙니다."
+        },
+        {
+          "label": "④ 제34조의 신청법원은 제1심수소법원입니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part07.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-coercion"
+          ],
+          "note": "제34조의 신청법원은 제1심수소법원입니다."
+        },
+        {
+          "label": "⑤ 배상금은 행정청 재처분 이행을 위한 심리적 강제수단이며 지연 제재나 손해배상이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part07.html#u03",
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-coercion"
+          ],
+          "note": "배상금은 행정청 재처분 이행을 위한 심리적 강제수단이며 지연 제재나 손해배상이 아닙니다."
+        }
+      ],
+      "gapSummary": "민사집행법 제262조의 심문과 행정 간접강제 배상금의 성격을 보완합니다."
+    },
+    {
+      "id": "2025-70",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 확정판결이 있음을 안 날부터 30일입니다",
+          "kind": "statute",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part07.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "확정판결이 있음을 안 날부터 30일입니다."
+        },
+        {
+          "label": "ㄴ 판결 확정일부터 1년입니다",
+          "kind": "statute",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part07.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "판결 확정일부터 1년입니다."
+        },
+        {
+          "label": "ㄷ 제31조의 두 기간은 불변기간입니다",
+          "kind": "statute",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part07.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "제31조의 두 기간은 불변기간입니다. 국외 제3자의 특칙은 규칙 제16조도 참고합니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-71",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 과세처분무효확인의 소송물은 권리·법률관계의 존부 확인입니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u01",
+            "part06.html#u02"
+          ],
+          "supplementIds": [
+            "y25-nullity"
+          ],
+          "note": "과세처분무효확인의 소송물은 권리·법률관계의 존부 확인입니다."
+        },
+        {
+          "label": "② 청구원인에 적은 각각의 무효사유는 공격방어방법입니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u01",
+            "part06.html#u02"
+          ],
+          "supplementIds": [
+            "y25-nullity"
+          ],
+          "note": "청구원인에 적은 각각의 무효사유는 공격방어방법입니다."
+        },
+        {
+          "label": "③ 제38조제1항이 제15조 공동소송 규정을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u01",
+            "part06.html#u02"
+          ],
+          "supplementIds": [
+            "y25-nullity"
+          ],
+          "note": "제38조제1항이 제15조 공동소송 규정을 준용합니다."
+        },
+        {
+          "label": "④ 당연무효를 주장하여 확인을 구하는 원고가 무효사유를 증명합니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u01",
+            "part06.html#u02"
+          ],
+          "supplementIds": [
+            "y25-nullity"
+          ],
+          "note": "당연무효를 주장하여 확인을 구하는 원고가 무효사유를 증명합니다."
+        },
+        {
+          "label": "⑤ 외형상 하나여도 가분되어 특정될 수 있으면 일부무효 확인이 가능합니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u01",
+            "part06.html#u02"
+          ],
+          "supplementIds": [
+            "y25-nullity"
+          ],
+          "note": "외형상 하나여도 가분되어 특정될 수 있으면 일부무효 확인이 가능합니다."
+        }
+      ],
+      "gapSummary": "소송물과 공격방어방법, 가분적 일부무효, 원고의 무효사유 증명책임을 직접 판례로 보완했습니다."
+    },
+    {
+      "id": "2025-72",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 제38조제1항은 제17조 행정청 참가를 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "제38조제1항은 제17조 행정청 참가를 준용합니다."
+        },
+        {
+          "label": "② 제28조 사정판결은 준용 목록에서 빠집니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "제28조 사정판결은 준용 목록에서 빠집니다."
+        },
+        {
+          "label": "③ 제32조 소송비용부담은 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "제32조 소송비용부담은 준용되지 않습니다. 제33조와 혼동하지 않습니다."
+        },
+        {
+          "label": "④ 원본 ④는 제21조입니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "원본 ④는 제21조입니다. 제38조제1항 목록에는 없지만 제37조가 별도로 준용합니다. Q-Net 공식 최종정답은 ①·④ 복수정답으로 확인됐습니다. ① 제17조와 ④ 제21조의 준용 근거를 각각 연결합니다."
+        },
+        {
+          "label": "⑤ 제18조 전치주의는 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u01"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "제18조 전치주의는 준용되지 않습니다."
+        }
+      ],
+      "gapSummary": "제37조 별도 준용과 제38조 열거 목록을 비교 보완했고, Q-Net 최종정답에서 ①·④ 복수정답임을 확인했습니다."
+    },
+    {
+      "id": "2025-73",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 무죄 확정에 따른 압수물 반환은 새 행정처분을 해야 하는 관계가 아니므로 검사의 무응답은 부작위위법확인 대상이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "무죄 확정에 따른 압수물 반환은 새 행정처분을 해야 하는 관계가 아니므로 검사의 무응답은 부작위위법확인 대상이 아닙니다."
+        },
+        {
+          "label": "② 거부처분이 있으면 이미 응답한 것이므로 부작위가 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part02.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "거부처분이 있으면 이미 응답한 것이므로 부작위가 아닙니다. 거부처분을 다투어야 합니다."
+        },
+        {
+          "label": "③ 확정판결 뒤 행정청은 이전 신청에 대해 판결 취지에 따른 처분을 해야 합니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part02.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "확정판결 뒤 행정청은 이전 신청에 대해 판결 취지에 따른 처분을 해야 합니다."
+        },
+        {
+          "label": "④ 제37조가 제21조를 준용하므로 부작위위법확인소송을 취소소송 또는 당사자소송으로 변경할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part02.html#u02"
+          ],
+          "supplementIds": [
+            "y25-incorporation"
+          ],
+          "note": "제37조가 제21조를 준용하므로 부작위위법확인소송을 취소소송 또는 당사자소송으로 변경할 수 있습니다."
+        },
+        {
+          "label": "⑤ 부작위에는 멈출 처분이 없어 집행정지 규정이 준용되지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part02.html#u02"
+          ],
+          "supplementIds": [],
+          "note": "부작위에는 멈출 처분이 없어 집행정지 규정이 준용되지 않습니다."
+        }
+      ],
+      "gapSummary": "압수물 환부와 행정처분 신청을 구별하는 사례를 보완합니다."
+    },
+    {
+      "id": "2025-74",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 부작위위법확인에는 제28조 사정판결을 준용하지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part07.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "부작위위법확인에는 제28조 사정판결을 준용하지 않습니다."
+        },
+        {
+          "label": "② 제30조 준용으로 당사자 행정청과 관계 행정청에 기속력이 있습니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part07.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제30조 준용으로 당사자 행정청과 관계 행정청에 기속력이 있습니다."
+        },
+        {
+          "label": "③ 제29조 준용으로 제3자에게도 확정판결 효력이 미칩니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part07.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제29조 준용으로 제3자에게도 확정판결 효력이 미칩니다."
+        },
+        {
+          "label": "④ 제38조제2항은 제34조를 준용하므로 부작위위법확인에 간접강제가 가능합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part07.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "제38조제2항은 제34조를 준용하므로 부작위위법확인에 간접강제가 가능합니다."
+        },
+        {
+          "label": "⑤ 행정소송규칙 제17조는 소송 중 늦게 처분해 각하되는 경우 비용 전부 또는 일부를 피고에게 부담하게 할 수 있도록 합니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u02",
+            "part07.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "행정소송규칙 제17조는 소송 중 늦게 처분해 각하되는 경우 비용 전부 또는 일부를 피고에게 부담하게 할 수 있도록 합니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-75",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 현행 행정소송법상 장래 일정 처분을 요구하는 일반적 의무이행소송은 허용되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part08.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "현행 행정소송법상 장래 일정 처분을 요구하는 일반적 의무이행소송은 허용되지 않습니다."
+        },
+        {
+          "label": "② 일정 처분을 명하는 일반적 이행판결을 구하는 소송은 현행법상 인정되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part08.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "일정 처분을 명하는 일반적 이행판결을 구하는 소송은 현행법상 인정되지 않습니다."
+        },
+        {
+          "label": "③ 미래의 준공처분을 금지해 달라는 예방적 금지소송은 일반적으로 인정되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part08.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "미래의 준공처분을 금지해 달라는 예방적 금지소송은 일반적으로 인정되지 않습니다."
+        },
+        {
+          "label": "④ 법원이 행정청 대신 직접 처분하는 형태의 소송은 현행법상 인정되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part08.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-seized-return"
+          ],
+          "note": "법원이 행정청 대신 직접 처분하는 형태의 소송은 현행법상 인정되지 않습니다."
+        },
+        {
+          "label": "⑤ 명예퇴직 법관의 법정 미지급 명예퇴직수당 청구는 공법상 당사자소송입니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part01.html#u03",
+            "part08.html#u02",
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-public-claims"
+          ],
+          "note": "명예퇴직 법관의 법정 미지급 명예퇴직수당 청구는 공법상 당사자소송입니다."
+        }
+      ],
+      "gapSummary": "허용되지 않는 일반적 소송형태와 허용되는 공법상 지급청구를 대조합니다."
+    },
+    {
+      "id": "2025-76",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 국가에 대한 법정 부가가치세 환급세액 지급청구는 공법상 당사자소송입니다(기존 2011다95564)",
+          "kind": "case",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [],
+          "note": "국가에 대한 법정 부가가치세 환급세액 지급청구는 공법상 당사자소송입니다(기존 2011다95564)."
+        },
+        {
+          "label": "② 구 공익사업법 환매권 존재확인은 사법상 권리이므로 민사소송입니다",
+          "kind": "case",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-public-claims"
+          ],
+          "note": "구 공익사업법 환매권 존재확인은 사법상 권리이므로 민사소송입니다."
+        },
+        {
+          "label": "③ 재건축조합 관리처분계획안 총회결의 효력은 인가 전 당사자소송, 인가 후에는 계획 자체에 대한 항고소송을 구별합니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-forms"
+          ],
+          "note": "재건축조합 관리처분계획안 총회결의 효력은 인가 전 당사자소송, 인가 후에는 계획 자체에 대한 항고소송을 구별합니다."
+        },
+        {
+          "label": "④ 지방소방공무원의 법정 초과근무수당 청구는 당사자소송입니다",
+          "kind": "case",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-public-claims"
+          ],
+          "note": "지방소방공무원의 법정 초과근무수당 청구는 당사자소송입니다."
+        },
+        {
+          "label": "⑤ 과세주체의 확정 조세채권 소멸시효 중단을 위한 존재확인은 확인의 이익 등 요건 아래 당사자소송입니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-public-claims"
+          ],
+          "note": "과세주체의 확정 조세채권 소멸시효 중단을 위한 존재확인은 확인의 이익 등 요건 아래 당사자소송입니다."
+        }
+      ],
+      "gapSummary": "기존 부가가치세 사례 외 네 가지 사례를 추가합니다."
+    },
+    {
+      "id": "2025-77",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 당사자소송 원고적격에 관한 직접적인 독립 규정은 없습니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "당사자소송 원고적격에 관한 직접적인 독립 규정은 없습니다. 민사소송의 당사자적격 원칙 등을 적용합니다."
+        },
+        {
+          "label": "② 피고는 행정청이 아니라 국가·공공단체 등 권리주체입니다(제39조)",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "피고는 행정청이 아니라 국가·공공단체 등 권리주체입니다(제39조)."
+        },
+        {
+          "label": "③ 제8조제2항으로 민사집행법상 가처분을 준용합니다",
+          "kind": "case",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "제8조제2항으로 민사집행법상 가처분을 준용합니다."
+        },
+        {
+          "label": "④ 제44조제1항은 제14조 피고경정을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "제44조제1항은 제14조 피고경정을 준용합니다."
+        },
+        {
+          "label": "⑤ 당사자소송에는 제29조가 준용되지 않으므로 일반적으로 제3자효를 인정하지 않습니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u03"
+          ],
+          "supplementIds": [
+            "y25-party-provisional"
+          ],
+          "note": "당사자소송에는 제29조가 준용되지 않으므로 일반적으로 제3자효를 인정하지 않습니다."
+        }
+      ],
+      "gapSummary": "가처분을 이용하는 이유와 사인도 피고가 될 수 있음을 보완합니다."
+    },
+    {
+      "id": "2025-78",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 국민투표무효소송은 대법원에 제기하는 민중소송입니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-election"
+          ],
+          "note": "국민투표무효소송은 대법원에 제기하는 민중소송입니다. 기출 당시 구법 제92조에서 현행 제75조로 변경됐고, 현행법은 투표인 20만 명 이상의 서명·투표일부터 20일 이내·중앙선거관리위원회위원장 피고를 정합니다."
+        },
+        {
+          "label": "② 민중소송은 직접 자기 법률상 이익과 무관하게 제기하는 객관소송입니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "민중소송은 직접 자기 법률상 이익과 무관하게 제기하는 객관소송입니다."
+        },
+        {
+          "label": "③ 제46조제3항은 취소·무효·부작위 유형 외의 민중소송 등에 당사자소송 규정을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "제46조제3항은 취소·무효·부작위 유형 외의 민중소송 등에 당사자소송 규정을 준용합니다."
+        },
+        {
+          "label": "④ 공직선거법 제222조는 대법원 또는 고등법원 및 법정 선거관리위원회위원장을 정합니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-election"
+          ],
+          "note": "공직선거법 제222조는 대법원 또는 고등법원 및 법정 선거관리위원회위원장을 정합니다. 행정법원·위원회라는 연결은 틀립니다."
+        },
+        {
+          "label": "⑤ 처분 취소형 주민소송의 위법성은 특별한 사정 없이 취소소송과 같은 방식으로 심사합니다",
+          "kind": "case",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [
+            "y25-election"
+          ],
+          "note": "처분 취소형 주민소송의 위법성은 특별한 사정 없이 취소소송과 같은 방식으로 심사합니다."
+        }
+      ],
+      "gapSummary": "국민투표법의 현행 조문·서명 수 변경, 공직선거법의 관할·피고, 주민소송 위법성 심사 판례를 보완했습니다."
+    },
+    {
+      "id": "2025-79",
+      "checkedChoices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "issues": [
+        {
+          "label": "① 기관소송은 기관 권한을 객관적으로 정리하는 객관소송이며 주관소송이 아닙니다",
+          "kind": "statute",
+          "choices": [
+            "①"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "기관소송은 기관 권한을 객관적으로 정리하는 객관소송이며 주관소송이 아닙니다."
+        },
+        {
+          "label": "② 제46조제2항에 따라 부작위 유형에는 성질에 반하지 않는 한 부작위위법확인 규정을 준용합니다",
+          "kind": "statute",
+          "choices": [
+            "②"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "제46조제2항에 따라 부작위 유형에는 성질에 반하지 않는 한 부작위위법확인 규정을 준용합니다."
+        },
+        {
+          "label": "③ 헌법재판소의 권한쟁의 관장사항은 행정소송법상 기관소송에서 제외합니다(제3조제4호 단서)",
+          "kind": "statute",
+          "choices": [
+            "③"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "헌법재판소의 권한쟁의 관장사항은 행정소송법상 기관소송에서 제외합니다(제3조제4호 단서)."
+        },
+        {
+          "label": "④ 지방자치단체장의 재의결 무효확인소송은 기관소송의 예입니다",
+          "kind": "statute",
+          "choices": [
+            "④"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "지방자치단체장의 재의결 무효확인소송은 기관소송의 예입니다."
+        },
+        {
+          "label": "⑤ 제45조에 따라 법률이 정한 경우에 법률이 정한 사람만 제기할 수 있습니다",
+          "kind": "statute",
+          "choices": [
+            "⑤"
+          ],
+          "existing": [
+            "part08.html#u04",
+            "sources.html#special-laws"
+          ],
+          "supplementIds": [],
+          "note": "제45조에 따라 법률이 정한 경우에 법률이 정한 사람만 제기할 수 있습니다."
+        }
+      ],
+      "gapSummary": "기존 본문으로 기본 기준을 확인할 수 있습니다. 필요한 사례·세부 절차는 연결된 보완을 참조합니다."
+    },
+    {
+      "id": "2025-80",
+      "checkedChoices": [
+        "ㄱ",
+        "ㄴ",
+        "ㄷ",
+        "ㄹ"
+      ],
+      "issues": [
+        {
+          "label": "ㄱ 징계요구만으로 공무원 권리·의무가 직접 변하지 않습니다",
+          "kind": "case",
+          "choices": [
+            "ㄱ"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part08.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "징계요구만으로 공무원 권리·의무가 직접 변하지 않습니다."
+        },
+        {
+          "label": "ㄴ 불이행 시 시장에게 불이익이 없는 주어진 사안에서 감사원 징계요구는 시장 상대 처분이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "ㄴ"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part08.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "불이행 시 시장에게 불이익이 없는 주어진 사안에서 감사원 징계요구는 시장 상대 처분이 아닙니다."
+        },
+        {
+          "label": "ㄷ 그 징계요구에 대한 재심의결정도 항고소송 대상 처분이 아닙니다",
+          "kind": "case",
+          "choices": [
+            "ㄷ"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part08.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "그 징계요구에 대한 재심의결정도 항고소송 대상 처분이 아닙니다."
+        },
+        {
+          "label": "ㄹ 기관소송은 법률 근거가 있어야 하므로 이 시장의 기관소송도 허용되지 않습니다",
+          "kind": "case",
+          "choices": [
+            "ㄹ"
+          ],
+          "existing": [
+            "part02.html#u01",
+            "part08.html#u04"
+          ],
+          "supplementIds": [],
+          "note": "기관소송은 법률 근거가 있어야 하므로 이 시장의 기관소송도 허용되지 않습니다."
+        }
+      ],
+      "gapSummary": "기존 2014두5637의 사실과 법리가 네 보기를 직접 다룹니다."
+    }
+  ],
+  "supplements": [
+    {
+      "id": "y25-standing",
+      "title": "법이 보호하는 사람과 단순히 관심이 있는 사람",
+      "chapter": 3,
+      "exams": [
+        "2025-47",
+        "2025-60"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제12조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "원고적격은 그 결정 때문에 마음이 상했는지가 아니라, 그 법이 그 사람의 이익까지 보호하려는지를 묻습니다. 단체의 회원에게 이익이 있어도 단체 자체가 같은 권리를 가진다고 바로 말할 수 없습니다.",
+        "경쟁업자는 모두 같지 않습니다. 기존 일반 담배소매인끼리의 거리 보호와 일반소매인 대 구내소매인 관계를 나눕니다. 지방자치단체도 다른 행정청의 처분으로 자기 권리를 침해받으면 원고가 될 수 있습니다."
+      ],
+      "analogy": {
+        "text": "반 친구 모두가 급식 메뉴에 관심은 있지만, 알레르기 보호 규칙이 특별히 보호하는 학생이 누구인지는 따로 확인하는 모습과 같습니다.",
+        "limit": "실제 원고적격은 감정이나 친분이 아니라 근거 법령과 관련 법령의 보호 목적을 해석해 정합니다."
+      },
+      "contrasts": [
+        {
+          "label": "직원 노동조합",
+          "rule": "대학 임시이사 선임처분에 대한 직원 노동조합 자체의 원고적격은 부정됩니다."
+        },
+        {
+          "label": "의료단체",
+          "rule": "수가로 직접 진료비를 받는 회원과 단체의 법적 지위는 다릅니다."
+        },
+        {
+          "label": "상수원 급수 주민",
+          "rule": "구 수도법상 보호구역 변경에 관한 이익은 일반적·간접적 이익으로 보았습니다. 화장장 주변 주민의 환경이익 판례와 구별합니다."
+        }
+      ],
+      "cases": [
+        {
+          "title": "대학 구성원이라고 모두 같은 원고적격은 아니다",
+          "court": "대법원",
+          "date": "2015-07-23",
+          "number": "2012두19496, 19502",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=178860",
+          "facts": "학교법인 임시이사 선임에 교수·학생 단체와 직원 노동조합 등이 불복했습니다.",
+          "rule": "교수·학생의 교육 관련 이익과 달리 직원 노동조합의 조직상 이익은 임시이사 선임 근거 법령이 보호하는 직접적 이익이 아닙니다.",
+          "conclusion": "직원 노동조합의 원고적격은 부정됩니다.",
+          "exams": [
+            "2025-47"
+          ]
+        },
+        {
+          "title": "일반 담배소매인과 구내소매인의 차이",
+          "court": "대법원",
+          "date": "2008-04-10",
+          "number": "2008두402",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=69382",
+          "facts": "기존 일반소매인이 새 구내소매인 지정을 다투었습니다.",
+          "rule": "구법의 일반소매인 사이 거리 제한에 따른 보호를 일반소매인과 구내소매인 사이에 그대로 적용할 수 없습니다.",
+          "conclusion": "기존 일반소매인의 구내소매인 지정 취소소송 원고적격은 부정됩니다.",
+          "exams": [
+            "2025-47"
+          ]
+        },
+        {
+          "title": "의사협회와 진료비를 받는 의사는 다르다",
+          "court": "대법원",
+          "date": "2006-05-25",
+          "number": "2003두11988",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=84514",
+          "facts": "의사들의 협회가 요양급여비용 관련 고시를 다투었습니다.",
+          "rule": "회원의 진료비 수입과 협회 자체의 법률상 이익을 구별합니다. 협회는 요양급여비용을 직접 지급받는 주체가 아닙니다.",
+          "conclusion": "협회 자체의 원고적격은 부정됩니다.",
+          "exams": [
+            "2025-47"
+          ]
+        },
+        {
+          "title": "한의사와 약사의 한약조제시험 합격",
+          "court": "대법원",
+          "date": "1998-03-10",
+          "number": "97누4289",
+          "url": "https://law.go.kr/LSW/precInfoP.do?evtNo=97%EB%88%844289",
+          "facts": "한의사가 약사들의 한약조제시험 합격을 다투었습니다.",
+          "rule": "해당 시험 제도는 한의사의 영업상 이익을 개별적으로 보호하려는 제도가 아닙니다.",
+          "conclusion": "한의사의 원고적격은 부정됩니다.",
+          "exams": [
+            "2025-47"
+          ]
+        },
+        {
+          "title": "지방자치단체도 처분을 다툴 수 있다",
+          "court": "대법원",
+          "date": "2014-02-27",
+          "number": "2012두22980",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=172736",
+          "facts": "서울특별시가 다른 지방자치단체장의 건축협의 취소를 다투었습니다.",
+          "rule": "건축허가와 같은 성격의 건축협의 취소로 자기 권리·이익을 침해받고 달리 실효적 구제수단이 없다면 공법인도 취소소송으로 다툴 수 있습니다.",
+          "conclusion": "지방자치단체의 원고적격을 인정했습니다.",
+          "exams": [
+            "2025-47"
+          ]
+        },
+        {
+          "title": "상수원보호구역 변경과 주민의 이익",
+          "court": "대법원",
+          "date": "1995-09-26",
+          "number": "94누14544",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=94%EB%88%8414544",
+          "facts": "주민들이 상수원보호구역 변경 및 화장장 관련 도시계획결정을 다투었습니다.",
+          "rule": "구 수도법의 상수원보호구역 제도에 의해 급수지역 주민이 누리는 이익은 일반적·간접적인 이익입니다. 같은 사건의 화장장 인근 주민 환경이익과는 판단이 다릅니다.",
+          "conclusion": "상수원 급수 주민이라는 이유만으로 보호구역 변경 취소의 원고적격은 인정되지 않았습니다.",
+          "exams": [
+            "2025-60"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-factory-interest",
+      "title": "판결로 얻을 이익은 소송 끝까지 남아야 한다",
+      "chapter": 3,
+      "exams": [
+        "2025-46"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제12조 후문",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "공장설립 승인과 건축허가는 서로 연결되지만 같은 처분은 아닙니다. 앞의 승인이 취소됐다는 사실만으로 뒤의 건축허가도 자동으로 사라졌다고 볼 수 없습니다.",
+        "따라서 남아 있는 건축허가 때문에 주민의 법적 이익이 영향을 받는다면 그 허가를 취소해 달라고 할 실익이 있습니다.",
+        "소의 이익은 소송을 시작할 때만 검사하는 입장권이 아닙니다. 상고심에서도 남아 있어야 합니다. 광업권의 존속기간이 끝나 원상회복할 수 없어진 사안에서는 상고심 도중에도 소의 이익이 사라졌습니다. 다만 기간 만료 후에도 회복할 다른 법률상 이익이 있는 경우는 구별해야 합니다."
+      ],
+      "analogy": {
+        "text": "두 개의 출입문 중 첫 문이 닫혔다고 두 번째 문의 열쇠까지 자동으로 없어진 것은 아닌 것과 같습니다.",
+        "limit": "처분들이 실제로 함께 실효되는지는 각 법령의 규정을 먼저 살펴야 합니다."
+      },
+      "contrasts": [
+        {
+          "label": "공장설립 승인 취소",
+          "rule": "관련 건축허가가 당연히 취소되는 것은 아닙니다."
+        },
+        {
+          "label": "건축허가 취소의 실익",
+          "rule": "건축허가가 남아 주민에게 영향을 주면 별도 취소를 구할 이익이 남습니다."
+        },
+        {
+          "label": "소의 이익 판단 단계",
+          "rule": "상고심에서도 존재해야 하며, 회복할 다른 법률상 이익이 남는지는 별도 확인"
+        }
+      ],
+      "cases": [
+        {
+          "title": "공장 승인 취소 후 건축허가 취소의 이익",
+          "court": "대법원",
+          "date": "2018-07-12",
+          "number": "2015두3485",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=199843",
+          "facts": "공장설립 승인이 취소됐는데 주민들이 관련 건축허가 취소도 청구했습니다.",
+          "rule": "승인 취소만으로 건축허가가 소멸하지 않으므로 건축허가 취소로 회복할 법률상 이익이 남을 수 있습니다.",
+          "conclusion": "건축허가 취소소송의 이익을 부정할 수 없다고 보았습니다.",
+          "exams": [
+            "2025-46"
+          ]
+        },
+        {
+          "title": "상고심 중 광업권 기간이 끝난 경우",
+          "court": "대법원",
+          "date": "1997-01-24",
+          "number": "95누17403",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=114708",
+          "facts": "광업권 취소를 다투던 중 연장신청이 반려된 상태에서 광업권 존속기간이 끝났습니다.",
+          "rule": "취소판결을 받아도 원상회복할 수 없는 사안이면 상고심 도중에도 소의 이익을 잃습니다.",
+          "conclusion": "상고심 계속 중 이익이 사라진 부분을 각하했습니다.",
+          "exams": [
+            "2025-46"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-defendant",
+      "title": "조례와 위원회 결정에서는 누구를 피고로 쓸까",
+      "chapter": 3,
+      "exams": [
+        "2025-48"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제13조·제14조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "조례가 따로 집행을 기다리지 않고 직접 권리·의무를 바꾸면 그 조례 자체가 처분이 될 수 있습니다. 이때 피고는 조례안을 의결한 의회가 아니라 조례를 공포하여 효력을 발생시킨 집행기관입니다.",
+        "법이 위원회 자체에 권한을 맡겼다면 위원장 개인을 피고로 쓰면 안 됩니다. 이름의 대표자가 아니라 법적으로 처분권한을 가진 주체를 찾습니다."
+      ],
+      "analogy": {
+        "text": "반 규칙을 논의한 회의와 실제로 규칙을 발령하는 담당자가 다를 때, 이의를 제기할 상대를 구분하는 모습입니다.",
+        "limit": "실제 피고는 권한 위임·위탁 법령과 처분명의를 함께 확인합니다."
+      },
+      "contrasts": [
+        {
+          "label": "처분적 조례",
+          "rule": "공포한 지방자치단체장, 교육 사안이면 교육감이 피고가 됩니다."
+        },
+        {
+          "label": "저작권위원회 결정",
+          "rule": "구법상 위탁받은 위원회 자체가 피고이며 위원장이 아닙니다."
+        }
+      ],
+      "cases": [
+        {
+          "title": "처분적 조례의 피고",
+          "court": "대법원",
+          "date": "1996-09-20",
+          "number": "95누8003",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=197351",
+          "facts": "조례 자체가 집행 없이 직접 권리에 영향을 주는 경우 의회를 상대로 다툴 수 있는지 문제 됐습니다.",
+          "rule": "피고는 조례를 의결한 지방의회가 아니라 공포한 집행기관입니다.",
+          "conclusion": "의회를 피고로 지정한 소는 부적법합니다.",
+          "exams": [
+            "2025-48"
+          ]
+        },
+        {
+          "title": "저작권위원회와 위원장을 구별하기",
+          "court": "대법원",
+          "date": "2009-07-09",
+          "number": "2007두16608",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=138148",
+          "facts": "저작권위원회의 결정을 위원장을 상대로 다투었습니다.",
+          "rule": "구 저작권법상 권한을 위탁받은 주체는 위원회 자체입니다.",
+          "conclusion": "위원장은 적법한 피고가 아닙니다. 피고를 고칠 기회를 준 후에도 고치지 않은 사안이었습니다.",
+          "exams": [
+            "2025-48"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-register",
+      "title": "공부에 쓰는 일도 권리행사에 영향을 주면 처분이다",
+      "chapter": 2,
+      "exams": [
+        "2025-50"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제2조제1항제1호",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "공부는 정부가 관리하는 공식 장부입니다. 단순히 사실을 적어두는 일은 보통 처분이 아니지만, 등기하거나 건물을 적법하게 쓰기 위한 중요한 문턱이면 결론이 달라집니다.",
+        "따라서 장부라는 이름만 보지 말고, 그 기록을 바꾸지 못하면 어떤 권리행사가 막히는지 묻습니다. 토지 면적정정은 공공사업 시행자의 법정 대위신청을 반려한 대법원 사례의 구체적 사정을 확인합니다."
+      ],
+      "analogy": {
+        "text": "학교 안내문에 이름을 고치는 일과, 그 기록 없이는 대회 출전 신청 자체를 못 하는 일을 구별하는 것과 같습니다.",
+        "limit": "장부마다 법적 효력이 다릅니다. 토지대장 기록이 곧 소유권 이전이라는 뜻은 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "처분성 인정",
+          "rule": "토지대장 직권말소, 건축물대장 작성신청 반려, 용도변경신청 거부"
+        },
+        {
+          "label": "처분성 부정",
+          "rule": "토지대장 소유자 명의변경신청 거부: 기록만으로 소유권이 정해지지 않음"
+        },
+        {
+          "label": "면적정정 반려",
+          "rule": "공공사업 시행자의 법정 대위신청을 반려한 사안에서 처분성 인정"
+        }
+      ],
+      "cases": [
+        {
+          "title": "토지대장을 직권으로 없앤 경우",
+          "court": "대법원",
+          "date": "2013-10-24",
+          "number": "2011두13286",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=171573",
+          "facts": "행정청이 토지대장 등록을 직권으로 말소했습니다.",
+          "rule": "토지대장은 소유권보존등기 신청 등에 필요한 자료이므로 말소가 권리행사에 영향을 줍니다.",
+          "conclusion": "말소행위의 처분성이 인정됩니다.",
+          "exams": [
+            "2025-50"
+          ]
+        },
+        {
+          "title": "소유자 이름 변경의 거부",
+          "court": "대법원",
+          "date": "2012-01-12",
+          "number": "2010두12354",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=186639",
+          "facts": "토지대장상 소유자 명의변경을 신청했으나 거부됐습니다.",
+          "rule": "장부의 이름을 고치는 것만으로 소유권이 바뀌거나 확정되는 것은 아닙니다.",
+          "conclusion": "처분성을 부정했습니다.",
+          "exams": [
+            "2025-50"
+          ]
+        },
+        {
+          "title": "건축물대장을 처음 만드는 신청",
+          "court": "대법원",
+          "date": "2009-02-12",
+          "number": "2007두17359",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=134183",
+          "facts": "건축물대장 작성신청을 반려했습니다.",
+          "rule": "법령상 신청권과 소유권보존등기 등 권리행사에 미치는 영향을 고려합니다.",
+          "conclusion": "작성신청 반려의 처분성을 인정했습니다.",
+          "exams": [
+            "2025-50"
+          ]
+        },
+        {
+          "title": "건축물 용도변경 기록 거부",
+          "court": "대법원",
+          "date": "2009-01-30",
+          "number": "2007두7277",
+          "url": "https://law.go.kr/LSW/precInfoP.do?evtNo=2007%EB%91%907277",
+          "facts": "건물 소유자의 건축물대장 용도변경신청을 거부했습니다.",
+          "rule": "건물의 용도는 적법한 사용·수익과 각종 규제·과세에 영향을 줍니다.",
+          "conclusion": "용도변경신청 거부의 처분성을 인정했습니다.",
+          "exams": [
+            "2025-50"
+          ]
+        },
+        {
+          "title": "사업시행자의 토지면적 등록정정 신청 반려",
+          "court": "대법원",
+          "date": "2011-08-25",
+          "number": "2011두3371",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=157298",
+          "facts": "한국도로공사가 고속도로 사업 편입 토지의 장부상 면적과 실제 면적이 달라 토지소유자를 대위하여 정정신청했습니다.",
+          "rule": "법이 부여한 사업시행자의 대위신청권을 반려하여 공공사업 수행상의 권리·이익에 영향을 주므로 처분성이 인정됩니다.",
+          "conclusion": "대법원은 반려처분의 처분성과 위법성을 인정한 원심을 유지했습니다.",
+          "exams": [
+            "2025-50"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-stay",
+      "title": "집행정지: 임시 보호의 문턱과 멈춘 시간",
+      "chapter": 5,
+      "exams": [
+        "2025-53",
+        "2025-54"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제23조·제38조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "행정소송규칙 제10조",
+          "url": "https://www.law.go.kr/법령/행정소송규칙"
+        }
+      ],
+      "explanation": [
+        "집행정지는 최종 승패를 먼저 정하는 절차가 아닙니다. 적법한 본안소송이 있어야 하지만, 처분이 최종적으로 적법한지까지 판단하지 않고도 긴급한 손해 등 요건이 없으면 신청을 받아들이지 않을 수 있습니다.",
+        "손해·긴급성 같은 적극적 요건은 원칙적으로 신청인이, 정지하면 공공복리에 큰 해가 난다는 소극적 요건은 행정청이 소명합니다.",
+        "나중에 본안에서 졌다고 그동안 유효했던 정지가 처음부터 없던 일이 되지는 않습니다. 과징금 납부기간도 정지 동안 멈추고, 정지가 끝나면 남은 기간이 다시 진행합니다."
+      ],
+      "analogy": {
+        "text": "영상의 일시정지는 재생 위치를 잠깐 멈추는 기능입니다. 재생을 다시 누른다고 멈췄던 시간까지 거꾸로 재생된 것으로 바뀌지는 않습니다.",
+        "limit": "집행정지는 법원이 정한 대상·기간 안에서만 작동하며 모든 납부기간에 자동 적용되는 일반 규칙으로 확장하면 안 됩니다."
+      },
+      "contrasts": [
+        {
+          "label": "본안 적법성",
+          "rule": "소송의 문턱을 갖춘 본안이 필요합니다."
+        },
+        {
+          "label": "본안 최종 위법 판단",
+          "rule": "임시 절차에서 최종 승패 판단까지 할 필요는 없습니다."
+        },
+        {
+          "label": "소명 분담",
+          "rule": "긴급한 손해는 신청인, 공공복리의 중대한 영향은 행정청"
+        },
+        {
+          "label": "시간 효과",
+          "rule": "정지기간은 유효하게 존속하며 종료 후 처분의 집행이 다시 가능해집니다."
+        }
+      ],
+      "cases": [
+        {
+          "title": "적법한 본안과 집행정지의 관계",
+          "court": "대법원",
+          "date": "1995-02-28",
+          "number": "94두36",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=199497",
+          "facts": "제재의 효력을 잠깐 멈추라는 신청이 제기됐습니다.",
+          "rule": "원칙적으로 처분의 최종 적법성은 본안에서 판단하지만, 집행정지의 토대인 본안소송 자체는 적법해야 합니다.",
+          "conclusion": "본안 적법성과 본안 청구의 최종 승패를 구별합니다.",
+          "exams": [
+            "2025-53"
+          ]
+        },
+        {
+          "title": "누가 집행정지 요건을 설명해야 할까",
+          "court": "대법원",
+          "date": "1999-12-20",
+          "number": "99무42",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=99%EB%AC%B442",
+          "facts": "시정명령과 과징금의 집행정지를 신청했습니다.",
+          "rule": "회복하기 어려운 손해 등은 신청인이, 공공복리에 중대한 영향을 줄 우려는 행정청이 주장·소명합니다.",
+          "conclusion": "공공복리 요건의 소명책임을 원고에게 돌리지 않습니다.",
+          "exams": [
+            "2025-53"
+          ]
+        },
+        {
+          "title": "과징금 납부시계도 함께 멈춘다",
+          "court": "대법원",
+          "date": "2003-07-11",
+          "number": "2002다48023",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=126518",
+          "facts": "과징금부과처분 집행정지 기간 중 납부기한 경과와 가산금 문제가 생겼습니다.",
+          "rule": "정지기간에는 납부기간이 진행되지 않고 정지가 실효되면 남은 기간이 다시 진행합니다. 정지 효력은 결정 주문에 정한 시기까지 존속합니다.",
+          "conclusion": "그동안의 정지 효과를 소급하여 없애지 않습니다.",
+          "exams": [
+            "2025-54"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-change-deadline",
+      "title": "소를 바꿀 때 접수일도 다시 확인한다",
+      "chapter": 4,
+      "exams": [
+        "2025-55",
+        "2025-56"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제18조·제20조·제21조·제22조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "기존 청구를 거두고 새 청구로 바꾸면 새 청구의 제소기간은 원칙적으로 바꾼 날을 기준으로 봅니다. 다만 행정소송법이 처음 소를 낸 날로 보아 주는 특별한 변경은 별도로 구별합니다.",
+        "취소소송을 당사자소송으로 바꾸는 법 제21조의 경우 처음부터 당사자소송을 낸 것으로 봅니다. 판례는 당초 취소소송이 적법한 기간에 제기됐다면 변경된 당사자소송도 기간을 지킨 것으로 봅니다.",
+        "늦게 행정심판을 내어 각하된 것을 이용해 이미 지난 취소소송 기간을 새로 시작할 수는 없습니다. 제소기간을 안내하지 않았다는 이유로 기간이 자동으로 없어지는 것도 아닙니다.",
+        "행정청이 뒤늦게 행정심판을 할 수 있다고 잘못 안내했어도, 그 안내 전에 이미 제소기간이 끝났다면 끝난 기간이 살아나지 않습니다. 잘못된 안내 때문에 원래 소송 기회를 놓친 경우와 이미 기회가 끝난 뒤 안내받은 경우를 구별합니다."
+      ],
+      "analogy": {
+        "text": "접수창구를 바꿨을 때 새 번호표를 받아야 하는 경우와, 규정에 따라 처음 번호표를 이어 쓰는 경우를 구별하는 모습입니다.",
+        "limit": "처음 접수일을 인정하는 것은 특별한 법적 요건이 있을 때입니다. 모든 청구 변경에 적용하지 않습니다."
+      },
+      "contrasts": [
+        {
+          "label": "일반적 교환적 변경",
+          "rule": "원칙적으로 소변경 시점 기준"
+        },
+        {
+          "label": "법 제21조의 소 변경",
+          "rule": "제14조제4항 준용으로 최초 제소시점으로 소급"
+        },
+        {
+          "label": "행정심판 지연",
+          "rule": "이미 지난 심판·소송 기간을 재결서 수령일로 되살리지 못함"
+        }
+      ],
+      "cases": [
+        {
+          "title": "일반적 소변경의 기간 기준",
+          "court": "대법원",
+          "date": "2019-07-04",
+          "number": "2018두58431",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=208742",
+          "facts": "선행 처분에 대한 소송 중 행정청이 오기를 바로잡으려 사실상 같은 후행 처분을 했습니다.",
+          "rule": "새 소로 바꾸면 원칙적으로 변경일을 기준으로 하지만, 사실상 동일한 처분의 오기 정정인 이 사례는 예외를 인정했습니다.",
+          "conclusion": "일반 원칙과 밀접하게 연결된 후행처분 예외를 구별합니다.",
+          "exams": [
+            "2025-55"
+          ]
+        },
+        {
+          "title": "취소소송에서 당사자소송으로 변경",
+          "court": "대법원",
+          "date": "1992-12-24",
+          "number": "92누3335",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=92%EB%88%843335",
+          "facts": "보상금 관련 청구를 취소소송에서 당사자소송으로 바꾸었습니다.",
+          "rule": "법 제21조제4항·제14조제4항에 따라 최초부터 당사자소송을 낸 것으로 봅니다.",
+          "conclusion": "당초 취소소송이 적법한 기간 내 제기됐다면 변경 후 당사자소송의 기간도 준수한 것으로 봅니다.",
+          "exams": [
+            "2025-56"
+          ]
+        },
+        {
+          "title": "이미 끝난 제소기간은 뒤늦은 안내로 부활하지 않는다",
+          "court": "대법원",
+          "date": "2012-09-27",
+          "number": "2011두27247",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=165755",
+          "facts": "제소기간이 지나 불가쟁력이 생긴 뒤 행정청이 행정심판을 할 수 있다고 잘못 안내했습니다.",
+          "rule": "행정심판 가능 오고지에 관한 제20조는 안내를 믿어 본래 기회를 놓친 사람을 보호하는 규정입니다. 이미 끝난 불복권을 새로 만들지는 않습니다.",
+          "conclusion": "뒤늦은 행정심판 재결서 송달일부터 제소기간이 다시 시작하지 않습니다.",
+          "exams": [
+            "2025-55"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-special-review",
+      "title": "중앙노동위원회와 공립학교 교원 소청을 구별하기",
+      "chapter": 2,
+      "exams": [
+        "2025-57"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제19조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "노동위원회법 제27조",
+          "url": "https://www.law.go.kr/법령/노동위원회법/제27조"
+        },
+        {
+          "title": "국가공무원법 제16조",
+          "url": "https://www.law.go.kr/법령/국가공무원법/제16조"
+        },
+        {
+          "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 제10조",
+          "url": "https://www.law.go.kr/법령/교원의지위향상및교육활동보호를위한특별법/제10조"
+        }
+      ],
+      "explanation": [
+        "재심 또는 소청이라는 이름만 보고 재결주의라고 판단하지 않습니다. 특별법이 어느 결정을 소송 대상으로 정했는지를 확인합니다.",
+        "노동위원회법은 중앙노동위원회의 처분에 대한 소를 정합니다. 반면 공립학교 교원의 징계에 불복하는 기본 구조는 원래의 징계처분을 다투는 원처분주의입니다. 사립학교 교원의 학교법인 조치와 구별해야 합니다."
+      ],
+      "analogy": {
+        "text": "상담실을 한 번 더 거쳤다는 사실만으로 법원에 가져갈 서류가 항상 상담결과표로 바뀌는 것은 아닙니다.",
+        "limit": "국공립·사립 교원, 기각·변경 결정 등의 사실관계와 특별법을 구별해야 합니다."
+      },
+      "contrasts": [
+        {
+          "label": "노동위원회",
+          "rule": "중앙노동위원회 처분에 대해 중앙노동위원회위원장을 피고로 제소"
+        },
+        {
+          "label": "공립학교 교원 징계",
+          "rule": "원래 징계처분을 대상으로 하는 원처분주의"
+        },
+        {
+          "label": "기존 특별법 비교",
+          "rule": "감사원 변상 재심의·특허 심결은 재결주의, 토지수용은 원처분주의"
+        }
+      ],
+      "cases": [],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-forms",
+      "title": "계약·조합·연금이라는 이름보다 실제 관계를 본다",
+      "chapter": 8,
+      "exams": [
+        "2025-58",
+        "2025-76"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제2조·제3조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "국유재산법 제72조",
+          "url": "https://www.law.go.kr/법령/국유재산법/제72조"
+        }
+      ],
+      "explanation": [
+        "계약이라고 써 있어도 법이 강한 공적 효과를 붙이면 취소 행위가 처분일 수 있습니다. 반대로 공법인인 조합 안의 임원 선임 분쟁은 민사관계일 수 있습니다.",
+        "공무원연금 급여는 공단의 결정으로 구체적인 권리가 생기는 구조에서는 그 거부나 일부 인정 결정을 항고소송으로 먼저 다툽니다. 이미 법령상 금액이 정해져 곧바로 지급을 청구하는 수당과 구별합니다.",
+        "재건축 관리처분계획안의 총회결의는 인가·고시 전에는 당사자소송이지만, 인가·고시 후에는 효력이 생긴 계획 자체를 항고소송으로 다투는 구조로 바뀝니다.",
+        "훈기부 기록과 달리 어떤 훈장을 받은 사람인지 확인해 달라는 청구는 공법상 지위의 확인입니다. 장관의 처분을 취소해 달라는 소송이 아니라 국가를 피고로 하는 당사자소송입니다.",
+        "국가의 땅을 허락 없이 썼을 때 법에 따라 일방적으로 매기는 변상금은 일반 임대료 청구와 다릅니다. 관리청의 공권력 행사인 처분이므로 그 부과를 항고소송으로 다툽니다."
+      ],
+      "analogy": {
+        "text": "같은 학교 안에서도 교장 발령을 다투는 일과 동아리 회장 선출 약속을 다투는 일은 다른 규칙을 따르는 모습입니다.",
+        "limit": "단체의 이름이나 공공성만으로 소송을 정하지 않고 관계의 근거법과 청구내용을 봅니다."
+      },
+      "contrasts": [
+        {
+          "label": "산업단지 입주변경계약 취소",
+          "rule": "항고소송"
+        },
+        {
+          "label": "재개발조합장 지위",
+          "rule": "민사소송"
+        },
+        {
+          "label": "공무원연금관리공단 급여결정",
+          "rule": "취소소송"
+        },
+        {
+          "label": "인가 전 관리처분계획안 총회결의",
+          "rule": "당사자소송"
+        },
+        {
+          "label": "훈장 수여자의 지위 확인",
+          "rule": "국가를 피고로 하는 공법상 당사자소송"
+        },
+        {
+          "label": "국유재산 무단점유 변상금 부과",
+          "rule": "공권력 행사인 처분 → 항고소송"
+        }
+      ],
+      "cases": [
+        {
+          "title": "산업단지 입주변경계약의 취소",
+          "court": "대법원",
+          "date": "2017-06-15",
+          "number": "2014두46843",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=185161",
+          "facts": "산업단지 관리공단이 입주변경계약을 취소했습니다.",
+          "rule": "법이 입주계약을 의무화하고 위반에 제재 등을 연결하므로 취소는 입주자의 법적 지위에 영향을 주는 처분입니다.",
+          "conclusion": "당사자소송이 아니라 항고소송으로 다툽니다.",
+          "exams": [
+            "2025-58"
+          ]
+        },
+        {
+          "title": "재개발조합장 지위는 민사관계",
+          "court": "대법원",
+          "date": "2009-09-24",
+          "number": "2009마168, 169",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=2009%EB%A7%88168%2C169",
+          "facts": "재개발조합장·임원의 선임과 지위가 문제 됐습니다.",
+          "rule": "조합이 공법인이라는 사정만으로 임원과의 관계까지 공법상 근무관계가 되지는 않습니다.",
+          "conclusion": "조합장 지위를 다투는 소는 민사소송입니다.",
+          "exams": [
+            "2025-58"
+          ]
+        },
+        {
+          "title": "공무원연금 급여결정의 불복",
+          "court": "대법원",
+          "date": "1996-12-06",
+          "number": "96누6417",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=96%EB%88%846417",
+          "facts": "퇴직급여 산정에서 재직기간을 제대로 합산하지 않은 급여결정을 다퉜습니다.",
+          "rule": "구 공무원연금법상 급여결정은 구체적 급여청구권을 형성하는 처분입니다.",
+          "conclusion": "급여결정의 취소를 구하는 항고소송으로 다툽니다.",
+          "exams": [
+            "2025-58"
+          ]
+        },
+        {
+          "title": "관리처분계획안 총회결의는 단계별로 구분",
+          "court": "대법원",
+          "date": "2010-02-25",
+          "number": "2007다73598",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=143958",
+          "facts": "재건축조합의 사업시행계획·관리처분계획안 총회결의 효력을 다퉜습니다.",
+          "rule": "인가 전 총회결의의 효력은 공법상 당사자소송으로 다툽니다. 인가·고시로 계획이 처분의 효력을 갖게 되면 총회결의만 분리하여 다툴 이익은 없습니다.",
+          "conclusion": "인가 전과 인가 후의 소송 대상을 구별합니다.",
+          "exams": [
+            "2025-76"
+          ]
+        },
+        {
+          "title": "화랑훈장 기록과 태극훈장 수여자 지위",
+          "court": "대법원",
+          "date": "1990-10-23",
+          "number": "90누4440",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=107515",
+          "facts": "훈기부에는 화랑무공훈장으로 적혀 있지만 태극무공훈장을 받았다고 주장하며 확인을 구했습니다.",
+          "rule": "수여자 지위를 확인하는 청구는 공법상 당사자소송이며 권리주체인 국가가 피고입니다.",
+          "conclusion": "총무처장관이 아니라 국가를 상대로 제기해야 합니다.",
+          "exams": [
+            "2025-58"
+          ]
+        },
+        {
+          "title": "국유재산 변상금은 보통 임대료 청구와 다르다",
+          "court": "대법원",
+          "date": "1988-02-23",
+          "number": "87누1046",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=104115",
+          "facts": "국유재산을 무단으로 점유한 사람에게 관리청이 변상금을 부과했습니다.",
+          "rule": "법에 따라 사용료 상당액에 추가액을 붙여 일방적으로 부과하고 체납 시 강제징수하는 구조이므로 공권력 행사입니다.",
+          "conclusion": "행정처분으로서 항고소송의 대상이 됩니다.",
+          "exams": [
+            "2025-58"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-acts",
+      "title": "독촉·선거·경고가 처분이 되는 이유",
+      "chapter": 2,
+      "exams": [
+        "2025-59",
+        "2025-60"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제2조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "처분인지 묻는 문제에서는 문서 제목 대신 법적 결과를 찾습니다. 최초 독촉은 징수절차에 영향을 주고, 의장 선임은 공적 직무권한을 부여하며, 문책경고는 임원이 될 자격 등에 영향을 줍니다.",
+        "반대로 군의관의 신체등위판정은 최종 병역처분을 준비하는 자료 단계입니다. 그 자체만으로 병역의무가 정해지지는 않습니다."
+      ],
+      "analogy": {
+        "text": "경기 시작 전 측정표와 최종 출전 자격 통지를 구별하는 것과 같습니다. 이름이 가벼운 경고라도 다음 출전을 막는 법적 효과가 있으면 중요합니다.",
+        "limit": "판례 당시 법령의 효과가 전제됩니다. 모든 독촉이나 경고가 처분이라는 뜻은 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "개별공시지가 결정",
+          "rule": "세금 등의 법정 기준으로 작용하는 독립된 처분"
+        },
+        {
+          "label": "건축법상 최초 독촉",
+          "rule": "징수절차의 법적 효과가 있어 처분"
+        },
+        {
+          "label": "지방의회 의장 선임",
+          "rule": "직무권한 부여로 처분"
+        },
+        {
+          "label": "금융감독원장 문책경고",
+          "rule": "장래 임원 자격 등에 영향을 주므로 처분"
+        },
+        {
+          "label": "군의관 신체등위판정",
+          "rule": "최종 병역처분을 위한 자료로 처분성 부정"
+        }
+      ],
+      "cases": [
+        {
+          "title": "개별토지가격결정은 독립하여 다툰다",
+          "court": "대법원",
+          "date": "1993-06-11",
+          "number": "92누16706",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=123220",
+          "facts": "토지 소유자가 개별토지가격결정의 위법을 다퉜습니다.",
+          "rule": "개별토지가격결정은 관계 법령이 정한 산정 방식과 합리성을 심사하는 취소소송 대상입니다.",
+          "conclusion": "단순한 참고자료와 달리 결정 자체를 다툴 수 있습니다.",
+          "exams": [
+            "2025-59"
+          ]
+        },
+        {
+          "title": "건축 이행강제금 최초 독촉",
+          "court": "대법원",
+          "date": "2009-12-24",
+          "number": "2009두14507",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=141897",
+          "facts": "건축법상 이행강제금 납부를 처음 독촉한 행위를 다퉜습니다.",
+          "rule": "최초 독촉은 후속 강제징수와 연결되는 징수처분입니다. 같은 내용의 반복 촉구와 구별합니다.",
+          "conclusion": "최초 독촉의 처분성을 인정했습니다.",
+          "exams": [
+            "2025-59"
+          ]
+        },
+        {
+          "title": "지방의회 의장 선임의결",
+          "court": "대법원",
+          "date": "1995-01-12",
+          "number": "94누2602",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=199589",
+          "facts": "지방의회 의장 선거 결과의 효력을 다퉜습니다.",
+          "rule": "의장 선임은 의회 대표·의사 정리 등 공적 직무권한을 당선자에게 부여합니다.",
+          "conclusion": "단순한 내부 집계가 아니라 처분입니다.",
+          "exams": [
+            "2025-59"
+          ]
+        },
+        {
+          "title": "금융감독원장의 문책경고",
+          "court": "대법원",
+          "date": "2005-02-17",
+          "number": "2003두14765",
+          "url": "https://www.law.go.kr/precInfoP.do?evtNo=2003%EB%91%9014765&mode=0",
+          "facts": "금융기관 임원이 문책경고 상당 조치를 다퉜습니다.",
+          "rule": "법령에 따른 임원 자격 제한 등 구체적 법적 불이익을 주는 경고는 처분입니다.",
+          "conclusion": "경고라는 명칭만으로 처분성을 부정하지 않습니다.",
+          "exams": [
+            "2025-59"
+          ]
+        },
+        {
+          "title": "군의관 신체등위와 최종 병역처분",
+          "court": "대법원",
+          "date": "1993-08-27",
+          "number": "93누3356",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=201613",
+          "facts": "군의관이 한 신체등위 1급 판정의 취소를 구했습니다.",
+          "rule": "신체등위만으로 병역의무의 종류가 정해지지 않고 지방병무청장의 병역처분이 필요합니다.",
+          "conclusion": "군의관의 자료 단계 판정은 항고소송 대상이 아닙니다.",
+          "exams": [
+            "2025-60"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-public-claims",
+      "title": "공적인 돈 청구와 민사 돈 청구를 구별한다",
+      "chapter": 8,
+      "exams": [
+        "2025-60",
+        "2025-75",
+        "2025-76"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제3조제2호·제39조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "돈을 달라는 소송도 그 돈이 어디에서 생긴 권리인지에 따라 법정의 문이 달라집니다. 법률이 특별히 부여한 공법상 지급청구권은 당사자소송으로 다툽니다.",
+        "공법상 청산금 채권을 개인에게 양도했다고 채권의 성질까지 민사로 바뀌지는 않습니다. 반대로 공익사업법에 규정된 환매권이라도 그 권리관계는 민사입니다."
+      ],
+      "analogy": {
+        "text": "도서관 회원증을 친구에게 넘겨도 책이 도서관 책이라는 성질은 그대로인 것처럼, 채권의 주인이 바뀌어도 권리의 출발점은 따로 살펴야 합니다.",
+        "limit": "비유상 양도 가능성을 설명한 것이며 실제 권리의 양도 가능 여부와 방법은 별도로 확인해야 합니다."
+      },
+      "contrasts": [
+        {
+          "label": "청산금 양수금",
+          "rule": "공법상 채권의 성질을 유지하므로 당사자소송"
+        },
+        {
+          "label": "법관 명예퇴직수당·소방 초과근무수당",
+          "rule": "법정 요건으로 생기는 공법상 지급청구권이면 당사자소송"
+        },
+        {
+          "label": "환매권 존부 확인",
+          "rule": "구 공익사업법상 환매권은 민사소송"
+        },
+        {
+          "label": "국가의 조세채권 존재확인",
+          "rule": "소멸시효 중단을 위한 확인의 이익 등 요건 아래 당사자소송"
+        }
+      ],
+      "cases": [
+        {
+          "title": "공법상 청산금 채권을 양수한 사람",
+          "court": "대법원",
+          "date": "2021-04-15",
+          "number": "2019다244980, 244997",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=215415",
+          "facts": "토지구획정리조합의 조합원 상대 청산금 채권을 양수한 사람이 지급을 청구했습니다.",
+          "rule": "양도만으로 공법상 채권의 성질은 바뀌지 않습니다.",
+          "conclusion": "양수금 지급청구도 당사자소송으로 해야 합니다.",
+          "exams": [
+            "2025-60"
+          ]
+        },
+        {
+          "title": "법관의 미지급 명예퇴직수당",
+          "court": "대법원",
+          "date": "2016-05-24",
+          "number": "2013두14863",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=182498",
+          "facts": "명예퇴직한 법관이 법령에 따라 계산되는 수당 중 미지급액을 청구했습니다.",
+          "rule": "대상자 선정 후 법령에 따라 지급액이 정해지는 공법상 권리의 지급 문제입니다.",
+          "conclusion": "국가를 상대로 당사자소송을 제기할 수 있습니다.",
+          "exams": [
+            "2025-75"
+          ]
+        },
+        {
+          "title": "환매권은 공익사업과 관련돼도 민사",
+          "court": "대법원",
+          "date": "2013-02-28",
+          "number": "2010두22368",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=171009",
+          "facts": "구 공익사업법의 환매권 존재와 환매대금 증액이 문제 됐습니다.",
+          "rule": "같은 법 제91조가 정한 환매권 관계는 사법상 권리관계입니다.",
+          "conclusion": "환매권 존재확인은 민사소송으로 다툽니다.",
+          "exams": [
+            "2025-76"
+          ]
+        },
+        {
+          "title": "지방소방공무원의 초과근무수당",
+          "court": "대법원",
+          "date": "2013-03-28",
+          "number": "2012다102629",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=168602",
+          "facts": "지방소방공무원이 소속 지방자치단체에 초과근무수당을 청구했습니다.",
+          "rule": "법령의 요건을 충족하면 직접 발생하는 공법상 보수청구권입니다.",
+          "conclusion": "당사자소송으로 지급을 청구합니다. 이는 판례 당시 지방소방공무원 제도를 전제로 합니다.",
+          "exams": [
+            "2025-76"
+          ]
+        },
+        {
+          "title": "소멸시효 중단을 위한 조세채권 확인",
+          "court": "대법원",
+          "date": "2020-03-02",
+          "number": "2017두41771",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=226161",
+          "facts": "과세주체가 확정된 조세채권의 시효 중단을 위해 납세자를 상대로 존재확인을 청구했습니다.",
+          "rule": "조세채권은 공법상 채권이며 다른 징수 방법이 없는 등 확인의 이익이 문제 됩니다.",
+          "conclusion": "요건을 갖추면 공법상 당사자소송으로 제기할 수 있습니다.",
+          "exams": [
+            "2025-76"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-proof",
+      "title": "누가 무엇을 얼마나 증명해야 할까",
+      "chapter": 5,
+      "exams": [
+        "2025-63"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제8조·제26조·제27조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "처분이 적법하다는 이유는 일반적으로 행정청이 증명합니다. 다만 원고가 주장하는 재량권 일탈·남용의 특별한 사정은 원고가 증명합니다.",
+        "허가 기준을 못 채웠다며 거부했다면 그 거부가 적법하다는 주장은 처분청이 입증해야 합니다. 증명은 과학 실험처럼 의혹이 0이 될 때까지 기다리는 것이 아니라, 모든 증거를 종합해 사실이 있었다고 인정할 높은 가능성을 확인하는 것입니다."
+      ],
+      "analogy": {
+        "text": "경기에서 심판이 반칙이라고 했다면 근거를 보여야 합니다. 선수가 제재가 지나치다고 다투면 그 특별한 사정도 제시하는 모습과 같습니다.",
+        "limit": "실제 증명책임은 법률요건별로 나뉘며, 고도의 개연성은 단순히 51퍼센트처럼 숫자로 정한 기준이 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "처분사유",
+          "rule": "원칙적으로 행정청 증명"
+        },
+        {
+          "label": "재량 일탈·남용",
+          "rule": "이를 주장하는 원고 증명"
+        },
+        {
+          "label": "사실의 증명",
+          "rule": "경험칙과 전체 증거에 따른 고도의 개연성"
+        }
+      ],
+      "cases": [
+        {
+          "title": "재량권 일탈·남용을 주장하는 사람의 증명",
+          "court": "대법원",
+          "date": "1987-12-08",
+          "number": "87누861",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=103896",
+          "facts": "공유수면 점용료 감면을 하지 않은 재량행사가 문제 됐습니다.",
+          "rule": "재량권 한계를 벗어나 위법하다는 사정은 효력을 다투는 사람이 주장·입증합니다.",
+          "conclusion": "행정청이 모든 재량행사의 정당성까지 먼저 증명해야 하는 것은 아닙니다.",
+          "exams": [
+            "2025-63"
+          ]
+        },
+        {
+          "title": "허가기준 미달이라는 거부의 입증",
+          "court": "대법원",
+          "date": "1986-04-08",
+          "number": "86누107",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=205921",
+          "facts": "중기대여업 허가신청에 첨부한 사무실 임대차 자료를 이유로 허가를 거부했습니다.",
+          "rule": "허가기준 미달로 거부한 처분의 적법성을 주장·입증할 책임은 처분청에게 있습니다.",
+          "conclusion": "거부라고 해서 적법성 입증책임이 신청인에게 모두 넘어가지 않습니다.",
+          "exams": [
+            "2025-63"
+          ]
+        },
+        {
+          "title": "행정소송에서 요구하는 증명의 정도",
+          "court": "대법원",
+          "date": "2018-04-12",
+          "number": "2017두74702",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=2017%EB%91%9074702&mode=0",
+          "facts": "교원 징계사유가 실제 있었는지를 다퉜습니다.",
+          "rule": "증명은 자연과학적으로 모든 의혹을 없애는 것이 아니라 경험칙과 모든 증거를 종합한 고도의 개연성입니다.",
+          "conclusion": "형사 무죄라는 사정만으로 행정소송의 징계사유를 자동 부정하지 않습니다.",
+          "exams": [
+            "2025-63"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-grounds",
+      "title": "계약 미이행과 뇌물 제공은 같은 이유가 아니다",
+      "chapter": 6,
+      "exams": [
+        "2025-64",
+        "2025-66"
+      ],
+      "law": [
+        {
+          "title": "행정소송규칙 제9조",
+          "url": "https://www.law.go.kr/법령/행정소송규칙"
+        },
+        {
+          "title": "행정소송법 제28조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "처분사유를 바꿀 수 있다는 것은 소송 중 아무 잘못이나 새로 가져와도 된다는 뜻이 아닙니다. 법률로 평가하기 전의 실제 사건이 기본적으로 같아야 합니다.",
+        "계약을 이행하지 않은 일과 공무원에게 뇌물을 준 일은 같은 계약과 관련돼도 서로 다른 행동입니다. 사정판결도 이런 잘못된 처분을 편의상 살리는 일반 수단이 아닙니다."
+      ],
+      "analogy": {
+        "text": "숙제를 안 냈다는 이유로 받은 벌을 다투는데 갑자기 다른 날 친구 물건을 숨겼다는 이유로 바꾸는 것은 같은 사건 설명을 고치는 수준이 아닙니다.",
+        "limit": "사실관계 동일성은 시간·장소·행위와 처분의 구체적 사정을 종합하여 판단합니다."
+      },
+      "contrasts": [
+        {
+          "label": "법적 평가만 수정",
+          "rule": "사실이 같으면 적용 법령 변경을 허용할 수 있습니다."
+        },
+        {
+          "label": "별도 행동 추가",
+          "rule": "계약 미이행에서 뇌물 제공으로 바꾸는 것은 기본 사실이 다릅니다."
+        },
+        {
+          "label": "시점",
+          "rule": "추가·변경은 사실심 변론종결까지 문제 됩니다."
+        }
+      ],
+      "cases": [
+        {
+          "title": "계약 미이행과 뇌물 제공의 구별",
+          "court": "대법원",
+          "date": "1999-03-09",
+          "number": "98두18565",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=117480",
+          "facts": "입찰참가자격 제한을 계약 미이행으로 했는데 소송에서는 공무원에게 뇌물을 줬다는 이유를 추가했습니다.",
+          "rule": "계약 미이행과 뇌물 제공은 기초가 되는 구체적 사회적 사실이 다릅니다.",
+          "conclusion": "새 이유 추가를 허용하지 않았고 사정판결도 극히 엄격하게 제한해야 한다고 했습니다.",
+          "exams": [
+            "2025-64",
+            "2025-66"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-judgment-procedure",
+      "title": "판결문 읽기와 청구를 거두는 사람",
+      "chapter": 6,
+      "exams": [
+        "2025-65",
+        "2025-67"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제8조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "민사소송법 제206조·제207조·제208조·제266조",
+          "url": "https://www.law.go.kr/법령/민사소송법"
+        },
+        {
+          "title": "행정소송규칙 제15조",
+          "url": "https://www.law.go.kr/법령/행정소송규칙"
+        }
+      ],
+      "explanation": [
+        "행정소송법에 특별 규정이 없는 판결문의 작성과 선고 절차는 민사소송법을 빌려 적용합니다. 판결문은 당사자·주문·이유 등 필요한 내용을 갖추고, 선고는 주문을 읽는 방식으로 합니다.",
+        "원고가 청구를 포기하는 것과 피고가 원고 청구를 인정하는 인낙은 뜻이 다릅니다. 소의 취하는 원고가 합니다. 다만 처분의 적법성이 공익과 연결된 항고소송에 민사소송의 포기·인낙 규정을 그대로 옮길 수 있는지는 그 성질을 함께 봐야 합니다."
+      ],
+      "analogy": {
+        "text": "문제풀이에서 ‘제가 낸 질문을 거두겠습니다’와 ‘상대의 답이 맞습니다’는 서로 다른 말입니다.",
+        "limit": "이 비유는 용어를 구별하기 위한 것으로, 항고소송에서 포기·인낙을 자유롭게 할 수 있다는 뜻은 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "판결 선고",
+          "rule": "당사자 불출석에도 가능하고 재판장이 주문을 읽습니다."
+        },
+        {
+          "label": "소 취하",
+          "rule": "원고가 하는 절차행위"
+        },
+        {
+          "label": "포기·인낙 용어",
+          "rule": "포기는 원고 청구를 버림, 인낙은 피고가 청구를 인정함"
+        },
+        {
+          "label": "조정권고",
+          "rule": "규칙 제15조에 따른 직권·서면 권고, 진술 청취는 필요할 때 가능"
+        }
+      ],
+      "cases": [],
+      "pitfall": "포기와 인낙의 뜻을 반대로 외우지 마세요. 법원 권고는 판결도 강제 합의도 아닙니다."
+    },
+    {
+      "id": "y25-coercion",
+      "title": "간접강제는 벌금이나 손해배상과 다르다",
+      "chapter": 7,
+      "exams": [
+        "2025-69"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제34조·제38조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "민사집행법 제262조",
+          "url": "https://www.law.go.kr/법령/민사집행법/제262조"
+        }
+      ],
+      "explanation": [
+        "행정청이 판결에 맞게 다시 결정하지 않으면 법원이 일정한 기간을 정하고 돈을 지급하라는 압박을 줄 수 있습니다. 목표는 예전 잘못을 벌주는 것이 아니라 앞으로 판결에 맞는 재처분을 하게 만드는 것입니다.",
+        "결정은 변론 없이 할 수 있지만 행정청의 이야기를 듣는 심문까지 생략해도 된다는 뜻은 아닙니다. 민사집행법 제262조가 준용됩니다. 무효확인판결에는 재처분의무가 있어도 법 제34조의 간접강제는 준용되지 않습니다."
+      ],
+      "analogy": {
+        "text": "정리할 때까지 알림이 울리는 장치는 정리를 시키기 위한 것입니다. 이미 정리했는데도 지난 시간을 벌주려고 계속 알림을 울리는 것과는 목적이 다릅니다.",
+        "limit": "행정소송법상 간접강제와 민사집행법상 일반 간접강제의 배상금 법리는 구별해야 합니다."
+      },
+      "contrasts": [
+        {
+          "label": "변론 없이 결정",
+          "rule": "가능"
+        },
+        {
+          "label": "채무자 심문",
+          "rule": "민사집행법 제262조에 따라 필요"
+        },
+        {
+          "label": "배상금 성격",
+          "rule": "행정청의 재처분을 촉구하는 심리적 강제수단"
+        },
+        {
+          "label": "무효확인",
+          "rule": "재처분의무와 간접강제 가능 여부는 별개"
+        }
+      ],
+      "cases": [
+        {
+          "title": "행정청의 재처분을 촉구하는 배상금",
+          "court": "대법원",
+          "date": "2004-01-15",
+          "number": "2002두2444",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=83045",
+          "facts": "간접강제에서 정한 기한 뒤 행정청이 판결 취지대로 다시 처분한 뒤에도 배상금을 추심할 수 있는지 문제 됐습니다.",
+          "rule": "행정소송법 제34조 배상금은 지연 제재나 손해배상이 아니라 재처분을 유도하는 수단입니다.",
+          "conclusion": "특별한 사정 없이 재처분이 이행되면 더 이상 그 돈을 추심할 수 없습니다.",
+          "exams": [
+            "2025-69"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-nullity",
+      "title": "무효소송의 질문은 하나이고, 그 이유는 여러 개다",
+      "chapter": 8,
+      "exams": [
+        "2025-71"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제35조·제38조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "무효확인소송은 해당 처분 때문에 법률관계가 생겼는지를 묻습니다. 원고가 내세우는 각각의 무효 이유는 같은 질문을 뒷받침하는 주장입니다. 이유 하나를 바꿨다고 매번 새로운 소송물이 생기는 것은 아닙니다.",
+        "겉으로 하나의 처분서라도 연도별 금액처럼 나누어 특정할 수 있으면 잘못된 부분만 무효라고 확인할 수 있습니다.",
+        "무효확인소송에서 처분이 처음부터 효력이 없을 만큼 잘못됐다는 사유는 원고가 주장하고 증명해야 합니다. 법원이 직권으로 증거를 조사할 수 있다는 점과 증명책임의 배분은 다른 문제입니다."
+      ],
+      "analogy": {
+        "text": "한 영수증에 여러 해의 이용료가 적혀 있어도 각 해의 줄을 구별할 수 있다면 잘못된 줄만 골라낼 수 있습니다.",
+        "limit": "처분을 법적으로 나눌 수 있어야 합니다. 법원이 재량처분의 적정한 정도를 대신 정하는 경우와는 다릅니다."
+      },
+      "contrasts": [
+        {
+          "label": "소송물",
+          "rule": "권리 또는 법률관계의 존부"
+        },
+        {
+          "label": "개별 무효사유",
+          "rule": "같은 청구를 뒷받침하는 공격·방어방법"
+        },
+        {
+          "label": "일부 무효",
+          "rule": "가분성이 있고 특정 가능하면 인정 가능"
+        },
+        {
+          "label": "무효사유의 증명책임",
+          "rule": "무효확인을 구하는 원고가 부담"
+        }
+      ],
+      "cases": [
+        {
+          "title": "무효 이유를 바꾸어 다시 소송할 수 있을까",
+          "court": "대법원",
+          "date": "1992-02-25",
+          "number": "91누6108",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=91%EB%88%846108",
+          "facts": "증여세 과세처분 무효소송에서 패소한 뒤 다른 이유로 다시 무효를 주장했습니다.",
+          "rule": "같은 과세처분의 법률관계 존부가 소송물이고 개별 이유는 공격방어방법입니다.",
+          "conclusion": "앞 소송의 기판력에 저촉되는 동일 소송을 반복할 수 없습니다.",
+          "exams": [
+            "2025-71"
+          ]
+        },
+        {
+          "title": "한 처분서에 여러 해의 이행강제금이 있는 경우",
+          "court": "대법원",
+          "date": "2016-07-14",
+          "number": "2015두46598",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=183014",
+          "facts": "여러 연도의 이행강제금을 한 장의 처분서로 부과했습니다.",
+          "rule": "연도별 금액이 가분되어 특정되므로 일부만 무효로 확인할 수 있습니다.",
+          "conclusion": "외형상 하나의 처분이라는 이유만으로 일부무효를 금지하지 않습니다.",
+          "exams": [
+            "2025-71"
+          ]
+        },
+        {
+          "title": "무효사유를 증명할 사람은 원고",
+          "court": "대법원",
+          "date": "2010-05-13",
+          "number": "2009두3460",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=144000",
+          "facts": "납세자가 납세고지서 송달에 문제가 있으므로 과세처분이 무효라고 주장했습니다.",
+          "rule": "무효확인을 구하는 원고가 그 처분의 무효사유를 주장·입증해야 합니다.",
+          "conclusion": "무효소송인데도 송달 적법성을 피고가 증명해야 한다고 본 원심을 파기했습니다.",
+          "exams": [
+            "2025-71"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-seized-return",
+      "title": "압수물을 돌려줄 의무와 새 처분을 할 의무는 다르다",
+      "chapter": 8,
+      "exams": [
+        "2025-73",
+        "2025-75"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제2조제1항제2호·제36조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "무죄판결 확정으로 법률상 압수 해제 효과가 생겨 물건을 돌려줄 의무가 발생했다면, 검사가 다시 허가·거부 처분을 해야 그 의무가 생기는 것은 아닙니다.",
+        "부작위위법확인은 법률상 해야 할 처분을 하지 않는 경우를 다루므로, 실제 물건을 돌려달라는 이행청구를 이 소송으로 대신할 수 없습니다."
+      ],
+      "analogy": {
+        "text": "이미 대여기간이 끝나 물건을 돌려줘야 하는 일과, 대여 허가 신청에 답해야 하는 일은 다릅니다.",
+        "limit": "구체적인 압수·환부의 법적 절차는 형사소송법에 따릅니다. 단순히 답이 없다는 사정만으로 부작위소송이 되지 않습니다."
+      },
+      "contrasts": [
+        {
+          "label": "새 처분을 안 함",
+          "rule": "신청권과 처분의무 등 요건 아래 부작위위법확인"
+        },
+        {
+          "label": "이미 생긴 반환의무를 안 함",
+          "rule": "물건 반환의 이행 문제로 별도 구제절차"
+        },
+        {
+          "label": "법원이 대신 허가",
+          "rule": "현행 행정소송법상 일반적 의무이행·예방적 금지소송을 인정하지 않음"
+        }
+      ],
+      "cases": [
+        {
+          "title": "무죄 확정 뒤 검사의 압수물 환부",
+          "court": "대법원",
+          "date": "1995-03-10",
+          "number": "94누14018",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=199469",
+          "facts": "무죄 확정 후 압수물 환부 신청에 검사가 결정이나 통지를 하지 않았습니다.",
+          "rule": "법률상 환부의무가 생기는 것이지 새로운 행정처분을 해야 하는 관계가 아닙니다.",
+          "conclusion": "부작위위법확인소송의 대상이 아니며 실제 반환의 이행 문제와 구별합니다.",
+          "exams": [
+            "2025-73",
+            "2025-75"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-party-provisional",
+      "title": "당사자소송의 임시 보호와 피고를 고칠 기회",
+      "chapter": 8,
+      "exams": [
+        "2025-77",
+        "2025-60"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제8조·제39조·제44조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "민사집행법 제300조",
+          "url": "https://www.law.go.kr/법령/민사집행법/제300조"
+        },
+        {
+          "title": "행정소송법 제14조·제44조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "처분을 멈추는 취소소송에는 집행정지가 있지만, 공법상 권리·의무를 직접 다투는 당사자소송에는 그 규정이 준용되지 않습니다. 대신 민사집행법의 가처분 규정을 빌려 임시 보호를 받을 수 있습니다.",
+        "피고도 행정청이라는 이름표가 아니라 실제 권리·의무의 주체를 찾습니다. 사인도 공법상 의무의 당사자라면 피고가 될 수 있습니다.",
+        "당사자소송에서 피고를 잘못 정했다면 법원은 적절한 상대방으로 고치도록 석명권을 행사해야 합니다. 석명은 부족하거나 잘못된 부분을 분명하게 확인해 주는 절차입니다. 제44조제1항이 제14조를 준용하므로 원고의 신청에 따라 피고 경정을 허가할 수 있습니다."
+      ],
+      "analogy": {
+        "text": "같은 응급실에서도 다친 부위에 따라 필요한 처치 도구가 다른 것처럼 소송 종류에 맞는 임시 보호를 고릅니다.",
+        "limit": "가처분도 보전 필요성 등 요건이 필요하며 신청만으로 인정되지 않습니다."
+      },
+      "contrasts": [
+        {
+          "label": "항고소송",
+          "rule": "처분을 대상으로 하는 집행정지"
+        },
+        {
+          "label": "당사자소송",
+          "rule": "권리·의무에 관한 가처분"
+        },
+        {
+          "label": "피고",
+          "rule": "국가·공공단체 및 그 밖의 권리주체"
+        },
+        {
+          "label": "피고를 잘못 정한 당사자소송",
+          "rule": "법원이 석명하여 올바른 피고로 경정할 기회를 부여"
+        }
+      ],
+      "cases": [
+        {
+          "title": "공법상 의무를 다투는 당사자소송의 가처분",
+          "court": "대법원",
+          "date": "2019-09-09",
+          "number": "2016다262550",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=209605",
+          "facts": "공익사업 시행자가 인접 토지의 일시 사용 동의를 구했습니다.",
+          "rule": "법률이 특별히 정한 공법상 의무에 관한 소송은 당사자소송이고 사인도 피고가 될 수 있습니다. 민사집행법상 가처분도 준용됩니다.",
+          "conclusion": "당사자소송에서는 권리주체를 상대방으로 하고 필요한 임시 보호를 신청할 수 있습니다.",
+          "exams": [
+            "2025-77"
+          ]
+        },
+        {
+          "title": "보험료를 받는 기관과 징수하는 기관의 차이",
+          "court": "대법원",
+          "date": "2016-10-13",
+          "number": "2016다221658",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=183668",
+          "facts": "보험료 채무가 없다고 다투면서 권리귀속주체인 근로복지공단 대신 징수업무를 맡은 국민건강보험공단을 피고로 정했습니다.",
+          "rule": "당사자소송에서 피고를 잘못 정했다면 법원은 석명하여 올바른 피고로 경정하도록 해야 합니다.",
+          "conclusion": "정당한 피고는 근로복지공단이며, 법원은 경정 기회를 주었어야 합니다.",
+          "exams": [
+            "2025-60",
+            "2025-77"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-election",
+      "title": "선거·국민투표·주민소송에서 특별법을 찾는 방법",
+      "chapter": 8,
+      "exams": [
+        "2025-78"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제3조·제45조·제46조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "공직선거법 제222조",
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1022750963"
+        },
+        {
+          "title": "구 국민투표법 제92조(기출 당시)",
+          "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=91737"
+        },
+        {
+          "title": "국민투표법 제75조(2026.10.2 시행 현행법)",
+          "url": "https://www.law.go.kr/법령/국민투표법/제75조"
+        }
+      ],
+      "explanation": [
+        "선거소송과 국민투표 소송은 개인의 손해만을 고치는 소송이 아니라 법이 정한 공정한 절차를 지키는 민중소송의 예입니다. 그래도 아무나 아무 법원에 낼 수는 없습니다.",
+        "공직선거법 제222조는 대통령·국회의원 선거는 대법원, 지방선거는 선거 종류에 따라 대법원 또는 고등법원으로 나눕니다. 피고는 선거관리위원회가 아니라 법이 정한 위원장입니다.",
+        "2025년 기출 당시 국민투표무효소송은 구 국민투표법 제92조가 정한 대법원 소송이었습니다. 2026년 전부개정 후 현행 제75조는 투표인 20만 명 이상의 서명을 받아 국민투표일부터 20일 이내에 중앙선거관리위원회위원장을 피고로 대법원에 제소하도록 합니다. 구법의 10만 명과 현행 20만 명을 섞지 않습니다.",
+        "행정처분을 취소해 달라는 주민소송은 지방자치단체가 돈을 잃었는지만 검사하지 않습니다. 일반 취소소송처럼 헌법·법률·법규명령·법의 일반원칙에 어긋났는지 살핍니다. 주민소송이라고 모든 유형의 요건이 같아지는 것은 아닙니다."
+      ],
+      "analogy": {
+        "text": "큰 운동회의 판정 이의신청은 경기 종류에 따라 정해진 심사 창구가 있고 대표 담당자에게 제출하는 모습입니다.",
+        "limit": "일반 소송의 창구를 그대로 쓰지 않고 개별 법률의 자격·기간·관할·피고를 확인합니다. 주민소송도 취소를 구하는 유형과 손해배상을 청구하게 하는 유형은 구분합니다."
+      },
+      "contrasts": [
+        {
+          "label": "공직선거법 제222조",
+          "rule": "대법원 또는 고등법원, 법에서 정한 선거관리위원회위원장이 피고"
+        },
+        {
+          "label": "2025 기출 당시 국민투표법 제92조",
+          "rule": "대법원에 국민투표무효소송"
+        },
+        {
+          "label": "민중소송",
+          "rule": "직접 자기의 법률상 이익과 무관하되 법정 자격·요건 필요"
+        },
+        {
+          "label": "현행 국민투표법 제75조",
+          "rule": "20만 명 서명 → 투표일부터 20일 이내 → 중앙선거관리위원회위원장 상대 대법원 소송"
+        },
+        {
+          "label": "처분 취소형 주민소송의 심사",
+          "rule": "재정 손실만이 아니라 객관적 법질서 전반의 위반 여부"
+        }
+      ],
+      "cases": [
+        {
+          "title": "주민소송도 재정 손실만 따지지 않는다",
+          "court": "대법원",
+          "date": "2019-10-17",
+          "number": "2018두104",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=225621",
+          "facts": "주민들이 교회 시설을 위한 도로 지하 점용허가의 위법성을 다퉜습니다.",
+          "rule": "처분의 위법성은 항고소송처럼 모든 객관적 법규범을 기준으로 판단합니다. 지방재정 손실 유무로만 좁히지 않습니다.",
+          "conclusion": "도로점용허가의 비례·형평 원칙 위반을 인정한 원심판단을 수긍했습니다.",
+          "exams": [
+            "2025-78"
+          ]
+        }
+      ],
+      "pitfall": "사례의 결론은 해당 법령과 사실관계를 전제로 합니다. 비슷한 이름만으로 다른 사안에 그대로 옮기지 마세요."
+    },
+    {
+      "id": "y25-effects",
+      "title": "취소가 확정된 뒤와 취소청구가 기각된 뒤는 다르다",
+      "chapter": 7,
+      "exams": [
+        "2025-68"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제8조·제29조·제30조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "민사소송법 제216조",
+          "url": "https://www.law.go.kr/법령/민사소송법/제216조"
+        }
+      ],
+      "explanation": [
+        "취소청구가 기각되어 확정되면 그 처분이 적법하다는 판단을 같은 당사자 사이에서 다시 뒤집는 주장을 할 수 없습니다. 같은 과세처분을 이제는 무효라고 이름을 바꾸어 다투어도 기판력이 미칩니다.",
+        "반대로 과세처분 취소판결이 확정되면 그 처분은 소급하여 사라집니다. 없어진 처분의 숫자만 고친다는 경정처분은 대상을 잃었으므로 중대하고 명백한 하자로 무효입니다.",
+        "기판력은 원칙적으로 주문에 포함된 판단에 생깁니다. 행정청이 판결 취지를 따라야 하는 기속력과 다른 개념입니다. 소송요건 때문에 각하한 판결을 본안 기각판결과 섞지 않습니다."
+      ],
+      "analogy": {
+        "text": "기각 확정은 같은 경기 결과를 새 표지의 이의신청서로 다시 심사받을 수 없는 모습이고, 취소 확정 후 경정은 이미 삭제한 영수증의 금액만 고치려는 모습입니다.",
+        "limit": "재심 등 법이 정한 예외와 적법한 새로운 처분 가능성은 별도입니다. 모든 재처분이 금지된다는 뜻이 아니라 사라진 옛 처분의 경정을 말합니다."
+      },
+      "contrasts": [
+        {
+          "label": "과세 취소청구 기각 확정",
+          "rule": "같은 과세의 무효확인에도 기판력 적용"
+        },
+        {
+          "label": "과세 취소판결 확정 뒤 그 처분 경정",
+          "rule": "소멸한 처분을 고치므로 당연무효"
+        },
+        {
+          "label": "기속력",
+          "rule": "행정청과 관계 행정청이 취소판결 취지에 따라 행동할 의무"
+        }
+      ],
+      "cases": [
+        {
+          "title": "취소청구에서 진 뒤 무효확인으로 다시 다투기",
+          "court": "대법원",
+          "date": "2003-05-16",
+          "number": "2002두3669",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=2002%EB%91%903669",
+          "facts": "학교법인이 과세처분의 취소를 구했다가 패소 확정된 뒤 같은 과세가 무효라고 다퉜습니다.",
+          "rule": "과세 취소청구 기각 확정판결의 기판력은 같은 과세처분 무효확인에도 미칩니다.",
+          "conclusion": "동일 과세의 위법성을 다시 다툴 수 없습니다.",
+          "exams": [
+            "2025-68"
+          ]
+        },
+        {
+          "title": "소멸한 과세처분을 다시 경정한 경우",
+          "court": "대법원",
+          "date": "1989-05-09",
+          "number": "88다카16096",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=204722",
+          "facts": "과세처분 취소판결이 확정된 뒤 과세관청이 그 처분을 경정했습니다.",
+          "rule": "취소확정으로 소급 소멸한 처분은 경정할 대상이 없습니다. 그 하자는 중대하고 명백합니다.",
+          "conclusion": "해당 경정처분은 당연무효입니다.",
+          "exams": [
+            "2025-68"
+          ]
+        }
+      ],
+      "pitfall": "취소청구 기각과 취소판결 인용을 문장 속에서 바꿔 읽으면 결론이 정반대가 됩니다."
+    },
+    {
+      "id": "y25-incorporation",
+      "title": "제37조의 연결선과 제38조의 목록을 함께 본다",
+      "chapter": 8,
+      "exams": [
+        "2025-72",
+        "2025-73"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제17조·제21조·제37조·제38조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "Q-Net 2025년 제62회 세무사 1차 최종정답(2025.8.27): 72번 ①·④ 복수정답",
+          "url": "https://www.q-net.or.kr/cst003.do?id=cst00302&gSite=L&gId=22&artlSeq=5242924&boardId=Q004&code=1206&menuType=cst00310"
+        }
+      ],
+      "explanation": [
+        "준용은 다른 조문의 규칙을 필요한 부분에 가져다 쓰는 것입니다. 무효확인소송의 준용 목록인 제38조제1항에는 행정청 참가인 제17조가 있습니다. 제18조 전치주의·제28조 사정판결·제32조 소송비용 부담은 그 목록에 없습니다.",
+        "제38조 목록에 제21조가 없다는 사실만 보고 소송 종류를 바꿀 수 없다고 결론 내리면 안 됩니다. 바로 앞 제37조가 별도로 제21조를 연결하여 무효등확인·부작위위법확인소송을 취소소송 또는 당사자소송으로 바꿀 수 있게 합니다.",
+        "따라서 제38조에 직접 열거됐는지와 법 전체에서 준용되는지는 다른 질문입니다. 2025년 72번은 Q-Net 공식 최종정답에서 ①·④가 모두 정답으로 인정됐습니다. ① 제17조는 제38조를 통해, ④ 제21조는 제37조를 통해 각각 준용된다는 연결을 이해하면 됩니다."
+      ],
+      "analogy": {
+        "text": "게임 안내서의 마지막 준비물 목록에 없더라도 바로 앞 페이지의 별도 규칙이 장비를 허용할 수 있습니다. 한 목록만 떼어 읽지 않고 연결된 규칙도 확인하는 모습입니다.",
+        "limit": "준용 범위는 법이 정한 소송 방향과 요건 안에서만 인정됩니다. 원하는 모든 종류의 소송으로 자유롭게 바꿀 수 있다는 뜻은 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "무효확인에 제17조 행정청 참가",
+          "rule": "제38조제1항의 열거 목록을 통해 준용"
+        },
+        {
+          "label": "무효·부작위 → 취소·당사자 소송 변경",
+          "rule": "제37조를 통해 제21조 준용"
+        },
+        {
+          "label": "제21조가 제38조 목록에 없다는 사실",
+          "rule": "제37조의 별도 준용까지 부정하지 않음"
+        },
+        {
+          "label": "소송비용 제32조 / 제33조",
+          "rule": "제32조는 무효확인에 미준용, 제33조 비용재판의 효력은 준용"
+        }
+      ],
+      "cases": [],
+      "pitfall": "2025년 72번은 공식 최종정답이 ①·④인 복수정답 문제입니다. 제38조 목록에 없다고 법 전체에서 준용되지 않는다고 단정하지 마세요."
+    },
+    {
+      "id": "y25-intervention",
+      "title": "제3자 참가·행정청 참가·일반 보조참가의 세 갈래",
+      "chapter": 3,
+      "exams": [
+        "2025-49"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제8조·제16조·제17조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        },
+        {
+          "title": "민사소송법 제67조·제71조·제76조",
+          "url": "https://www.law.go.kr/법령/민사소송법"
+        }
+      ],
+      "explanation": [
+        "행정소송법 제16조의 제3자 참가와 제17조의 행정청 참가가 있다고 해서 민사소송법의 일반 보조참가가 막히지는 않습니다. 제8조제2항을 거쳐 민사소송법 제71조의 보조참가도 가능합니다.",
+        "일반 보조참가는 재판 결과에 이해관계가 있는 사람이 한쪽 당사자를 돕는 참가입니다. 소송을 현저히 지연시키는 경우는 제외됩니다. 제76조에 따라 여러 소송행위를 할 수 있지만, 이미 지나간 진행 단계 때문에 할 수 없는 행위는 되돌릴 수 없습니다.",
+        "제17조의 행정청 참가에는 제76조가 준용되므로 피참가인의 소송행위와 충돌하는 참가행위는 효력이 없습니다. 제16조의 제3자 참가는 제67조를 준용하여 지위가 더 독립적이므로 이 충돌 규칙을 그대로 옮기지 않습니다."
+      ],
+      "analogy": {
+        "text": "함께 시험 결과의 영향을 받는 팀원과 한쪽 팀을 돕는 조력자는 위치가 다릅니다. 조력자는 돕는 팀의 결정을 거꾸로 뒤집을 수 없는 모습입니다.",
+        "limit": "법적 참가요건과 재판상 지위의 비유일 뿐, 단순히 친구라는 이유로 참가할 수 있는 것은 아닙니다."
+      },
+      "contrasts": [
+        {
+          "label": "제16조 제3자 참가",
+          "rule": "민사소송법 제67조 준용"
+        },
+        {
+          "label": "제17조 행정청 참가",
+          "rule": "민사소송법 제76조 준용, 피참가인 행위와 충돌하면 참가행위 무효"
+        },
+        {
+          "label": "일반 보조참가",
+          "rule": "제8조제2항 + 민사소송법 제71조에 따라 가능"
+        }
+      ],
+      "cases": [],
+      "pitfall": "모든 참가인을 같은 보조자 취급하지 말고 적용되는 조문 번호를 먼저 확인합니다."
+    },
+    {
+      "id": "y25-preliminary-appeal",
+      "title": "전심절차의 주장과 소송의 주장이 꼭 같을 필요는 없다",
+      "chapter": 4,
+      "exams": [
+        "2025-51"
+      ],
+      "law": [
+        {
+          "title": "행정소송법 제18조·제38조",
+          "url": "https://www.law.go.kr/법령/행정소송법"
+        }
+      ],
+      "explanation": [
+        "전심절차를 거쳤다면 같은 처분의 위법성을 뒷받침하는 새 이유를 소송에서 추가로 주장할 수 있습니다. 새 이유를 낼 때마다 행정심판부터 반복할 필요는 없습니다.",
+        "다만 전심절차가 필요한 취소소송에서 원고가 처분이 무효라고 주장한다고 전치요건이 사라지지는 않습니다. 무효확인을 청구하는 소송 자체와 무효를 이유로 취소를 청구하는 소송은 구별합니다.",
+        "부작위위법확인소송에는 제38조제2항에 따라 제18조가 준용되지만 무효확인소송에는 준용되지 않습니다. 먼저 어떤 소송을 제기했는지 읽어야 합니다."
+      ],
+      "analogy": {
+        "text": "학교에 성적 이의를 먼저 냈던 학생이 다음 심사에서 새 계산 오류를 찾아 설명할 수 있는 모습입니다. 하지만 심사 절차가 필요한 신청을 내면서 오류가 아주 크다고 말한다고 접수 요건이 없어지는 것은 아닙니다.",
+        "limit": "같은 처분에 관한 새 주장과 아예 다른 처분에 대한 새 청구는 다릅니다. 특별법의 전치 규정과 법정 예외를 먼저 확인합니다."
+      },
+      "contrasts": [
+        {
+          "label": "전심에서 빠진 위법사유",
+          "rule": "소송에서 추가 주장 가능, 그 이유만으로 전심을 다시 반복하지 않음"
+        },
+        {
+          "label": "무효확인소송 자체",
+          "rule": "제18조 미준용"
+        },
+        {
+          "label": "무효선언을 구하는 의미의 취소소송",
+          "rule": "취소소송의 전치요건 준수"
+        }
+      ],
+      "cases": [
+        {
+          "title": "새로운 위법 이유를 법원에서 말할 수 있다",
+          "court": "대법원",
+          "date": "1996-06-14",
+          "number": "96누754",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=113812",
+          "facts": "개발부담금 소송에서 전심 때 말하지 않았던 지가 산정의 위법을 처음 주장했습니다.",
+          "rule": "전심에서 빠진 공격·방어방법을 소송에서 제출할 수 있으며, 새 주장만을 이유로 다시 전심절차를 요구하지 않습니다.",
+          "conclusion": "법원이 새 주장을 심리한 것은 적법합니다.",
+          "exams": [
+            "2025-51"
+          ]
+        },
+        {
+          "title": "무효라고 주장해도 취소소송의 문턱은 남는다",
+          "court": "대법원",
+          "date": "1990-08-28",
+          "number": "90누1892",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=158954",
+          "facts": "납세자가 과세처분의 무효선언을 구하는 의미로 취소를 청구했습니다.",
+          "rule": "무효라는 이유를 내세운 취소소송도 전심절차를 거쳐야 합니다.",
+          "conclusion": "소송 형태에 따른 전치요건을 지켜야 합니다.",
+          "exams": [
+            "2025-51"
+          ]
+        }
+      ],
+      "pitfall": "주장의 이유가 무효인지보다 법원에 실제로 취소를 청구했는지 무효확인을 청구했는지를 먼저 구별합니다."
+    }
+  ],
+  "unresolved": []
+}
