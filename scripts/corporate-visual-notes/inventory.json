@@ -1,0 +1,897 @@
+{
+  "baseline": "2026-11-01",
+  "units": [
+    {
+      "file": "part01.html",
+      "id": "p3",
+      "type": "steps"
+    },
+    {
+      "file": "part01.html",
+      "id": "p4",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p7",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p9",
+      "type": "matrix"
+    },
+    {
+      "file": "part01.html",
+      "id": "p11",
+      "type": "decision"
+    },
+    {
+      "file": "part01.html",
+      "id": "p13",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p14",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p15",
+      "type": "steps"
+    },
+    {
+      "file": "part01.html",
+      "id": "p16",
+      "type": "timeline"
+    },
+    {
+      "file": "part01.html",
+      "id": "p17",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p19",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p20",
+      "type": "steps"
+    },
+    {
+      "file": "part01.html",
+      "id": "p21",
+      "type": "compare"
+    },
+    {
+      "file": "part01.html",
+      "id": "p22",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p25",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p27",
+      "type": "matrix"
+    },
+    {
+      "file": "part02.html",
+      "id": "p33",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p54",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p55",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p61",
+      "type": "decision"
+    },
+    {
+      "file": "part02.html",
+      "id": "p63",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p65",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p70",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p79",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p80",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p87",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p89",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p92",
+      "type": "steps"
+    },
+    {
+      "file": "part02.html",
+      "id": "p94",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p104",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p108",
+      "type": "decision"
+    },
+    {
+      "file": "part02.html",
+      "id": "p115",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p120",
+      "type": "decision"
+    },
+    {
+      "file": "part02.html",
+      "id": "p126",
+      "type": "compare"
+    },
+    {
+      "file": "part02.html",
+      "id": "p128",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p148",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p150",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p153",
+      "type": "matrix"
+    },
+    {
+      "file": "part03.html",
+      "id": "p155",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p158",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p166",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p169",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p174",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p178",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p182",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p190",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p194",
+      "type": "matrix"
+    },
+    {
+      "file": "part03.html",
+      "id": "p200",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p208",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p212",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p215",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p221",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p227",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p228",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p229",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p230",
+      "type": "compare"
+    },
+    {
+      "file": "part03.html",
+      "id": "p236",
+      "type": "steps"
+    },
+    {
+      "file": "part03.html",
+      "id": "p241",
+      "type": "timeline"
+    },
+    {
+      "file": "part04.html",
+      "id": "p248",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p255",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p268",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p279",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p287",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p288",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p290",
+      "type": "matrix"
+    },
+    {
+      "file": "part04.html",
+      "id": "p295",
+      "type": "timeline"
+    },
+    {
+      "file": "part04.html",
+      "id": "p297",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p298",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p300",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p301",
+      "type": "steps"
+    },
+    {
+      "file": "part04.html",
+      "id": "p302",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p321",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p326",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p328",
+      "type": "compare"
+    },
+    {
+      "file": "part04.html",
+      "id": "p337",
+      "type": "matrix"
+    },
+    {
+      "file": "part04.html",
+      "id": "p338",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p342",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p345",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p358",
+      "type": "timeline"
+    },
+    {
+      "file": "part05.html",
+      "id": "p366",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p373",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p400",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p401",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p420",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p437",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p441",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p444",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p445",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p450",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p453",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p454",
+      "type": "timeline"
+    },
+    {
+      "file": "part05.html",
+      "id": "p456",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p457",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p461",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p466",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p468",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p472",
+      "type": "matrix"
+    },
+    {
+      "file": "part05.html",
+      "id": "p474",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p480",
+      "type": "compare"
+    },
+    {
+      "file": "part05.html",
+      "id": "p498",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p502",
+      "type": "steps"
+    },
+    {
+      "file": "part05.html",
+      "id": "p504",
+      "type": "matrix"
+    },
+    {
+      "file": "part05.html",
+      "id": "p508",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "p509",
+      "type": "timeline"
+    },
+    {
+      "file": "part06.html",
+      "id": "p514",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "p518",
+      "type": "steps"
+    },
+    {
+      "file": "part06.html",
+      "id": "p523",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "p530",
+      "type": "timeline"
+    },
+    {
+      "file": "part06.html",
+      "id": "p533",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "p541",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "p543",
+      "type": "compare"
+    },
+    {
+      "file": "part06.html",
+      "id": "p545",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p549",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p552",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p555",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "p556",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p563",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "p568",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p570",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "p572",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "p574",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p575",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p584",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p589",
+      "type": "timeline"
+    },
+    {
+      "file": "part07.html",
+      "id": "p602",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p610",
+      "type": "compare"
+    },
+    {
+      "file": "part07.html",
+      "id": "p613",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "p618",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "p623",
+      "type": "steps"
+    },
+    {
+      "file": "part07.html",
+      "id": "p626",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p633",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p636",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p638",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p640",
+      "type": "steps"
+    },
+    {
+      "file": "part08.html",
+      "id": "p642",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p646",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p650",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p652",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p654",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p659",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p661",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p663",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p667",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p670",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p677",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p684",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p687",
+      "type": "steps"
+    },
+    {
+      "file": "part08.html",
+      "id": "p692",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p694",
+      "type": "compare"
+    },
+    {
+      "file": "part08.html",
+      "id": "p695",
+      "type": "steps"
+    },
+    {
+      "file": "part09.html",
+      "id": "p699",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p702",
+      "type": "timeline"
+    },
+    {
+      "file": "part09.html",
+      "id": "p704",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p710",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p725",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p727",
+      "type": "timeline"
+    },
+    {
+      "file": "part09.html",
+      "id": "p728",
+      "type": "timeline"
+    },
+    {
+      "file": "part09.html",
+      "id": "p730",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p734",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p735",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p736",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p738",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p739",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p742",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p745",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p747",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p747b",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p749",
+      "type": "timeline"
+    },
+    {
+      "file": "part09.html",
+      "id": "p751",
+      "type": "steps"
+    },
+    {
+      "file": "part09.html",
+      "id": "p755",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p756",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p757",
+      "type": "steps"
+    },
+    {
+      "file": "part09.html",
+      "id": "p758",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p761",
+      "type": "steps"
+    },
+    {
+      "file": "part09.html",
+      "id": "p764",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p766",
+      "type": "compare"
+    },
+    {
+      "file": "part09.html",
+      "id": "p769",
+      "type": "timeline"
+    }
+  ],
+  "counts": {
+    "steps": 51,
+    "compare": 99,
+    "matrix": 8,
+    "decision": 4,
+    "timeline": 15
+  }
+}
