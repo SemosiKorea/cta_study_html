@@ -54,6 +54,19 @@ assert.equal(groups.length,33);assert.equal(groups.flatMap(g=>g.exams).length,20
 assert.equal(docs.get('exam.html').querySelectorAll('.group-card').length,33);
 assert.equal(docs.get('exam.html').querySelectorAll('.exam-criteria .issue-list').length,200);
 assert.ok(docs.get('review.html').querySelectorAll('.supplement').length>0);
+const catalog=JSON.parse(fs.readFileSync(path.join(root,'assets/units.js'),'utf8').replace(/^window.CTA_UNITS\s*=\s*/,'').replace(/;\s*$/,''));
+const reviewNotes=[...docs.get('review.html').querySelectorAll('.supplement')];
+assert.equal(reviewNotes.length,77);
+assert.equal(catalog.filter(u=>u.key.startsWith('admin.part')).length,32);
+assert.equal(catalog.filter(u=>u.key.startsWith('admin.review.')).length,reviewNotes.length);
+assert.equal(new Set(catalog.map(u=>u.key)).size,catalog.length,'Duplicate reading keys');
+for(const note of reviewNotes){
+ const buttons=note.querySelectorAll('[data-unit]');assert.equal(buttons.length,1,'One completion button per supplement');
+ const key=buttons[0].dataset.unit;assert.equal(key,'admin.review.'+note.id);
+ const item=catalog.find(u=>u.key===key);assert.ok(item,'Missing reading catalog entry');
+ assert.equal(item.subject,'행정소송법');assert.equal(item.url,'admin-law/review.html#'+note.id);
+ assert.ok(item.title.includes(note.querySelector('article').dataset.readingTitle),'Reading title lost');
+}
 // Exercise the real app importer; a syntactically valid YAML is insufficient.
 const {registerHooks}=require('node:module');
 const {pathToFileURL}=require('node:url');

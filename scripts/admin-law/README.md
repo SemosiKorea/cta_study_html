@@ -4,7 +4,7 @@ The public material is `admin-law/`: eight beginner chapters, 32 reading units, 
 
 ## Update and rebuild
 
-1. Edit `admin-law/content/part01.json` through `part08.json`. Every unit keeps an analogy and its limit separate from the legal explanation. Preserve `admin.partNN.uNN` reading keys.
+1. Edit `admin-law/content/part01.json` through `part08.json`. Every unit keeps an analogy and its limit separate from the legal explanation. Preserve `admin.partNN.uNN` reading keys. Supplementary notes use stable `admin.review.<supplement-id>` keys; keep these keys and their catalog links stable across rebuilds. The core progress indicator continues to count only the 32 `admin.part*` units.
    Edit `admin-law/content/special-laws.json` for the narrowly scoped special-law explanations and their official sources.
    The three `content/audit-*.json` files map every question and individual statement to a corrected criterion, basic lesson, and supplementary explanation. `sources/exam-choice-index.json` independently inventories all 956 statements/blank items (combination answers are not counted again). Do not mark a source question covered without checking its individual options against the original PDF. Keep official case identities, dates, facts, legal criteria, and case-specific conclusions distinct.
    `content/exam-groups.json` assigns each of the 200 questions to one primary theme. A question may link to supplementary notes from other themes. The default view shows groups, and users can compare up to three questions.

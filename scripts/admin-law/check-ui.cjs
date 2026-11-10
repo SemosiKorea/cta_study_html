@@ -144,6 +144,20 @@ async function reviewChecks(page,label,errors,base){
   const supplement=page.locator('.supplement').first();assert.ok(await page.locator('.supplement').count()>0);
   const id=await supplement.getAttribute('id');await page.goto(base+'review.html#'+id);
   assert.equal(await page.locator('#'+id).getAttribute('open'),'');
+  assert.equal(await page.locator('.supplement [data-unit]').count(),77);
+  const complete=page.locator('#'+id+' [data-unit]');
+  await complete.click();
+  assert.equal(await complete.getAttribute('aria-pressed'),'true');
+  assert.equal(await page.locator('.supplement [aria-pressed="true"]').count(),1);
+  await measure(page,label+' / supplement completion',errors);
+  await page.screenshot({path:path.join(output,label.replaceAll('/','-')+'-reading-complete.png'),fullPage:false});
+  await page.reload();
+  assert.equal(await complete.getAttribute('aria-pressed'),'true','Supplement mark must survive reload');
+  await page.goto(base+'index.html');
+  assert.equal(await page.locator('#admin-progress').innerText(),'0 / 32개 단원 읽음','Supplement must not inflate core progress');
+  await page.goto(base+'review.html#'+id);
+  await complete.click();
+  assert.equal(await complete.getAttribute('aria-pressed'),'false');
   assert.ok(await page.locator('#'+id+' .analogy .limit').isVisible());
   assert.equal(await page.locator('#quiz').count(),0);
   await measure(page,label+' / supplemental note',errors);
@@ -260,6 +274,32 @@ async function bridgeSuite() {
     await page.waitForTimeout(100);
     assert.equal(await page.evaluate(()=>messages.length),count,'Acknowledged legacy migration must not repeat');
     results.push({label:'isolated reading bridge',legacyMigration:1,newEvent:1,retryRetainsId:true,ackClearsPending:true,noDuplicateMigration:true});
+    await frame.goto(pagesOrigin+'/cta_study_html/admin-law/review.html');
+    await frame.locator('[data-cloud-read="1"]').first().waitFor({state:'attached'});
+    assert.equal(await frame.locator('[data-cloud-read="1"]').count(),77);
+    const notes=frame.locator('.supplement');
+    const first=notes.nth(0).locator('[data-unit]'),second=notes.nth(1).locator('[data-unit]');
+    const firstKey=await first.getAttribute('data-unit'),secondKey=await second.getAttribute('data-unit');
+    const events=[];
+    for(const [note,button,key] of [[notes.nth(0),first,firstKey],[notes.nth(0),first,firstKey],[notes.nth(1),second,secondKey]]){
+      await note.evaluate(el=>{el.open=true});
+      const before=await page.evaluate(()=>messages.length);await button.click();
+      await page.waitForFunction(n=>messages.length>n,before);
+      const [event]=await page.evaluate(()=>messages.at(-1).entries);
+      assert.equal(event.unit,key);assert.equal(event.book,'tax');assert.ok(event.title.startsWith('행정소송법 · 기출 보충 · '));
+      assert.equal(await button.isDisabled(),true,'Wait for save acknowledgment');
+      await frame.evaluate(()=>dispatchEvent(new Event('online')));
+      await page.waitForFunction(n=>messages.length>n,before+1);
+      assert.equal(await page.evaluate(()=>messages.at(-1).entries[0].id),event.id,'Supplement retry retains ID');
+      await page.evaluate(id=>ack([id]),event.id);
+      await frame.waitForFunction(()=>!Object.keys(localStorage).some(k=>k.startsWith('cta.read.pending.tax.')));
+      assert.equal(await button.isDisabled(),false);events.push(event);
+    }
+    assert.equal(new Set(events.map(e=>e.id)).size,3,'Each deliberate reading is a distinct event');
+    assert.equal(events[0].unit,events[1].unit);assert.notEqual(events[0].unit,events[2].unit);
+    assert.equal(await frame.locator('[data-unit][aria-pressed]').count(),0,'Account reads are increments, not toggles');
+    await page.screenshot({path:path.join(output,'review-reading-account-confirmed.png')});
+    results.push({label:'isolated supplement reading bridge',buttons:77,distinctEvents:3,repeatedNoteCountsTwice:true,independentNotes:true,retryRetainsId:true,ackClearsPending:true});
   }finally{await context.close();await browser.close();}
 }
 (async()=>{
