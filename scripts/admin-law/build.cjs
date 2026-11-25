@@ -55,7 +55,14 @@ function sources(rs){return `<details class="source-block" data-reading><summary
 function examLinks(ids){return ids.map(id=>link('exam.html#q'+id,id.replace('-','년 ')+'번')).join(' · ');}
 function caseCard(c){return `<aside class="case-card" data-reading><span class="badge">기출에 필요한 판례</span><h4>${E(c.title)}</h4><p><b>어떤 일이 있었나</b> · ${E(c.facts)}</p><p><b>판단 기준</b> · ${E(c.rule)}</p><p><b>이 사건의 결론</b> · ${E(c.conclusion)}</p><p class="case-meta">${link(c.url,[c.court,c.date,c.number].filter(Boolean).join(' · '))}</p>${c.verification?`<p class="case-meta source-verification">출처 확인 범위 · ${E(c.verification)}</p>`:''}<p class="case-meta">관련 기출 · ${examLinks(c.exams||[])}</p></aside>`;}
 function table(t){return `<div class="intro-table"><table><thead><tr>${t.headers.map(h=>`<th scope="col">${E(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(row=>`<tr>${row.map((c,i)=>i?`<td>${E(c)}</td>`:`<th scope="row">${E(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
-function glossary(items){return `<dl class="glossary">${items.map(g=>`<div><dt>${E(g.term)}</dt><dd>${E(g.meaning)}</dd></div>`).join('')}</dl>`;}
+function glossary(items) {
+  const entries = items.map(({ term, meaning, sources = [] }) => {
+    const references = sources.map(source => link(source.url, source.title)).join(' · ');
+    const sourceLinks = references ? `<br><small>${references}</small>` : '';
+    return `<div><dt>${E(term)}</dt><dd>${E(meaning)}${sourceLinks}</dd></div>`;
+  });
+  return `<dl class="glossary">${entries.join('')}</dl>`;
+}
 const controls=`<div class="reader-controls"><span>본문 글자</span><button type="button" data-font="-.1" aria-label="본문 글자 작게">가 −</button><output id="size-status" aria-live="polite">100%</output><button type="button" data-font=".1" aria-label="본문 글자 크게">가 +</button><p data-quiz-tools hidden><label><input type="checkbox" id="quiz"> OX만 복습하기</label></p></div>`;
 const examPages=require('./exam-pages.cjs')({E,link,para,parts,exams,groups,audit,supplements,sourceLimitations,examBacks,caseCard,examLinks,glossary});
 for(const p of parts){
